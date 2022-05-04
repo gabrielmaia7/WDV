@@ -1,0 +1,1798 @@
+[
+    {
+        "claim_id": "Q13140622$85a68620-47c4-8319-2c58-3d88bbb45dc5_GD_PLUS_FLUENCY",
+        "verbalised_claim": "Univer University of work or is English. Cross River Univer.",
+        "subject_label": "Cross River University of Technology",
+        "subject_description": "University",
+        "subject_aliases": "No aliases available",
+        "predicate_label": "language of work or name",
+        "predicate_description": "language associated with this creative work (such as books, shows, songs, or websites) or a name (for persons use \"native language\" (P103) and \"languages spoken, written or signed\" (P1412))",
+        "predicate_aliases": [
+            "broadcasting language",
+            "audio language",
+            "available in",
+            "language of work",
+            "language of the reference",
+            "language of website",
+            "language of URL",
+            "used language",
+            "language of the name",
+            "language of name",
+            "language of spoken text",
+            "named in language",
+            "language"
+        ],
+        "object_label": "English",
+        "object_description": "West Germanic language originating in England",
+        "object_aliases": [
+            "English language",
+            "en",
+            "eng"
+        ],
+        "g_id": {
+            "fluency": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "adequacy": [
+                0,
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "claim_id": "Q259388$345ee36e-4f43-4f2a-24ca-f47a9b0d2bec_GD_PLUS_FLUENCY",
+        "verbalised_claim": "The headquarters of the headquarters of the Univers of the Univers of Nantes in Nantes is is in Nantes is is is in Nantes.",
+        "subject_label": "University of Nantes",
+        "subject_description": "French university based in Nantes, founded in 1460.",
+        "subject_aliases": [
+            "Nantes University"
+        ],
+        "predicate_label": "headquarters location",
+        "predicate_description": "city, where an organization's headquarters is or has been situated. Use P276 qualifier for specific building",
+        "predicate_aliases": [
+            "head office location",
+            "HQ",
+            "garrison",
+            "admin HQ",
+            "seat",
+            "principle office",
+            "headquarters",
+            "head quarters",
+            "HQ location",
+            "based in",
+            "location of headquarters"
+        ],
+        "object_label": "Nantes",
+        "object_description": "city in Loire-Atlantique, France",
+        "object_aliases": "No aliases available",
+        "g_id": {
+            "fluency": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "adequacy": [
+                0,
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "claim_id": "Q3861899$258E3D6D-87AC-44AF-BF94-BE90B5A7C56C_GD_PLUS_FLUENCY",
+        "verbalised_claim": "Redountain has a topographic promin has a topo570.",
+        "subject_label": "Redoubt Mountain",
+        "subject_description": "mountain in Canada",
+        "subject_aliases": "No aliases available",
+        "predicate_label": "topographic prominence",
+        "predicate_description": "height of a mountain or hill relative to the lowest contour line encircling it (on Earth, maximum 8,848 m)",
+        "predicate_aliases": [
+            "prominence"
+        ],
+        "object_label": "570 metre",
+        "object_description": "SI unit of length",
+        "object_aliases": [
+            "m",
+            "meter",
+            "meters",
+            "metres",
+            "mètre"
+        ],
+        "g_id": {
+            "fluency": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "adequacy": [
+                0,
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "claim_id": "Q240769$40E4B4B9-BD66-4355-A0AA-719BDFE80A12_GD_PLUS_FLUENCY",
+        "verbalised_claim": "Julie is residence Payette's residence Payette's resideau Haaaaall.",
+        "subject_label": "Julie Payette",
+        "subject_description": "29th Governor General of Canada, former CSA Astronaut",
+        "subject_aliases": "No aliases available",
+        "predicate_label": "residence",
+        "predicate_description": "the place where the person is or has been, resident",
+        "predicate_aliases": [
+            "lives in",
+            "hometown",
+            "home town",
+            "place of residence",
+            "resident of",
+            "resided in",
+            "resided at",
+            "lived in",
+            "resident in"
+        ],
+        "object_label": "Rideau Hall",
+        "object_description": "(officially Governor House) is the official residence of the Canadian monarch",
+        "object_aliases": [
+            "McKay's Castle"
+        ],
+        "g_id": {
+            "fluency": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "adequacy": [
+                0,
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "claim_id": "Q1270171$feb85434-79f6-4ab0-b364-3134c130a680_GD_PLUS_FLUENCY",
+        "verbalised_claim": "Buzzard Buzzard has a litter size Grey-faced has a litter size of of 2.8.",
+        "subject_label": "Grey-faced Buzzard",
+        "subject_description": "species of bird",
+        "subject_aliases": [
+            "Butastur indicus"
+        ],
+        "predicate_label": "litter size",
+        "predicate_description": "number of young born/laid at the same time by one animal",
+        "predicate_aliases": [
+            "clutch size",
+            "brood size"
+        ],
+        "object_label": "2.8",
+        "object_description": "No description available",
+        "object_aliases": "No aliases available",
+        "g_id": {
+            "fluency": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "adequacy": [
+                0,
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "claim_id": "Q607489$63691A47-78BB-4DF2-8899-BC62848802DE_GD_PLUS_FLUENCY",
+        "verbalised_claim": "Montgomerymery's a facialled a a beard.",
+        "subject_label": "Montgomery Scott",
+        "subject_description": "fictional character in Star Trek",
+        "subject_aliases": [
+            "Montgomery \"Scotty\" Scott",
+            "Scotty",
+            "Montgomery 'Scotty' Scott",
+            "Chief Engineer Scott"
+        ],
+        "predicate_label": "facial hair",
+        "predicate_description": "style of cutting, arranging, or combing the hair on the subject's face (usually on the chin, cheeks, and upper lip region); beard",
+        "predicate_aliases": [
+            "mustache",
+            "beard",
+            "face hair",
+            "moustache"
+        ],
+        "object_label": "beard",
+        "object_description": "facial hair on the chin, upper lip, cheeks and neck",
+        "object_aliases": "No aliases available",
+        "g_id": {
+            "fluency": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "adequacy": [
+                0,
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "claim_id": "Q1177873$6d736737-4b40-74cf-47e2-fc7ee5126e57_GD_PLUS_FLUENCY",
+        "verbalised_claim": "Davis Cup ted with team is Cup the the Antigua Davis Antion.",
+        "subject_label": "Antigua and Barbuda Davis Cup team",
+        "subject_description": "national sports team",
+        "subject_aliases": "No aliases available",
+        "predicate_label": "affiliation",
+        "predicate_description": "organization that a person or organization is affiliated with (not necessarily member of or employed by)",
+        "predicate_aliases": [
+            "affiliated with",
+            "sister society"
+        ],
+        "object_label": "Antigua and Barbuda Tennis Association",
+        "object_description": "tennis organization in Antigua and Barbuda",
+        "object_aliases": [
+            "Antigua & Barbuda Tennis Association",
+            "ABTA"
+        ],
+        "g_id": {
+            "fluency": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "adequacy": [
+                0,
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "claim_id": "Q48948746$14a94f44-4c4a-44b4-768e-9af67975971d_GD_PLUS_FLUENCY",
+        "verbalised_claim": "Kh was constructed for at the Pavilionstructed for at the VDNKh was constructed for a significant event event event.",
+        "subject_label": "Pavilion No. 10 Standards at the VDNKh",
+        "subject_description": "pavilion at the VDNKh in Moscow",
+        "subject_aliases": [
+            "Pavilion Moldavia"
+        ],
+        "predicate_label": "significant event",
+        "predicate_description": "significant or notable events associated with the subject",
+        "predicate_aliases": [
+            "key event",
+            "key incident",
+            "significant incident",
+            "notable event",
+            "notable incident",
+            "major event",
+            "big event",
+            "main events",
+            "fate",
+            "outcome",
+            "event",
+            "known for",
+            "significant achievment",
+            "sign. event",
+            "important event"
+        ],
+        "object_label": "construction",
+        "object_description": "process that consists of the building or assembling of a building or infrastructure",
+        "object_aliases": [
+            "building construction",
+            "building",
+            "construction work"
+        ],
+        "g_id": {
+            "fluency": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "adequacy": [
+                0,
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "claim_id": "Q2096$431cad97-4f28-f5eb-3e12-5c5254d7b210_GD_PLUS_FLUENCY",
+        "verbalised_claim": "Edmon is named after Edmontontonton is named after Edmonton.",
+        "subject_label": "Edmonton",
+        "subject_description": "capital city of the province of Alberta, Canada",
+        "subject_aliases": [
+            "Edmonton, Alberta",
+            "Edmonton, AB",
+            "City of Edmonton"
+        ],
+        "predicate_label": "named after",
+        "predicate_description": "entity or event that inspired the subject's name, or namesake (in at least one language). Qualifier \"applies to name\" (P5168) can be used to indicate which one",
+        "predicate_aliases": [
+            "eponym",
+            "named for",
+            "namesake",
+            "etymology",
+            "toponym",
+            "name after",
+            "named in honor of",
+            "linked with"
+        ],
+        "object_label": "Edmonton",
+        "object_description": "suburb of London, England",
+        "object_aliases": [
+            "Edmonton, Middlesex",
+            "Edmonton, London"
+        ],
+        "g_id": {
+            "fluency": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "adequacy": [
+                0,
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "claim_id": "Q465461$274a510c-4c04-948b-697b-332e320abac2_GD_PLUS_FLUENCY",
+        "verbalised_claim": "Glazkoscov diediedied in Yury Mow.",
+        "subject_label": "Yury Glazkov",
+        "subject_description": "Soviet cosmonaut",
+        "subject_aliases": [
+            "Yury Nikolayevich Glazkov",
+            "Yuri Glazkov"
+        ],
+        "predicate_label": "place of death",
+        "predicate_description": "most specific known (e.g. city instead of country, or hospital instead of city) death location of a person, animal or fictional character",
+        "predicate_aliases": [
+            "deathplace",
+            "died in",
+            "death place",
+            "POD",
+            "location of death",
+            "death location",
+            "killed in"
+        ],
+        "object_label": "Moscow",
+        "object_description": "capital and most populous city of Russia",
+        "object_aliases": [
+            "Moskva",
+            "Moscow, Russia",
+            "Moskva Federal City, Russia",
+            "Moscow, USSR",
+            "Moskva, Russia",
+            "City of Moscow",
+            "Moscow, Russian Federation",
+            "Moscow, Soviet Union",
+            "Moscow, Russian SFSR",
+            "Muscovite",
+            "Moscovite"
+        ],
+        "g_id": {
+            "fluency": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "adequacy": [
+                0,
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "claim_id": "Q2583257$80deded0-43cb-ce33-ec86-03ec4410cf50_GD_PLUS_FLUENCY",
+        "verbalised_claim": "Hans the creator is the creator is the creator is Wimmer-Ross.",
+        "subject_label": "Wimmer-Ross",
+        "subject_description": "No description available",
+        "subject_aliases": "No aliases available",
+        "predicate_label": "creator",
+        "predicate_description": "maker of this creative work or other object (where no more specific property exists). Paintings with unknown painters, use \"anonymous\" (Q4233718) as value.",
+        "predicate_aliases": [
+            "artist (non-musical)",
+            "created by",
+            "painter",
+            "sculptor",
+            "creators",
+            "painters",
+            "sculptors",
+            "made by",
+            "created"
+        ],
+        "object_label": "Hans Wimmer",
+        "object_description": "German sculptor",
+        "object_aliases": "No aliases available",
+        "g_id": {
+            "fluency": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "adequacy": [
+                0,
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "claim_id": "Q15903947$b2f2920f-4624-13bd-be77-b639445db7c9_GD_PLUS_FLUENCY",
+        "verbalised_claim": "Hz AC railways 25 kV, 50 Hz AC railways 25 kV, 50 Hz AC railway electrification.",
+        "subject_label": "China Railways SS4C",
+        "subject_description": "class of Chinese electric locomotives",
+        "subject_aliases": "No aliases available",
+        "predicate_label": "type of electrification",
+        "predicate_description": "electrification system scheme and/or voltage",
+        "predicate_aliases": [
+            "electrification type"
+        ],
+        "object_label": "25 kV, 50 Hz AC railway electrification",
+        "object_description": "No description available",
+        "object_aliases": "No aliases available",
+        "g_id": {
+            "fluency": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "adequacy": [
+                0,
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "claim_id": "Q51880892$6a33fb18-4097-3492-3afd-a7655fde5f54_GD_PLUS_FLUENCY",
+        "verbalised_claim": "András Pap was ed ated at the University of Szeged at the University of Szegeducat.",
+        "subject_label": "András Pap",
+        "subject_description": "Hungarian politician",
+        "subject_aliases": "No aliases available",
+        "predicate_label": "educated at",
+        "predicate_description": "educational institution attended by subject",
+        "predicate_aliases": [
+            "alma mater",
+            "education",
+            "alumni of",
+            "alumna of",
+            "college attended",
+            "university attended",
+            "school attended",
+            "studied at",
+            "graduate of",
+            "graduated from",
+            "faculty",
+            "place of education",
+            "alumnus of",
+            "attended",
+            "went to school at",
+            "schooled at",
+            "attended school at",
+            "schooling place",
+            "education place"
+        ],
+        "object_label": "University of Szeged",
+        "object_description": "university in Hungary",
+        "object_aliases": [
+            "Szegedi Tudományegyetem",
+            "SZTE"
+        ],
+        "g_id": {
+            "fluency": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "adequacy": [
+                0,
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "claim_id": "Q21279559$6cf30bc7-49f2-2f08-dc29-83c95c32e3da_GD_PLUS_FLUENCY",
+        "verbalised_claim": "Haindon January 1st, 2015 started on Yindongli-Wildto. 2015.",
+        "subject_label": "China Hainan Yindongli-Wildto 2015",
+        "subject_description": "No description available",
+        "subject_aliases": [
+            "YDL 2015",
+            "China Yindongli-Wildto 2015"
+        ],
+        "predicate_label": "start time",
+        "predicate_description": "time an item begins to exist or a statement starts being valid",
+        "predicate_aliases": [
+            "from",
+            "starting",
+            "began",
+            "from time",
+            "since",
+            "from date",
+            "building date",
+            "starttime",
+            "introduced",
+            "introduction",
+            "started in",
+            "beginning",
+            "join date",
+            "join time",
+            "start date"
+        ],
+        "object_label": "01/01/2015",
+        "object_description": "No description available",
+        "object_aliases": [
+            "1 of January, 2015",
+            "01/01/2015 (dd/mm/yyyy)",
+            "Jan 1, 2015"
+        ],
+        "g_id": {
+            "fluency": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "adequacy": [
+                0,
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "claim_id": "Q193721$023AC0E8-0BDC-460E-8623-C3717A9E7A03_GD_PLUS_FLUENCY",
+        "verbalised_claim": "Republic Tábor has 936 South hhouse town in the Bohemian.",
+        "subject_label": "Tábor",
+        "subject_description": "town in the South Bohemian Region of the Czech Republic",
+        "subject_aliases": [
+            "Tabor"
+        ],
+        "predicate_label": "number of houses",
+        "predicate_description": "number of houses in given territorial entity",
+        "predicate_aliases": "No aliases available",
+        "object_label": "936",
+        "object_description": "No description available",
+        "object_aliases": "No aliases available",
+        "g_id": {
+            "fluency": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "adequacy": [
+                0,
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "claim_id": "Q43701136$83871999-69E5-4C23-83B6-56DE68A9791F_GD_PLUS_FLUENCY",
+        "verbalised_claim": "Early derancrocirculatory dere and angement in mice.",
+        "subject_label": "Early microcirculatory derangement in mild and severe pancreatitis models in mice.",
+        "subject_description": "scientific article published in January 2001",
+        "subject_aliases": "No aliases available",
+        "predicate_label": "title",
+        "predicate_description": "published name of a work, such as a newspaper article, a literary work, piece of music, a website, or a performance work",
+        "predicate_aliases": [
+            "original title",
+            "article",
+            "known as",
+            "full title",
+            "headline",
+            "titled",
+            "name"
+        ],
+        "object_label": "Early microcirculatory derangement in mild and severe pancreatitis models in mice.",
+        "object_description": "No description available",
+        "object_aliases": "No aliases available",
+        "g_id": {
+            "fluency": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "adequacy": [
+                0,
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "claim_id": "Q3370548$6CDE1BCF-BBE6-4401-8808-13D3422DE0C9_GD_PLUS_FLUENCY",
+        "verbalised_claim": "Paul Baier ice hockey player is a right-handed shockey player ice hooter.",
+        "subject_label": "Paul Baier",
+        "subject_description": "American ice hockey player",
+        "subject_aliases": "No aliases available",
+        "predicate_label": "shooting handedness",
+        "predicate_description": "whether the hockey player passes or shoots left- or right-handed",
+        "predicate_aliases": [
+            "dominant hand shooting"
+        ],
+        "object_label": "right-handed shot",
+        "object_description": "hockey player shooting with right hand: item for property:P423",
+        "object_aliases": "No aliases available",
+        "g_id": {
+            "fluency": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "adequacy": [
+                0,
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "claim_id": "Q18964014$0546a7df-41d4-9fd5-f393-07229f9f1248_GD_PLUS_FLUENCY",
+        "verbalised_claim": "N472 road streethe Net is part of thergschenhoek, therdorpseweg is part of the Nethergschenhoek, the Net in Boterlands.",
+        "subject_label": "Boterdorpseweg",
+        "subject_description": "street in Bergschenhoek, the Netherlands",
+        "subject_aliases": "No aliases available",
+        "predicate_label": "part of",
+        "predicate_description": "object of which the subject is a part (if this subject is already part of object A which is a part of object B, then please only make the subject part of object A). Inverse property of \"has part\" (P527, see also \"has parts of the class\" (P2670)).",
+        "predicate_aliases": [
+            "meronym of",
+            "section of",
+            "system of",
+            "subsystem of",
+            "subassembly of",
+            "merged into",
+            "contained within",
+            "assembly of",
+            "part of-property",
+            "merged with",
+            "component of",
+            "in",
+            "within",
+            "is part of",
+            "subgroup of",
+            "collateral branch of",
+            "cadet branch of",
+            "branch of",
+            "element of",
+            "chain"
+        ],
+        "object_label": "N472 road",
+        "object_description": "highway in the Netherlands",
+        "object_aliases": "No aliases available",
+        "g_id": {
+            "fluency": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "adequacy": [
+                0,
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "claim_id": "Q103983873$B8318327-3989-47F6-AADA-CE39A68FF73B_GD_PLUS_FLUENCY",
+        "verbalised_claim": "Holzwin the terrial entitorial en-Seel istrative then-Seel en-Seelscheid.",
+        "subject_label": "Im Holzwinkel",
+        "subject_description": "street in Neunkirchen-Seelscheid, North Rhine-Westphalia, Germany",
+        "subject_aliases": "No aliases available",
+        "predicate_label": "located in the administrative territorial entity",
+        "predicate_description": "the item is located on the territory of the following administrative entity. Use P276 (location) for specifying locations that are non-administrative places and for items about events",
+        "predicate_aliases": [
+            "located in the administrative unit",
+            "located in administrative unit",
+            "is in administrative unit",
+            "is located in",
+            "is in the state of",
+            "is in the province of",
+            "is in the county of",
+            "is in the district of",
+            "is in the department of",
+            "is in the region of",
+            "is in the borough of",
+            "is in the city of",
+            "is in the town of",
+            "is in the village of",
+            "is in the municipality of",
+            "is in the territory of",
+            "is in the prefecture of",
+            "is in the voivodeship of",
+            "is in the Indian reservation of",
+            "is in the Indian reserve of",
+            "is in the ward of",
+            "is in the administrative region of",
+            "is in the settlement of",
+            "is in the local government area of",
+            "is in the rural city of",
+            "is in the shire of",
+            "happens in",
+            "is in the commune of",
+            "in administrative unit",
+            "in",
+            "is in the administrative unit",
+            "administrative territorial entity",
+            "city",
+            "town",
+            "state",
+            "Indian reservation",
+            "in the administrative unit",
+            "locality",
+            "is in the parish of",
+            "location (administrative territorial entity)",
+            "is in the principal area of",
+            "based in",
+            "located in the administrative territorial entity",
+            "located in the territorial entity",
+            "region",
+            "is in the arrondissement of",
+            "administrative territory",
+            "territory"
+        ],
+        "object_label": "Neunkirchen-Seelscheid",
+        "object_description": "municipality in Rhein-Sieg District, in North Rhine-Westphalia, Germany",
+        "object_aliases": "No aliases available",
+        "g_id": {
+            "fluency": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "adequacy": [
+                0,
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "claim_id": "Q3815100$F812F914-CA80-4FE9-9C53-72B85B06472A_GD_PLUS_FLUENCY",
+        "verbalised_claim": "Conde Vrolowed by 40 y 40 y Tantos.",
+        "subject_label": "Conde Vrolok",
+        "subject_description": "television series",
+        "subject_aliases": "No aliases available",
+        "predicate_label": "followed by",
+        "predicate_description": "immediately following item in a series of which the subject is a part [if the subject has been replaced, e.g. political offices, use \"replaced by\" (P1366)]",
+        "predicate_aliases": [
+            "continued as",
+            "prequel of",
+            "succeded by",
+            "next is",
+            "precedes",
+            "sequel is",
+            "successor",
+            "preceeds",
+            "comes before",
+            "next",
+            "next element"
+        ],
+        "object_label": "40 y Tantos",
+        "object_description": "television series",
+        "object_aliases": "No aliases available",
+        "g_id": {
+            "fluency": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "adequacy": [
+                0,
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "claim_id": "Q6135701$B76F4F5E-14AA-4AD6-8F8A-76EABEB2C444_GD_PLUS_FLUENCY",
+        "verbalised_claim": "James born in was Duncan London.",
+        "subject_label": "James Hastings Duncan",
+        "subject_description": "British politician (1855-1928)",
+        "subject_aliases": "No aliases available",
+        "predicate_label": "work location",
+        "predicate_description": "location where persons or organisations were actively participating in employment, business or other work",
+        "predicate_aliases": [
+            "workplace",
+            "work location",
+            "place of activity",
+            "active in",
+            "location of work",
+            "place of work",
+            "working at",
+            "work place",
+            "work residence",
+            "place of employment",
+            "work area",
+            "conducts business at",
+            "conducts business in"
+        ],
+        "object_label": "London",
+        "object_description": "capital and largest city of the United Kingdom",
+        "object_aliases": [
+            "London, UK",
+            "London, United Kingdom",
+            "London, England",
+            "Modern Babylon"
+        ],
+        "g_id": {
+            "fluency": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "adequacy": [
+                0,
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "claim_id": "q15092$56FA0050-BD4C-4619-9062-52DD16C3E1C1_GD_PLUS_FLUENCY",
+        "verbalised_claim": "Castellón de la Plana's the la Plana.",
+        "subject_label": "Castelló de la Plana",
+        "subject_description": "city in the Valencian Community, Spain",
+        "subject_aliases": [
+            "Castellón de la Plana",
+            "Castello de la Plana",
+            "Castellon de la Plana"
+        ],
+        "predicate_label": "flag",
+        "predicate_description": "subject's flag",
+        "predicate_aliases": [
+            "flag description"
+        ],
+        "object_label": "flag of Castellón de la Plana",
+        "object_description": "Flag used by the town of Castellón de la Plana, Valencian Community, Spain",
+        "object_aliases": "No aliases available",
+        "g_id": {
+            "fluency": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "adequacy": [
+                0,
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "claim_id": "Q17013367$A90552BB-1553-4716-859B-426EFD304F5A_GD_PLUS_FLUENCY",
+        "verbalised_claim": "Church is is the Evangeligical Seminary. Theran Amerangelical Lutherical Seminary.",
+        "subject_label": "Pacific Lutheran Theological Seminary",
+        "subject_description": "No description available",
+        "subject_aliases": "No aliases available",
+        "predicate_label": "religion",
+        "predicate_description": "religion of a person, organization or religious building, or associated with this subject",
+        "predicate_aliases": [
+            "religious affiliation",
+            "faith",
+            "life stance",
+            "denomination",
+            "follower of religion",
+            "follows religion",
+            "has religion"
+        ],
+        "object_label": "Evangelical Lutheran Church in America",
+        "object_description": "large Lutheran denomination in the United States",
+        "object_aliases": [
+            "ELCA"
+        ],
+        "g_id": {
+            "fluency": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "adequacy": [
+                0,
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "claim_id": "Q17258053$CBCAE0C7-EC9C-4001-A834-02F3641D3639_GD_PLUS_FLUENCY",
+        "verbalised_claim": "Val Technic Instiontareva Honaleriia was educate.",
+        "subject_label": "Valeriia Hontareva",
+        "subject_description": "Ukrainian central banker",
+        "subject_aliases": [
+            "Valeria Hontareva",
+            "Valeriia Hontarieva",
+            "Valeria Gontareva",
+            "Valeriia Oleksiivna Hontareva",
+            "Valeriia Oleksiivna Hontarieva"
+        ],
+        "predicate_label": "educated at",
+        "predicate_description": "educational institution attended by subject",
+        "predicate_aliases": [
+            "alma mater",
+            "education",
+            "alumni of",
+            "alumna of",
+            "college attended",
+            "university attended",
+            "school attended",
+            "studied at",
+            "graduate of",
+            "graduated from",
+            "faculty",
+            "place of education",
+            "alumnus of",
+            "attended",
+            "went to school at",
+            "schooled at",
+            "attended school at",
+            "schooling place",
+            "education place"
+        ],
+        "object_label": "National Technical University of Ukraine \"Igor Sikorsky Kyiv Polytechnic Institute\"",
+        "object_description": "university",
+        "object_aliases": [
+            "KPI",
+            "Kyiv Polytechnic Institute",
+            "National Technical University of Ukraine",
+            "Igor Sikorsky Kyiv Polytechnic Institute",
+            "Igor Sikorsky KPI",
+            "National Technical University of Ukraine «Kyiv Polytechnical Institute»",
+            "NTUU KPI"
+        ],
+        "g_id": {
+            "fluency": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "adequacy": [
+                0,
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "claim_id": "Q907082$E1810102-D907-4C68-B846-1812D79E9362_GD_PLUS_FLUENCY",
+        "verbalised_claim": "TC+02:00. Dobogó-kő in the time time the time time UTC+02:00.",
+        "subject_label": "Dobogó-kő",
+        "subject_description": "mountain",
+        "subject_aliases": "No aliases available",
+        "predicate_label": "located in time zone",
+        "predicate_description": "time zone for this item",
+        "predicate_aliases": [
+            "timezone",
+            "time zone",
+            "time",
+            "TZ"
+        ],
+        "object_label": "UTC+02:00",
+        "object_description": "identifier for a time offset from UTC of +2",
+        "object_aliases": [
+            "Central European Summer Time",
+            "Eastern European Time",
+            "South African Standard Time",
+            "West Africa Summer Time",
+            "Central Africa Time",
+            "Israel Standard Time",
+            "utc+2",
+            "CEST"
+        ],
+        "g_id": {
+            "fluency": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "adequacy": [
+                0,
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "claim_id": "Q24936409$dcc64e00-49f4-9486-df14-e7f815292aed_GD_PLUS_FLUENCY",
+        "verbalised_claim": "Haphon of 3 km. Maithai jama Haphic is located a topographic isolated a topographon of 3 km.",
+        "subject_label": "Maithai jama Haphong",
+        "subject_description": "mountain in Bangladesh",
+        "subject_aliases": [
+            "Maithaijama Haphong"
+        ],
+        "predicate_label": "topographic isolation",
+        "predicate_description": "minimum distance to a point of higher  elevation",
+        "predicate_aliases": [
+            "isolation"
+        ],
+        "object_label": "3 kilometre",
+        "object_description": "unit of length equal to 1,000 meters",
+        "object_aliases": [
+            "km",
+            "klick",
+            "kilometer",
+            "kilometres",
+            "kilometers"
+        ],
+        "g_id": {
+            "fluency": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "adequacy": [
+                0,
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "claim_id": "Q3376695$DD5DBAA0-9073-465B-A756-04C2B7BC28D8_GD_PLUS_FLUENCY",
+        "verbalised_claim": "South died in in Birch Africa. Brian Brica.",
+        "subject_label": "Brian Birch",
+        "subject_description": "English footballer and manager (born 1931)",
+        "subject_aliases": "No aliases available",
+        "predicate_label": "place of death",
+        "predicate_description": "most specific known (e.g. city instead of country, or hospital instead of city) death location of a person, animal or fictional character",
+        "predicate_aliases": [
+            "deathplace",
+            "died in",
+            "death place",
+            "POD",
+            "location of death",
+            "death location",
+            "killed in"
+        ],
+        "object_label": "South Africa",
+        "object_description": "sovereign state in Southern Africa",
+        "object_aliases": [
+            "Republic of South Africa",
+            "RSA",
+            "SA",
+            "za",
+            "zaf"
+        ],
+        "g_id": {
+            "fluency": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "adequacy": [
+                0,
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "claim_id": "Q106638874$aeedc4c8-4de9-4647-cc28-be3b629adaf4_GD_PLUS_FLUENCY",
+        "verbalised_claim": "Michael W. Michael James is Collins different from Michael James is Collins different from Michael W. Collins.",
+        "subject_label": "Michael W. Collins",
+        "subject_description": "politician in Massachusetts, US (born 1868)",
+        "subject_aliases": [
+            "Michael Collins",
+            "M. W. Collins"
+        ],
+        "predicate_label": "different from",
+        "predicate_description": "item that is different from another item, with which it is often confused",
+        "predicate_aliases": [
+            "different than",
+            "different to",
+            "is not",
+            "distinct from",
+            "not the same as",
+            "isn't",
+            "distinguished from",
+            "to be distinguished from",
+            "disambiguated from",
+            "not same as",
+            "confused with",
+            "is different from",
+            "mistakenly taken for",
+            "differs from",
+            "differ from",
+            "often confused with",
+            "rejected match",
+            "not to be confused with",
+            "≠",
+            "not equal to",
+            "is not the same as",
+            "do not confuse with",
+            "not identical to",
+            "different thing from",
+            "different entity from",
+            "is not same as",
+            "different entity than",
+            "different thing than"
+        ],
+        "object_label": "Michael James Collins",
+        "object_description": "politician in Massachusetts, US (born 1852)",
+        "object_aliases": [
+            "Michael Collins",
+            "Michael J. Collins",
+            "M. J. Collins"
+        ],
+        "g_id": {
+            "fluency": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "adequacy": [
+                0,
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "claim_id": "Q27591287$D56B01C0-72BF-45C1-ADCE-6F54F01C238D_GD_PLUS_FLUENCY",
+        "verbalised_claim": "Hsa-mir-7973-2 has a a gend of 51314107. Hsa-mir-7973-2 has a genomic end",
+        "subject_label": "hsa-mir-7973-2",
+        "subject_description": "human precursor microRNA",
+        "subject_aliases": [
+            "MI0025749"
+        ],
+        "predicate_label": "genomic end",
+        "predicate_description": "genomic ending coordinate of the biological sequence (e.g. a gene)",
+        "predicate_aliases": [
+            "Genloc End",
+            "genomic stop",
+            "Genloc Stop",
+            "stop",
+            "stop coordinate"
+        ],
+        "object_label": "51314107",
+        "object_description": "No description available",
+        "object_aliases": "No aliases available",
+        "g_id": {
+            "fluency": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "adequacy": [
+                0,
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "claim_id": "Q5563974$73BB6CBB-C0B2-4F70-BFDF-B026922D7DA0_GD_PLUS_FLUENCY",
+        "verbalised_claim": "Adini Sbriglia Adini Sbriglia student of Ada Adini.",
+        "subject_label": "Giovanni Sbriglia",
+        "subject_description": "Italian opera singer",
+        "subject_aliases": "No aliases available",
+        "predicate_label": "student",
+        "predicate_description": "notable student(s) of the subject individual",
+        "predicate_aliases": [
+            "students",
+            "teacher of",
+            "pupil",
+            "pupils",
+            "disciple",
+            "disciples",
+            "teacher to"
+        ],
+        "object_label": "Ada Adini",
+        "object_description": "Operatic soprano",
+        "object_aliases": "No aliases available",
+        "g_id": {
+            "fluency": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "adequacy": [
+                0,
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "claim_id": "Q1311821$869FDF85-AB00-42E6-B347-40E743607C89_GD_PLUS_FLUENCY",
+        "verbalised_claim": "Reidsville of 1.5806 percent. Reidsville has a.",
+        "subject_label": "Reidsville",
+        "subject_description": "city in Tattnall County, Georgia, United States",
+        "subject_aliases": [
+            "Reidsville, Georgia"
+        ],
+        "predicate_label": "water as percent of area",
+        "predicate_description": "which percentage of the territory of this item inside coast line and international bounderies is water. Use \"percent\" (Q11229)  as unit",
+        "predicate_aliases": [
+            "percent of area that is water",
+            "H₂O%"
+        ],
+        "object_label": "1.5806 percent",
+        "object_description": "number or ratio as a fraction of 100",
+        "object_aliases": [
+            "%",
+            "percentage",
+            "percentages",
+            "percents",
+            "pct."
+        ],
+        "g_id": {
+            "fluency": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "adequacy": [
+                0,
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "claim_id": "Q17184988$fec0e896-42cb-6d47-6fa2-1bcc8fff0bba_GD_PLUS_FLUENCY",
+        "verbalised_claim": "Kwadro 2013. Corendon-Kwadro-Stannah 2014 , Kwadro-Stannah 2014 follows Kwadro 2013. 2013",
+        "subject_label": "Corendon-Kwadro 2014",
+        "subject_description": "No description available",
+        "subject_aliases": [
+            "Kwadro-Stannah 2014"
+        ],
+        "predicate_label": "follows",
+        "predicate_description": "immediately prior item in a series of which the subject is a part [if the subject has replaced the preceding item, e.g. political offices, use \"replaces\" (P1365)]",
+        "predicate_aliases": [
+            "succeeds to",
+            "previous is",
+            "before was",
+            "predecessor",
+            "preceded by",
+            "prequel is",
+            "sequel of",
+            "split from",
+            "comes after",
+            "successor to",
+            "succeeds",
+            "prev",
+            "previous element"
+        ],
+        "object_label": "Kwadro-Stannah 2013",
+        "object_description": "No description available",
+        "object_aliases": "No aliases available",
+        "g_id": {
+            "fluency": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "adequacy": [
+                0,
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "claim_id": "Q2874910$514e3f11-4778-38bb-6c69-acee1e022203_GD_PLUS_FLUENCY",
+        "verbalised_claim": "War Achinvolved ina War. Achille-Fould was ina War Achille-Fould was in the First Indochille-Fould involved involved ina War.",
+        "subject_label": "Aymar Achille-Fould",
+        "subject_description": "French politician",
+        "subject_aliases": "No aliases available",
+        "predicate_label": "conflict",
+        "predicate_description": "battles, wars or other military engagements in which the person or item participated",
+        "predicate_aliases": [
+            "war",
+            "battle",
+            "participated in conflict",
+            "participant in conflict",
+            "in conflict",
+            "in action",
+            "theater (military)",
+            "theatre (military)",
+            "military conflict",
+            "military engagement",
+            "engagement"
+        ],
+        "object_label": "First Indochina War",
+        "object_description": "war in French Indochina from 1946 to 1954",
+        "object_aliases": [
+            "Indochina War",
+            "Anti-French Resistance War"
+        ],
+        "g_id": {
+            "fluency": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "adequacy": [
+                0,
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "claim_id": "Q147016$24A261FA-C11D-44CD-89B7-ACEB8FFF7496_GD_PLUS_FLUENCY",
+        "verbalised_claim": "Sophanich. The 1996 Sophailag bearer Olympich. Thanich. Thanu Sophailag bearer Olympics is Vis Vis Vissanich.",
+        "subject_label": "Thailand at the 1996 Summer Olympics",
+        "subject_description": "sporting event delegation",
+        "subject_aliases": "No aliases available",
+        "predicate_label": "flag bearer",
+        "predicate_description": "person who carries the national flag of their country at an opening or closing ceremony",
+        "predicate_aliases": "No aliases available",
+        "object_label": "Vissanu Sophanich",
+        "object_description": "Olympic sprinter",
+        "object_aliases": "No aliases available",
+        "g_id": {
+            "fluency": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "adequacy": [
+                0,
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "claim_id": "Q5702275$9A85CA9E-5C45-4BC2-A424-289B42B9EA09_GD_PLUS_FLUENCY",
+        "verbalised_claim": "The of unleavened bre culturead ism. The of unlead bread ism.",
+        "subject_label": "unleavened bread",
+        "subject_description": "bread not inflated by yeast or other leaveners",
+        "subject_aliases": "No aliases available",
+        "predicate_label": "culture",
+        "predicate_description": "human culture or people (or several cultures) associated with this item",
+        "predicate_aliases": [
+            "civilisation",
+            "archaeological culture"
+        ],
+        "object_label": "Judaism",
+        "object_description": "an ethnic religion based on monotheism",
+        "object_aliases": [
+            "Jewish",
+            "Jewish religion"
+        ],
+        "g_id": {
+            "fluency": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "adequacy": [
+                0,
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "claim_id": "Q66305600$79cab703-47c3-a4c6-a856-ba895b01a10f_GD_PLUS_FLUENCY",
+        "verbalised_claim": "Georgios has has has 2 children. Georgios Zambas 2",
+        "subject_label": "Georgios Zambas",
+        "subject_description": "Cypriot politician",
+        "subject_aliases": "No aliases available",
+        "predicate_label": "number of children",
+        "predicate_description": "number of children of the person",
+        "predicate_aliases": [
+            "kids",
+            "children (number)",
+            "no of children",
+            "no. of children",
+            "children",
+            "number of kids"
+        ],
+        "object_label": "2",
+        "object_description": "No description available",
+        "object_aliases": "No aliases available",
+        "g_id": {
+            "fluency": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "adequacy": [
+                0,
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "claim_id": "Q60335$721B9715-1771-4B40-8AAD-C3B23BEFB76A_GD_PLUS_FLUENCY",
+        "verbalised_claim": "Baby. Jean Baby. James sibling iste Baby.",
+        "subject_label": "James Baby",
+        "subject_description": "Canadian judge (1763-1833)",
+        "subject_aliases": "No aliases available",
+        "predicate_label": "sibling",
+        "predicate_description": "the subject and the object have the same parents (brother, sister, etc.); use \"relative\" (P1038) for siblings-in-law (brother-in-law, sister-in-law, etc.) and step-siblings (step-brothers, step-sisters, etc.)",
+        "predicate_aliases": [
+            "sister",
+            "has sister",
+            "bro",
+            "has brother",
+            "brother or sister",
+            "sister or brother",
+            "sis",
+            "sib",
+            "siblings",
+            "sisters",
+            "brother",
+            "brothers and sisters",
+            "sisters and brothers",
+            "has sibling",
+            "is sibling of",
+            "is the sibling of",
+            "brothers",
+            "is brother of",
+            "is the brother of",
+            "is sister of",
+            "is the sister of",
+            "half-brother",
+            "half-sister",
+            "half-sibling"
+        ],
+        "object_label": "Jean Baptiste Baby",
+        "object_description": "Canadian politician",
+        "object_aliases": "No aliases available",
+        "g_id": {
+            "fluency": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "adequacy": [
+                0,
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "claim_id": "Q651123$5B02D7F4-6E27-4FD9-BE86-A0BF10F90E64_GD_PLUS_FLUENCY",
+        "verbalised_claim": "The Cathe Cathe Cathe Cathedral of St Mary the Cathe Cathe frownedral of St Mary the Crom brick.",
+        "subject_label": "Cathedral of St. Mary the Crowned",
+        "subject_description": "Roman Catholic cathedral in Gibraltar",
+        "subject_aliases": [
+            "Cathedral of Saint Mary the Crowned"
+        ],
+        "predicate_label": "made from material",
+        "predicate_description": "material the subject is made of or derived from",
+        "predicate_aliases": [
+            "medium",
+            "made from",
+            "constructed from",
+            "constructed out of",
+            "construction material",
+            "media",
+            "built from",
+            "built out of",
+            "manufactured from",
+            "manufactured out of",
+            "crafted from",
+            "crafted out of",
+            "formed from",
+            "formed out of",
+            "made of",
+            "ore",
+            "source material",
+            "raw material",
+            "feedstock",
+            "reactant",
+            "ingredient",
+            "ingredients",
+            "made in",
+            "be made in",
+            "material used"
+        ],
+        "object_label": "brick",
+        "object_description": "block or a single unit of a ceramic material used in masonry construction",
+        "object_aliases": "No aliases available",
+        "g_id": {
+            "fluency": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "adequacy": [
+                0,
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "claim_id": "Q27591294$76ED00EF-7135-49DB-890F-C080FB3CBCB4_GD_PLUS_FLUENCY",
+        "verbalised_claim": "Hsa-mir-190A human precursor microRNA.  Hsa-microRNA.",
+        "subject_label": "hsa-mir-190a",
+        "subject_description": "human precursor microRNA",
+        "subject_aliases": [
+            "MI0000486"
+        ],
+        "predicate_label": "encoded by",
+        "predicate_description": "the gene that encodes some gene product",
+        "predicate_aliases": "No aliases available",
+        "object_label": "MIR190A",
+        "object_description": "non-coding RNA in the species Homo sapiens",
+        "object_aliases": [
+            "MIR190",
+            "MIRN190",
+            "hsa-mir-190a",
+            "miR-190",
+            "mir-190a",
+            "microRNA 190a"
+        ],
+        "g_id": {
+            "fluency": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "adequacy": [
+                0,
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "claim_id": "Q15876827$09BD4045-62E9-41ED-BF0C-C1FF8848C16C_GD_PLUS_FLUENCY",
+        "verbalised_claim": "Sandberg's famme is is Royaards. Jacqueline Royaards.",
+        "subject_label": "Jacqueline Royaards-Sandberg",
+        "subject_description": "Dutch actress",
+        "subject_aliases": "No aliases available",
+        "predicate_label": "family name",
+        "predicate_description": "part of full name of person",
+        "predicate_aliases": [
+            "last name",
+            "surname"
+        ],
+        "object_label": "Royaards",
+        "object_description": "family name",
+        "object_aliases": "No aliases available",
+        "g_id": {
+            "fluency": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "adequacy": [
+                0,
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "claim_id": "Q27272042$0C928071-F210-4EEE-8307-0EC6917F8757_GD_PLUS_FLUENCY",
+        "verbalised_claim": "CC=C1=NC1C3=C1=NC1C3=CCCNC2=CC(=CCNC2=C4O3)CC(=CCC(C2N=C(=CC)Cl. ",
+        "subject_label": "pd-0210293",
+        "subject_description": "chemical compound",
+        "subject_aliases": "No aliases available",
+        "predicate_label": "canonical SMILES",
+        "predicate_description": "Simplified Molecular Input Line Entry Specification (canonical format)",
+        "predicate_aliases": [
+            "SMILES",
+            "Simplified Molecular Input Line Entry Specification"
+        ],
+        "object_label": "CCN(CC)CCCCNC1=NC2=CC(=C(C=C2N=C1C3=CC4=CC=CC=C4O3)Cl)Cl",
+        "object_description": "No description available",
+        "object_aliases": "No aliases available",
+        "g_id": {
+            "fluency": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "adequacy": [
+                0,
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "claim_id": "Q357450$FC1D814E-62FA-4F04-B1EC-ABBCA0249BA1_GD_PLUS_FLUENCY",
+        "verbalised_claim": "NASA Astroup 16. Soichi is part of Noguchi is part Group 16.",
+        "subject_label": "Soichi Noguchi",
+        "subject_description": "Japanese astronaut",
+        "subject_aliases": [
+            "Noguchi Sōichi"
+        ],
+        "predicate_label": "part of",
+        "predicate_description": "object of which the subject is a part (if this subject is already part of object A which is a part of object B, then please only make the subject part of object A). Inverse property of \"has part\" (P527, see also \"has parts of the class\" (P2670)).",
+        "predicate_aliases": [
+            "meronym of",
+            "section of",
+            "system of",
+            "subsystem of",
+            "subassembly of",
+            "merged into",
+            "contained within",
+            "assembly of",
+            "part of-property",
+            "merged with",
+            "component of",
+            "in",
+            "within",
+            "is part of",
+            "subgroup of",
+            "collateral branch of",
+            "cadet branch of",
+            "branch of",
+            "element of",
+            "chain"
+        ],
+        "object_label": "NASA Astronaut Group 16",
+        "object_description": "Wikimedia list article",
+        "object_aliases": "No aliases available",
+        "g_id": {
+            "fluency": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "adequacy": [
+                0,
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "claim_id": "Q54954802$C73962D3-8490-4867-A3CC-8832FF545976_GD_PLUS_FLUENCY",
+        "verbalised_claim": "KVCR0.015 was con ovarian serous establishedical conditiondical con ovarian seroma.",
+        "subject_label": "SKVCR0.015",
+        "subject_description": "cell line",
+        "subject_aliases": [
+            "SK VCR 0.015",
+            "SKVCR (0.015)"
+        ],
+        "predicate_label": "established from medical condition",
+        "predicate_description": "cell line or xenograft established from an individual person or animal with a specific medical condition",
+        "predicate_aliases": "No aliases available",
+        "object_label": "ovarian serous cystadenoma",
+        "object_description": "ovary serous adenoma that has material basis in glandular epithelium, in which cystic accumulations of retained secretions are formed",
+        "object_aliases": [
+            "serous cystadenoma NOS (morphologic abnormality)",
+            "serous microcystic adenoma",
+            "serous cystoma",
+            "Ovarian Serous Cystadenocarcinoma",
+            "serous cystadenoma",
+            "serous cystadenoma of ovary",
+            "Ovarian serous Cystadenoma",
+            "obsolete serous cystadenoma of ovary"
+        ],
+        "g_id": {
+            "fluency": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "adequacy": [
+                0,
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "claim_id": "Q74174111$5E318642-83A9-405B-948C-F678F369C2F1_GD_PLUS_FLUENCY",
+        "verbalised_claim": "TYC 28. TYC 2MASS J030280734-1 has the code 2MASS J03280734+3903028.",
+        "subject_label": "TYC 2861-434-1",
+        "subject_description": "No description available",
+        "subject_aliases": "No aliases available",
+        "predicate_label": "catalog code",
+        "predicate_description": "catalog name of an object, use with qualifier P972",
+        "predicate_aliases": [
+            "astronomical catalog",
+            "register",
+            "opus number",
+            "catalogue code",
+            "catalog number",
+            "catalogue number",
+            "cat. no."
+        ],
+        "object_label": "2MASS J03280734+3903028",
+        "object_description": "No description available",
+        "object_aliases": "No aliases available",
+        "g_id": {
+            "fluency": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "adequacy": [
+                0,
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "claim_id": "Q16030201$026d26f5-6063-44ca-a2a0-5fdbfc6fc067_GD_PLUS_FLUENCY",
+        "verbalised_claim": "Seelersity of Pennsylvaniversity of Pennsylvaniversity the Unia.",
+        "subject_label": "Edgar Viguers Seeler",
+        "subject_description": "architect",
+        "subject_aliases": "No aliases available",
+        "predicate_label": "employer",
+        "predicate_description": "person or organization for which the subject works or worked",
+        "predicate_aliases": [
+            "employed by",
+            "works at",
+            "working for",
+            "worked for",
+            "works for",
+            "worked at",
+            "working place",
+            "working at"
+        ],
+        "object_label": "University of Pennsylvania",
+        "object_description": "private research university in Philadelphia, Pennsylvania",
+        "object_aliases": [
+            "UPenn",
+            "Penn",
+            "Univ. of Penn.",
+            "Pennsylvania University",
+            "upenn.edu"
+        ],
+        "g_id": {
+            "fluency": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "adequacy": [
+                0,
+                1,
+                2
+            ]
+        }
+    }
+]

@@ -1,0 +1,2164 @@
+{
+    "en": [
+        {
+            "question": "What's ___ name?",
+            "options": [
+                "you",
+                "she",
+                "your",
+                "yours"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "We're Chinese, we're ___ Beijing.",
+            "options": [
+                "for",
+                "from",
+                "in",
+                "at"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "Jane's ___ nice and polite.",
+            "options": [
+                "a",
+                "from",
+                "very",
+                "at"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "___ a light?",
+            "options": [
+                "Do have you",
+                "Do you got",
+                "Have you got",
+                "Are you have"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "Margaret ___ usually come by bus.",
+            "options": [
+                "doesn't",
+                "isn't",
+                "don't",
+                "aren't"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "They ___ at home last night.",
+            "options": [
+                "aren't",
+                "weren't",
+                "don't",
+                "didn't"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "What ___ you say?",
+            "options": [
+                "are",
+                "have",
+                "were",
+                "did"
+            ],
+            "answer": 3
+        },
+        {
+            "question": "Why ___ crying?",
+            "options": [
+                "are you",
+                "you are",
+                "do you",
+                "you do"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "Where ___ to spend your holidays next summer?",
+            "options": [
+                "you are going",
+                "are you going",
+                "you will",
+                "will you"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "___ never been to the theatre before.",
+            "options": [
+                "I'll",
+                "I'm",
+                "I can",
+                "I've"
+            ],
+            "answer": 3
+        },
+        {
+            "question": "Seiko watches ___ in Japan.",
+            "options": [
+                "are made",
+                "made",
+                "make",
+                "are making"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "Where ___ when you met him?",
+            "options": [
+                "does he live",
+                "was he live",
+                "was he living",
+                "is he living"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "If ___ I'll tell him you called.",
+            "options": [
+                "I'll see him",
+                "I see him",
+                "I'd see him",
+                "I saw him"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "What ___ since you arrived?",
+            "options": [
+                "are you doing",
+                "will you do",
+                "did you do",
+                "have you been doing"
+            ],
+            "answer": 3
+        },
+        {
+            "question": "Wine ___ made in Italy for thousands of years.",
+            "options": [
+                "have been",
+                "is being",
+                "has been",
+                "are being"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "My husband ___ live in Spain.",
+            "options": [
+                "use to",
+                "was use to",
+                "used to",
+                "was used to"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "If I ___ I would go out more.",
+            "options": [
+                "wasn't married",
+                "didn't marry",
+                "wouldn't marry",
+                "haven't married"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "I was very ___ in the story.",
+            "options": [
+                "interest",
+                "interesting",
+                "interested",
+                "interests"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "You ___ to come if you don't want to.",
+            "options": [
+                "don't need",
+                "needn't",
+                "needn't have",
+                "didn't need"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "I ___ see you tomorrow. I'm not sure yet.",
+            "options": [
+                "maybe",
+                "will",
+                "can",
+                "might"
+            ],
+            "answer": 3
+        },
+        {
+            "question": "___ is bad for you.",
+            "options": [
+                "Smoking",
+                "The smoking",
+                "To smoke",
+                "Smoker"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "I ___ told him if I had known he was your brother.",
+            "options": [
+                "hadn't",
+                "wouldn't",
+                "wouldn't have",
+                "don't have"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "He ___ living there for three years before they found him.",
+            "options": [
+                "had been",
+                "has been",
+                "might be",
+                "could be"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "I wish you ___ all the time.",
+            "options": [
+                "don't shout",
+                "won't shout",
+                "wouldn't shout",
+                "haven't shout"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "By the time you arrive ___",
+            "options": [
+                "he'll leave",
+                "he'll have left",
+                "he leaves",
+                "he left"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "The house ___ built in the 16th century.",
+            "options": [
+                "might have been",
+                "might be",
+                "might have be",
+                "might have"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "Don't forget ___ me a newspaper.",
+            "options": [
+                "buying",
+                "that you buy",
+                "to bought",
+                "to buy"
+            ],
+            "answer": 3
+        },
+        {
+            "question": "Whenever there was a visitor, the dog ___ to the door.",
+            "options": [
+                "will run",
+                "is running",
+                "would run",
+                "was running"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "He is an executive in ___",
+            "options": [
+                "the car industry",
+                "car industry",
+                "car industries",
+                "car industrial"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "Peter sold his car ___ save money.",
+            "options": [
+                "as a result",
+                "so he",
+                "in order to",
+                "because to"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "He advised me ___ the doctor.",
+            "options": [
+                "that I see",
+                "to see",
+                "seeing",
+                "see"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "I ___ travelling by bus.",
+            "options": [
+                "am not used to",
+                "didn't used to",
+                "used to",
+                "do not used to"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "He didn't come last night. I wish that he ___",
+            "options": [
+                "will.",
+                "did.",
+                "have.",
+                "has."
+            ],
+            "answer": 1
+        },
+        {
+            "question": "I am going to a wedding. I need to ___",
+            "options": [
+                "be cutting my hair.",
+                "cutting my hair.",
+                "have my hair cut.",
+                "get cut my hair."
+            ],
+            "answer": 2
+        },
+        {
+            "question": "Which would you ___ have, gold or silver?",
+            "options": [
+                "prefer",
+                "could",
+                "rather",
+                "better"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "My sister has been in the hospital. I wonder how she ___",
+            "options": [
+                "is getting on.",
+                "gets on.",
+                "has got across.",
+                "is getting away."
+            ],
+            "answer": 0
+        },
+        {
+            "question": "The man said he did not ___ to go by bus.",
+            "options": [
+                "care for",
+                "bother about",
+                "mind having",
+                "much mind"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "Although he confessed to the crime, the judge let the boy ___",
+            "options": [
+                "alone.",
+                "come in.",
+                "off.",
+                "forgive."
+            ],
+            "answer": 2
+        },
+        {
+            "question": "I've never ___ that word before.",
+            "options": [
+                "gave away",
+                "come across",
+                "come over",
+                "come into"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "The student could not answer the question, so he ___",
+            "options": [
+                "gave off.",
+                "gave into.",
+                "gave up.",
+                "gave away."
+            ],
+            "answer": 2
+        }
+    ],
+    "es": [
+        {
+            "question": "¿Cuál es ___ nombre?",
+            "options": [
+                " usted",
+                " me",
+                " ellos",
+                " su"
+            ],
+            "answer": 3
+        },
+        {
+            "question": "Somos españoles, somos ___ Barcelona",
+            "options": [
+                " para",
+                " a",
+                " de",
+                " desde"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "Margarita es ___ guapa y educada",
+            "options": [
+                " mucho",
+                " muy",
+                " más",
+                " buen"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "¿ ___ fuego?",
+            "options": [
+                " Tendrás",
+                " Tener",
+                " Tienes",
+                " Tenías"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "Buenas tardes señora, ¿su hija Juliana ___ en casa?",
+            "options": [
+                " ser",
+                " es",
+                " está",
+                " era"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "Mi hermano  ___  actualmente en Perú",
+            "options": [
+                " vivir",
+                " vivió",
+                " vivía",
+                " vive"
+            ],
+            "answer": 3
+        },
+        {
+            "question": "¿Por qué  ___ llorando?",
+            "options": [
+                " es",
+                " eres",
+                " eras",
+                " estás"
+            ],
+            "answer": 3
+        },
+        {
+            "question": "¿Dónde ___ a pasar tus vacaciones el próximo verano?",
+            "options": [
+                " va",
+                " vas",
+                " vamos",
+                " van"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "Yo nunca ___ido al teatro",
+            "options": [
+                " ha",
+                " soy",
+                " he",
+                " estoy"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "Los relojes Seiko ___ en Japón",
+            "options": [
+                " está fabricado",
+                " estaban fabricados",
+                " son fabricados",
+                " se fabrican"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "Ellos no  ___  en casa anoche",
+            "options": [
+                " estar",
+                " está",
+                " estaban",
+                " están"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "No entiendo bien. ¿Qué  ___ ?",
+            "options": [
+                " decir",
+                " dirás",
+                " has dicho",
+                " decho"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "¿Donde  ___  cuando la conociste?",
+            "options": [
+                " vivir",
+                " vive",
+                " vivió",
+                " vivía"
+            ],
+            "answer": 3
+        },
+        {
+            "question": "Si lo ___ diré que tú llamaste: (Tú=pronombre)",
+            "options": [
+                " vi",
+                " veo",
+                " viendolo",
+                " verlo"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "¿Qué ___ desde que llegaste?",
+            "options": [
+                " haces",
+                " has hecho",
+                " hacer",
+                " harás"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "Llegas tarde, tu padre te ___ esperando varias horas!",
+            "options": [
+                " estás",
+                " estar",
+                " ha estado",
+                " están"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "Estaba muy ___ en venir a estudiar a Inglaterra",
+            "options": [
+                " interesado",
+                " interesante",
+                " interesando",
+                " interés"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "Yo ___ contigo a la fiesta si no estuviera enfermo",
+            "options": [
+                " voy",
+                " iríamos",
+                " irían",
+                " iría"
+            ],
+            "answer": 3
+        },
+        {
+            "question": "___ viaje a Sudamérica en diciembre, aún no estoy muy seguro",
+            "options": [
+                " Me voy de",
+                " Voy de",
+                " Quizás",
+                " Nos vamos de"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "___ ejercicio es bueno para la salud.",
+            "options": [
+                " Haciendo",
+                " Hacía",
+                " Hacer",
+                " Haces"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "Cuando era niño ___ a la escuela a pie",
+            "options": [
+                " iríamos",
+                " íbamos",
+                " fuimos",
+                " vamos"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "Ella ___ viviendo en Colombia cinco meses antes de venir",
+            "options": [
+                " estando",
+                " estar",
+                " está",
+                " estuvo"
+            ],
+            "answer": 3
+        },
+        {
+            "question": "Llegaste tarde a tu cita. No  ___  dormir tanto",
+            "options": [
+                " dibiste",
+                " deberías",
+                " debiendo",
+                " debieras"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "Cuando era estudiante en Londres ___ en el metro",
+            "options": [
+                " viajaria",
+                " viaje",
+                " viajar",
+                " viajaba"
+            ],
+            "answer": 3
+        },
+        {
+            "question": "Si ___ trabajando viajaría mas",
+            "options": [
+                " no soy",
+                " no fuera",
+                " no estuviera",
+                " no estaba"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "Mientras tú llegabas aquí ___.",
+            "options": [
+                " él se ido",
+                " él se va",
+                " él se fue",
+                " él se iría"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "¿Es posible que ___ construido por una persona que desconoce los sistemas informáticos?",
+            "options": [
+                " fuera",
+                " era",
+                " fue",
+                " estaba"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "No te olvides ___ comprarme el periódico",
+            "options": [
+                " a",
+                " para",
+                " de",
+                " con"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "Siempre que tocan el timbre, el perro ___ hacia la puerta",
+            "options": [
+                " correr",
+                " corre",
+                " corrió",
+                " corría"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "Eva es una experta de la ___",
+            "options": [
+                " industrias de alimentos",
+                " industria de alimentos",
+                " industria de alimento",
+                " industriales de alimento"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "Vendí mi coche para  ___   dinero",
+            "options": [
+                " ahorraba",
+                " ahorro",
+                " ahorrar",
+                " ahorre"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "Ella me aconsejo que ___ al médico",
+            "options": [
+                " visitar",
+                " visitara",
+                " visitando",
+                " visité"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "Ya me ___ cuando me llamaste  ",
+            "options": [
+                " levanté",
+                " había levantado",
+                " levante",
+                " era levantado"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "Voy a una boda. Necesito ___ el pelo",
+            "options": [
+                " cortarme",
+                " cortar",
+                " me corten",
+                " cortando"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "¿Qué te gusta  ___  , el oro o la plata?",
+            "options": [
+                " muy",
+                " mejor",
+                " más",
+                " mucho"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "¿Le ___ volver a contactar conmigo por teléfono?",
+            "options": [
+                " importaría",
+                " importa",
+                " importante",
+                " Importará"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "Me ___ recorrer el Mediterráneo en moto el próximo verano",
+            "options": [
+                " gustaba",
+                " gusta",
+                " gustaría",
+                " gustará"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "Yo no creo que los jóvenes de mi país ___ tanto alcohol",
+            "options": [
+                " consumen",
+                " consuman",
+                " consumiendo",
+                " consumir"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "¿Prosopopéyico?   ¡Nunca ___ esa palabra!",
+            "options": [
+                " escuchaba",
+                " había escuchado",
+                " hubiera escuchado",
+                " habría escuchado"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "Ojalá alguien me ___ flores por  mi cumpleaños",
+            "options": [
+                " regalo",
+                " regala",
+                " regale",
+                " regalar"
+            ],
+            "answer": 2
+        }
+    ],
+    "sv": [
+        {
+            "question": "Vad heter ___ ?",
+            "options": [
+                "din",
+                "mig",
+                "du",
+                "honom"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "Hon ___ på teve.",
+            "options": [
+                "titta",
+                "tittar",
+                "titter",
+                "tycker"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "Klockan är kvart ___ nio.",
+            "options": [
+                "över",
+                "till",
+                "mot",
+                "på"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "Jag är gift. Min ___ heter Anders.",
+            "options": [
+                "sambo",
+                "pojkvän",
+                "kompis",
+                "man"
+            ],
+            "answer": 3
+        },
+        {
+            "question": "Jag ska ___ till Stockholm på måndag.",
+            "options": [
+                "åkte",
+                "åkar",
+                "åka",
+                "åker"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "Jag skulle ___ ha en kopp kaffe, tack.",
+            "options": [
+                "vill",
+                "vilja",
+                "veta",
+                "ville"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "Det finns två ___ i vardagsrummet.",
+            "options": [
+                "lamper",
+                "lampor",
+                "lampa",
+                "lampar"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "Är hon gift med honom? Ja, ___",
+            "options": [
+                "det har hon",
+                "det är hon",
+                "hon är inte",
+                "det hon är"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "Thomas, vänta på mig! Jag måste prata med ___",
+            "options": [
+                "honom",
+                "han",
+                "du",
+                "dig"
+            ],
+            "answer": 3
+        },
+        {
+            "question": "Här ___ man inte röka!",
+            "options": [
+                "måste",
+                "får",
+                "har",
+                "är"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "Ska du vara ___ ikväll?",
+            "options": [
+                "hem",
+                "hus",
+                "hemma",
+                "ut" 
+            ],
+            "answer": 2
+        },
+        {
+            "question": "Svenskar ___ midsommar i slutet av juni.",
+            "options": [
+                "fyller",
+                "firar",
+                "ha",
+                "lägger"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "Min bror är ___ än jag.",
+            "options": [
+                "långare",
+                "längre",
+                "äldst",
+                "längst"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "Vad heter den ___ sjön i Sverige?",
+            "options": [
+                "största",
+                "stor",
+                "större",
+                "störst"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "Mattias funderar på att ___ en ny bil.",
+            "options": [
+                "svika",
+                "snacka",
+                "syssla",
+                "skaffa"
+            ],
+            "answer": 3
+        },
+        {
+            "question": "Vi var i Norge ___ .",
+            "options": [
+                "i jul",
+                "i julas",
+                "på jul", 
+                "på julen"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "Jag brukar träna två gånger ___ veckan.",
+            "options": [
+                "om",
+                "varje",
+                "i",
+                "på"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "Hon är ___ i honom.",
+            "options": [
+                "trogen",
+                "kär",
+                "intresserad",
+                "arg"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "Om man bor i en lägenhet, måste man ___ hänsyn till sina grannar.",
+            "options": [
+                "visa",
+                "vissa",
+                "vissla",
+                "viska"
+            ],
+            "answer": 0 
+        }
+    ],
+    "nl": [
+        {
+            "question": "Waar kom je ___?",
+            "options": [
+                "van",
+                "vandaar",
+                "vandaan",
+                "vandaag"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "___ u een Nederlander?",
+            "options": [
+                "Bent",
+                "Ben",
+                "Zijn",
+                "Waren"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "___ heet jij?",
+            "options": [
+                "Wie",
+                "Wat",
+                "Waar",
+                "Hoe"
+            ],
+            "answer": 3
+        },
+        {
+            "question": "Hoe gaat het met ___?",
+            "options": [
+                "jou",
+                "jij",
+                "jouw",
+                "jouwe"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "___ ik me even voorstellen?",
+            "options": [
+                "Je",
+                "Dan",
+                "Zijn",
+                "Mag"
+            ],
+            "answer": 3
+        },
+        {
+            "question": "Wat is ___ adres?",
+            "options": [
+                "uw",
+                "u",
+                "uwe",
+                "de"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "___ zijn twee vrouwen op de foto te zien.",
+            "options": [
+                "Het",
+                "Die",
+                "Er",
+                "Hoeveel"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "___ klasgenoten vergeet ik nooit!",
+            "options": [
+                "Dit ",
+                "Die",
+                "Dat",
+                "Het"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "Jullie zijn de beste ___!",
+            "options": [
+                "collegas",
+                "collegen",
+                "collega",
+                "collega’s"
+            ],
+            "answer": 3
+        },
+        {
+            "question": "___ het douchen kleed ik me aan.",
+            "options": [
+                "Naast",
+                "Na",
+                "Naar",
+                "Naartoe"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "’s Ochtends eet ik ___ twee boterhammen met pindakaas.",
+            "options": [
+                "meestal",
+                "meeste",
+                "eruit",
+                "me"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "Gisteren ___ ik niet op tijd ___",
+            "options": [
+                "ben / opstaan",
+                "heb / opstaan",
+                "ben / opgestaan",
+                "heb / opgestaan"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "___ je al koffie ___?",
+            "options": [
+                "Heb / gezet",
+                "Hebben / gezet",
+                "Hebt / gezetten",
+                "Hebt / gezet"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "Waar ___ u vanmorgen ___?",
+            "options": [
+                "zijn / geweest ",
+                "bent / geweest ",
+                "hebt / gedaan ",
+                "heeft / gedaan"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "Zij is ___ 1954 geboren.",
+            "options": [
+                "in",
+                "-",
+                "op",
+                "om"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "___ ben ik bij haar op de koffie geweest.",
+            "options": [
+                "Morgen",
+                "Volgende week",
+                "Twee weken geleden",
+                "Nogal"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "___ het jullie hier in Nederland?",
+            "options": [
+                "Vinden",
+                "Bevalt",
+                "Vindt",
+                "Bevallen"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "Ik werk niet ___ kantoor maar thuis.",
+            "options": [
+                "in",
+                "bij",
+                "op",
+                "voor"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "___ we een pizza bestellen?",
+            "options": [
+                "Zullen",
+                "Zallen",
+                "Worden",
+                "Werden"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "Hier de eerste straat rechts en dan bent u ___ al.",
+            "options": [
+                "daar",
+                "er",
+                "het",
+                "die"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "Wij ___ volgend jaar verhuizen.",
+            "options": [
+                "gaan",
+                "zijn",
+                "hebben",
+                "hoeven"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "Wat ben je nu ___ plan?",
+            "options": [
+                "voor",
+                "van",
+                "met",
+                "aan"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "Wat is ze ___ het doen?",
+            "options": [
+                "aan",
+                "in",
+                "met",
+                "voor"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "Kon je al lezen ___ je vijf was?",
+            "options": [
+                "toen",
+                "als",
+                "want",
+                "dan"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "Heleen ___ piano te spelen.",
+            "options": [
+                "gaat",
+                "loopt",
+                "zit",
+                "staat"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "Wanneer ___ je ___?",
+            "options": [
+                "heb / jarig  .",
+                "ben / jarig",
+                "heb / verjaardag",
+                "ben / verjaardag"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "Die ___ je helemaal niet op te bellen!",
+            "options": [
+                "moet",
+                "hoef",
+                "wil",
+                "mag"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "Dat is de ober ___ ik ken.",
+            "options": [
+                "dat",
+                "die",
+                "Wat",
+                "wie"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "Dit pak is heel ___",
+            "options": [
+                "netjes",
+                "goeds",
+                "afgeprijsd",
+                "moois"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "___ kost die?",
+            "options": [
+                "Waar",
+                "Hoeveel",
+                "Wie",
+                "Hoe"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "Zouden jullie een vakantiehuis ___?",
+            "options": [
+                "huren willen",
+                "willen huren",
+                "hebben willen",
+                "wouden huren"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "Van welk spoor ___ de trein?",
+            "options": [
+                "vertrekt",
+                "komt",
+                "met",
+                "aan"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "Ik ___ door meneer Balsma afgehaald.",
+            "options": [
+                "Word",
+                "Werde",
+                "Worde",
+                "Wordt"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "Heb je al een kaartje ___?",
+            "options": [
+                "gekoopt",
+                "gekokt",
+                "gekocht",
+                "gekookt"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "Zal ik voor vanmiddag een afspraak ___?",
+            "options": [
+                "doen",
+                "nemen",
+                "maken",
+                "laten"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "Spreek je ___ Nederlands ook andere vreemde talen?",
+            "options": [
+                "behalve",
+                "met",
+                "buiten",
+                "zonder"
+            ],
+            "answer": 0
+        }
+    ],
+    "ja": [
+        {
+            "question": "___ namae wa nan desu ka?",
+            "options": [
+                "anata wa",
+                "anata ga",
+                "anata no",
+                "anata o"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "Watashitachi wa igirisu jin desu. Watashitachi wa London ___kimashita",
+            "options": [
+                "ga",
+                "nite",
+                "de",
+                "kara"
+            ],
+            "answer": 3
+        },
+        {
+            "question": "Jane-san wa ___ kirei desu",
+            "options": [
+                "dokode",
+                "dakara",
+                "totemo",
+                "sukoshi"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "Chugokugo no jisho wa ___?",
+            "options": [
+                "arimasen desu ka",
+                "imasu ka",
+                "arimasu ka",
+                "imasen desu ka"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "Kore wa Margaret-san ___hon desu",
+            "options": [
+                "nihongo",
+                "nihon no",
+                "no",
+                "ga"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "Tsukue no ue ni ___ arimasu ka?",
+            "options": [
+                "dare ga",
+                "nani ga",
+                "donata de",
+                "nan de"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "Mō ichido___kudasai",
+            "options": [
+                "ikite",
+                "itara",
+                "iitara",
+                "itte"
+            ],
+            "answer": 3
+        },
+        {
+            "question": "Sumisu-san wa ashita kaisha no hito ___ Ōsaka ni ikimasu.",
+            "options": [
+                "ya",
+                "ga",
+                "ni",
+                "to"
+            ],
+            "answer": 3
+        },
+        {
+            "question": "Kotoshi no natsuyasumi wa doko___ikimasu ka?",
+            "options": [
+                "ni",
+                "de",
+                "no",
+                "ga"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "Jane-san no tanjōbi wa___desu ka?",
+            "options": [
+                "nan",
+                "doko",
+                "itsu",
+                "ari"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "Watashi wa basu___tomodachi no uchi ni ikimasu.",
+            "options": [
+                "de",
+                "ga",
+                "no",
+                "ni"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "Anata wa ___ de shigoto ni ikimasu ka?",
+            "options": [
+                "doko",
+                "nan",
+                "itsu",
+                "mada"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "Nichiyōbi ni Kyōto de o-matsuri ___mimasu.",
+            "options": [
+                "o",
+                "ni",
+                "ga",
+                "e"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "Tom san wa ___ eiga no kippu o agemashita ka?",
+            "options": [
+                "dare ga",
+                "dare ni",
+                "donata kara",
+                "donata de"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "Kino no pati wa totemo___",
+            "options": [
+                "nigiyaka desu",
+                "omoshiroi deshita",
+                "nigiyaka deshita",
+                "omoshiroi desu"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "Yakyū no shiai o 1-shūkan saki___nobashimashō.",
+            "options": [
+                "ni",
+                "de",
+                "nara",
+                "kara"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "Ano resutoran wa amari shizuka ___",
+            "options": [
+                "dewa arimasu",
+                "dewa arimasen",
+                "deshita",
+                "desu"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "Konban jikan ga ___?",
+            "options": [
+                "ikimasu ka",
+                "imasu ka",
+                "irimasu ka",
+                "arimasu ka"
+            ],
+            "answer": 3
+        },
+        {
+            "question": "Kelly san wa kinō hon-ya ni ___ , hon o kaimashita.",
+            "options": [
+                "itte",
+                "ikite",
+                "ikinagara",
+                "ikimashita"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "Futatsu me no kado ___hidari ni magatte kudasai.",
+            "options": [
+                "o",
+                "ga",
+                "ni",
+                "no"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "Soko wa chūsha kinshi desu___, kuruma o tomenaide kudasai.",
+            "options": [
+                "ga",
+                "kara",
+                "made",
+                "dakara"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "Sushi ni wasabi o ___kudasai",
+            "options": [
+                "irenaide",
+                "motteikanaide",
+                "tabenaide",
+                "kawanaide"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "Tanaka san wa gorufu___jōzu desu.",
+            "options": [
+                "ni",
+                "o",
+                "ga",
+                "tte"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "Kesa kara atama ___itai desu.",
+            "options": [
+                "o",
+                "ga",
+                "made",
+                "no"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "Margaret-san wa ima nani o ___?",
+            "options": [
+                "surun desu ka",
+                "suruno",
+                "shirimasu ka",
+                "shite imasu ka"
+            ],
+            "answer": 3
+        },
+        {
+            "question": "Watashi wa maishū Nihongo o ___imasu.",
+            "options": [
+                "naratte",
+                "itte",
+                "shite",
+                "naraite"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "Hikōki ga sora o ___",
+            "options": [
+                "hashitte imasu",
+                "tonde imasu",
+                "hashirimasu",
+                "tobimashita"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "Jikan ga arimasenkara, ___houga iidesuyo.",
+            "options": [
+                "isoide",
+                "isoida",
+                "isogu",
+                "isoganai"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "Kaigi wa mada ___to omoimasu",
+            "options": [
+                "owanai",
+                "owari",
+                "owattenai",
+                "owatta"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "Suzuki-san wa ototoshi daigaku o sotsugyō ___desu ka?",
+            "options": [
+                "suru",
+                "shita",
+                "shitan",
+                "surun"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "Tegami o ___wasuremashita.",
+            "options": [
+                "okuri o",
+                "dashite",
+                "dasuno o",
+                "okutte"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "Kinō, ame ga ___ , haikingu wa yamemashita.",
+            "options": [
+                "furukara",
+                "futtanode",
+                "fuite",
+                "furimasu kara"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "Hayakere ba___ii desu.",
+            "options": [
+                "hayai hodo",
+                "hayai node",
+                "hayai kara",
+                "hayai kute"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "Tabako o ___ omoimasu.",
+            "options": [
+                "yamemasu",
+                "yamete to",
+                "yametai na",
+                "yameyō to"
+            ],
+            "answer": 3
+        },
+        {
+            "question": "1-nen ni nan-nichi kaisha o ___ka?",
+            "options": [
+                "yasumemasu",
+                "yasume",
+                "yasumete ",
+                "yasumude imasu"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "Anata wa Eigo no jisho ga ___ka?",
+            "options": [
+                "yomemasu",
+                "yomimasu",
+                "hikemasu",
+                "hikimasu"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "Supōtsu no ___ tenisu ga ichiban suki desu.",
+            "options": [
+                "naka wa",
+                "naka de",
+                "aida wa",
+                "aida de"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "London dewa chikatetsu ga ___yō desu.",
+            "options": [
+                "benri da",
+                "benri ga yoi",
+                "banri ga ii",
+                "benri na"
+            ],
+            "answer": 3
+        },
+        {
+            "question": "Denki o ___ , dekake te shimattan desu.",
+            "options": [
+                "tsuke tara",
+                "tukewasure",
+                "keshiwasurete",
+                "keshite"
+            ],
+            "answer": 3
+        },
+        {
+            "question": "Tesuto wa totemo muzukashikatta___, tochū de akirame___.",
+            "options": [
+                "desu/mashita",
+                "kara/masu",
+                "node/mashita  ",
+                "mitaide/ta"
+            ],
+            "answer": 2
+        }
+    ],
+    "pt": [
+        {
+            "question": "Qual é o ___ nome?",
+            "options": [
+                "você",
+                "ela",
+                "seu",
+                "seus"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "Nós somos Chineses ___ Beijing",
+            "options": [
+                "para",
+                "de",
+                "em",
+                "na"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "Jane é ___ simpática e educada",
+            "options": [
+                "uma",
+                "de",
+                "muito",
+                "na"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "___ uma caneta?",
+            "options": [
+                "Você ha",
+                "Você teriam",
+                "Você tem",
+                "Você ter"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "Onde é que vocês ___?",
+            "options": [
+                "Vai encontrar-se",
+                "Vão se encontrar-se",
+                "Vão se encontrar",
+                "ir encontrar"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "Eles ___ em casa na noite passada",
+            "options": [
+                "não estavam",
+                "não estava",
+                "estavamos",
+                "estar"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "O que é que você ___?",
+            "options": [
+                "dizer",
+                "disse",
+                "dissemos",
+                "disseram"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "Porque é que você ___ chorar?",
+            "options": [
+                "está a",
+                "estamos a",
+                "a chorar",
+                "estão"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "Onde é que vocês ___ passar as próximas ferias de verão?",
+            "options": [
+                "vai",
+                "vou",
+                "passarei",
+                "vão"
+            ],
+            "answer": 3
+        },
+        {
+            "question": "Mais tarde, ___ todos no hotel.",
+            "options": [
+                "vamos nos encontrar",
+                "encontrar-se",
+                "encontrar",
+                "se encontrar"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "Os relógios Seiko ___ no Japão",
+            "options": [
+                "é feito",
+                "são feitos",
+                "feitos",
+                "fazendo"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "Eu ___ vejo ___ taxi.",
+            "options": [
+                "não/nenhum",
+                "não/não",
+                "nenhum/nenhum",
+                "Não/nenhuma"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "A familia Soares ___ pelo senhor Martins e pela dona Carla.",
+            "options": [
+                "foram convidado",
+                "foi convidada",
+                "convidada",
+                "estavam convidados"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "Nós vamos comprar uma revista para ___ durante a viagem.",
+            "options": [
+                "lermos",
+                "lerão",
+                "vamos ler",
+                "lemos"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "O sócio do senhor Soares já ___ quando ele chegou.",
+            "options": [
+                "ter saido",
+                "sair",
+                "saiu",
+                "tinha saido"
+            ],
+            "answer": 3
+        },
+        {
+            "question": "Eu ___ que nós não ___ passar mais tempo juntos.",
+            "options": [
+                "lamento/possamos",
+                "lamento/poderiamos",
+                "lamento/poder",
+                "lamento/posso"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "Nós ___ a Amazonia.",
+            "options": [
+                "havemos ir",
+                "ha de ir",
+                "havemos de ir",
+                "irmos"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "Ultimamente ___ muitos acidentes.",
+            "options": [
+                "houvesse",
+                "tem havido",
+                "haver",
+                "havera"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "Se nós não ___ bilhetes para o concerto, ___ ao teatro.",
+            "options": [
+                "arranjarmos/iremos",
+                "arranjamos/iria",
+                "arranjo/iria",
+                "arranjarmos/iria"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "Ele disse-me que ___ para Portugal se lá ___ emprego para ele.",
+            "options": [
+                "voltaria/houvesse",
+                "voltaria/ha",
+                "voltara/houvesse",
+                "voltar/haver"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "Sandra ___ um curso de fotografia.",
+            "options": [
+                "fazemos",
+                "fez",
+                "fazem",
+                "fazer"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "Eles receberam a carta e ___",
+            "options": [
+                "leio",
+                "ler",
+                "lemos-na",
+                "leram-na"
+            ],
+            "answer": 3
+        },
+        {
+            "question": "Quando tu eras criança, ___ sempre muito cedo.",
+            "options": [
+                "deitas",
+                "deitaram",
+                "deitar",
+                "deitavas-te"
+            ],
+            "answer": 3
+        },
+        {
+            "question": "Quem ___ este copo?",
+            "options": [
+                "teria partido",
+                "ter partido",
+                "partir-se",
+                "partir"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "Espero que (vocês) ___ uma boa viagem.",
+            "options": [
+                "tenhas",
+                "tenham feito",
+                "fazer",
+                "tenha"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "Se tivesse tido muito dinheiro, ___ um avião.",
+            "options": [
+                "tivesse",
+                "ter comprado",
+                "comprado",
+                "teria comprado"
+            ],
+            "answer": 3
+        },
+        {
+            "question": "Logo que tiver vendido o carro antigo ___ um novo.",
+            "options": [
+                "comprei",
+                "comprido",
+                "comprarei",
+                "comprando"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "Nós ___ sem que eles ___",
+            "options": [
+                "saimos/verem",
+                "sair/ver",
+                "saimos/vissem",
+                "sairemos/veremos"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "___ estava a chover, ficamos em casa",
+            "options": [
+                "Se",
+                "Como",
+                "Pois",
+                "Nem que"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "Aproxima-te para que eu te ___ melhor.",
+            "options": [
+                "possas ver",
+                "ver",
+                "veja",
+                "vejas"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "Ele nunca ___ antes das 9 horas da manhã.",
+            "options": [
+                "se levanta",
+                "levantam-se",
+                "levantas-te",
+                "levantar-se"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "Antigamente, tu ___ as contas, mas ultimamente não tens ___",
+            "options": [
+                "paguei/pago",
+                "pagou/pagas",
+                "pagaras/pago",
+                "pagavas/pago"
+            ],
+            "answer": 3
+        },
+        {
+            "question": "Ele quer que eu ___ de intérprete e que vocês acompanhem os visitantes.",
+            "options": [
+                "sirvam",
+                "servirei",
+                "sirva",
+                "servir"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "A Claudia disse que talvez ___ ao Brasil no próximo ano.",
+            "options": [
+                "foi",
+                "fosse",
+                "vai",
+                "ir"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "___ ir amanhã.",
+            "options": [
+                "Contamos",
+                "Estamos a",
+                "Estamos a contar",
+                "Estar a"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "(Nós) ___ um passeio todas as semanas.",
+            "options": [
+                "Ter dar",
+                "Dar",
+                "Temos ido",
+                "Temos dado"
+            ],
+            "answer": 3
+        },
+        {
+            "question": "E vocês querem que nós vos ___ lá?",
+            "options": [
+                "levemos",
+                "levamos-nos",
+                "levar",
+                "levou"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "É impossível eles ___ a tempo.",
+            "options": [
+                "chegarem",
+                "chegar",
+                "cheguem",
+                "chegarão"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "O António já ___ a encomenda?",
+            "options": [
+                "enviando",
+                "ter enviado",
+                "enviar",
+                "enviou"
+            ],
+            "answer": 3
+        },
+        {
+            "question": "Professor, que surpresa!(Eu) Não ___ aqui.",
+            "options": [
+                "esperarei vê-lo",
+                "esperava vê-lo",
+                "esperava nada vê-lo",
+                "esperei nada vê-lo"
+            ],
+            "answer": 1
+        }
+    ]
+}

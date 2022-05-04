@@ -1,0 +1,28 @@
+{
+    "type": "adequacy",
+    "time_thr": "5000",
+    "tasks" : "TaskSets_adequacy.json",
+    "html_layout": "../adequacy/adequacy_template.html",
+    "task_attributes":
+    {
+        "MaxAssignments": 5,
+        "LifetimeInSeconds": 604800,
+        "AssignmentDurationInSeconds": 10800,
+        "Reward": "1",
+        "Title": "Measuring the adequacy of English sentences",
+        "Keywords": "Adequacy, English, Reading, Comparing information, Comprehension",
+        "Description": "Help us by measuring the adequacy of some sentences compared to background information. You should have reading proficiency in English. Constructive feedback will be appreciated and possibly rewarded.",
+        "QualificationRequirements": [{
+            "QualificationTypeId": "000000000000000000L0",
+            "Comparator": "GreaterThanOrEqualTo",
+            "IntegerValues": [80],
+            "ActionsGuarded": "DiscoverPreviewAndAccept"
+        },
+        {
+            "QualificationTypeId": "00000000000000000040",
+            "Comparator": "GreaterThan",
+            "IntegerValues": [1000],
+            "ActionsGuarded": "DiscoverPreviewAndAccept"
+        }]
+    }
+}

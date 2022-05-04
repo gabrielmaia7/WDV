@@ -1,0 +1,28 @@
+{
+    "type": "fluency",
+    "time_thr": "2500",
+    "tasks" : "TaskSets_pilot_run_2.json",
+    "html_layout": "../fluency/fluency_template.html",
+    "task_attributes":
+    {
+        "MaxAssignments": 5,
+        "LifetimeInSeconds": 604800,
+        "AssignmentDurationInSeconds": 10800,
+        "Reward": "0.5",
+        "Title": "Pilot: Measuring the fluency of English sentences",
+        "Keywords": "Fluency, English, Reading, Scale, Quick",
+        "Description": "Help us by measuring the fluency of some sentences. You should have reading proficiency in English. This is a PILOT, so constructive feedback will be appreciated and possibly rewarded.",
+        "QualificationRequirements": [{
+            "QualificationTypeId": "000000000000000000L0",
+            "Comparator": "GreaterThanOrEqualTo",
+            "IntegerValues": [80],
+            "ActionsGuarded": "DiscoverPreviewAndAccept"
+        },
+        {
+            "QualificationTypeId": "00000000000000000040",
+            "Comparator": "GreaterThan",
+            "IntegerValues": [1000],
+            "ActionsGuarded": "DiscoverPreviewAndAccept"
+        }]
+    }
+}

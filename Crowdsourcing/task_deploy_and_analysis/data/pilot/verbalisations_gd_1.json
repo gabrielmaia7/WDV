@@ -1,0 +1,204 @@
+[
+  {
+    "claim_id": "Q2946099$3a937f1e-4437-1a0e-661c-ecf0860d7fc4",
+    "verbalised_claim": "Alain Badiou is a participant in the University of Vincennes.",
+    "subject_label": "University of Vincennes",
+    "subject_description": "experimental university built in 1968 in the Bois de Vincennes (Paris) and demolished in 1980",
+    "subject_aliases": [
+      "Université de Vincennes",
+      "centre universitaire de Vincennes",
+      "Universite de Vincennes"
+    ],
+    "predicate_label": "participant",
+    "predicate_description": "person, group of people or organization (object) that actively takes/took part in an event or process (subject).  Preferably qualify with \"object has role\" (P3831). Use P1923 for participants that are teams.",
+    "predicate_aliases": [
+      "participants",
+      "attendee",
+      "player",
+      "competitor",
+      "party",
+      "event participant",
+      "agent",
+      "belligerents",
+      "between",
+      "suspect",
+      "accused"
+    ],
+    "object_label": "Alain Badiou",
+    "object_description": "French writer and philosopher",
+    "object_aliases": "No aliases available",
+    "g_id": {
+      "fluency": [3,4,5],
+      "adequacy": [0]
+    }
+  },
+  {
+    "claim_id": "Q72989234$eba32589-434c-7184-e892-b855ece43e6a",
+    "verbalised_claim": "Shizuka Takanashi is a child of Kozue Takanashi.",
+    "subject_label": "Shizuka Takanashi",
+    "subject_description": "Working!!'s character",
+    "subject_aliases": "No aliases available",
+    "predicate_label": "child",
+    "predicate_description": "subject has object as child. Do not use for stepchildren",
+    "predicate_aliases": [
+      "son",
+      "daughter",
+      "kid",
+      "has child",
+      "children",
+      "sons",
+      "daughters",
+      "kids",
+      "has children",
+      "has son",
+      "has sons",
+      "has daughter",
+      "has daughters",
+      "has kid",
+      "has kids",
+      "offspring",
+      "progeny",
+      "issue",
+      "parent of",
+      "descendants"
+    ],
+    "object_label": "Kozue Takanashi",
+    "object_description": "Working!!'s character",
+    "object_aliases": "No aliases available",
+    "g_id": {
+      "fluency": [4,5],
+      "adequacy": [1]
+    }
+  },
+  {
+    "claim_id": "Q29238920$321C8846-FCD5-4FA3-BFC9-6829E0025575",
+    "verbalised_claim": "Saint Michel, et son cadre is a genre of religious art.",
+    "subject_label": "Saint Michel, et son cadre",
+    "subject_description": "No description available",
+    "subject_aliases": "No aliases available",
+    "predicate_label": "genre",
+    "predicate_description": "creative work's genre or an artist's field of work (P101). Use main subject (P921) to relate creative works to their topic",
+    "predicate_aliases": [
+      "music genre",
+      "film genre",
+      "artistic genre",
+      "literary genre",
+      "kind of music",
+      "type of film",
+      "genre of music",
+      "type of music"
+    ],
+    "object_label": "religious art",
+    "object_description": "art that is religious in theme",
+    "object_aliases": [
+      "religious heritage",
+      "sacred art",
+      "spiritual art"
+    ],
+    "g_id": {
+      "fluency": [4,5],
+      "adequacy": [1]
+    }
+  },
+  {
+    "claim_id": "Q1970117$bc107a31-4a7b-653e-db58-f077c143d79f",
+    "verbalised_claim": "Hildebrando A Berenguer founded Salinas.",
+    "subject_label": "Salinas",
+    "subject_description": "City & Municipality in Canelones, Uruguay",
+    "subject_aliases": "No aliases available",
+    "predicate_label": "founded by",
+    "predicate_description": "founder or co-founder of this organization, religion or place",
+    "predicate_aliases": [
+      "co-founder",
+      "founders",
+      "established by",
+      "co-founded by",
+      "founder",
+      "started by"
+    ],
+    "object_label": "Hildebrando A. Berenguer",
+    "object_description": "Uruguayan writer",
+    "object_aliases": "No aliases available",
+    "g_id": {
+      "fluency": [4,5],
+      "adequacy": [0]
+    }
+  },
+  {
+    "claim_id": "Q18942905$230C66D9-A783-4BAD-8B95-F9FB0854D86F",
+    "verbalised_claim": "Beekdal is located in Ulicoten.",
+    "subject_label": "Beekdal",
+    "subject_description": "street in Ulicoten, the Netherlands",
+    "subject_aliases": "No aliases available",
+    "predicate_label": "location",
+    "predicate_description": "location of the object, structure or event. In the case of an administrative entity as containing item use P131 for statistical entities P8138. In the case of a geographic entity use P706. Use P7153 for locations associated with the object.",
+    "predicate_aliases": [
+      "moveable object location",
+      "located in",
+      "event location",
+      "venue",
+      "is in",
+      "location of item",
+      "place held",
+      "based in",
+      "neighborhood",
+      "region",
+      "in",
+      "located",
+      "locality",
+      "locale"
+    ],
+    "object_label": "Ulicoten",
+    "object_description": "human settlement in the Netherlands",
+    "object_aliases": "No aliases available",
+    "g_id": {
+      "fluency": [4,5],
+      "adequacy": [0]
+    }
+  },
+  {
+    "claim_id": "Q6106177$4C79CF6F-1F45-4535-A463-7442B1606AC8",
+    "verbalised_claim": "J. James Marzilli, Jr. was a significant event in the 1993-1994 Massachusetts legislature.",
+    "subject_label": "J. James Marzilli, Jr.",
+    "subject_description": "politician in Massachusetts, US",
+    "subject_aliases": [
+      "Jim Marzilli",
+      "Marzilli, J. James Jr.",
+      "J. J. Marzilli",
+      "J. Marzilli"
+    ],
+    "predicate_label": "significant event",
+    "predicate_description": "significant or notable events associated with the subject",
+    "predicate_aliases": [
+      "key event",
+      "key incident",
+      "significant incident",
+      "notable event",
+      "notable incident",
+      "major event",
+      "big event",
+      "main events",
+      "fate",
+      "outcome",
+      "event",
+      "known for",
+      "significant achievment",
+      "sign. event",
+      "important event"
+    ],
+    "object_label": "1993-1994 Massachusetts legislature",
+    "object_description": "No description available",
+    "object_aliases": [
+      "178th Massachusetts General Court",
+      "Massachusetts Legislature, 1993–1994",
+      "Massachusetts General Court of 1993–1994",
+      "Massachusetts 178th legislature (1993-1994)",
+      "1993–1994 Massachusetts legislature",
+      "1993-94 Massachusetts legislature"
+    ],
+    "g_id": {
+      "fluency": [3,4,5],
+      "adequacy": [1]
+    }
+  }
+]

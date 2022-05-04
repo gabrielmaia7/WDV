@@ -1,0 +1,2709 @@
+[
+  {
+    "_id": "6a2c0eb6-cf6c-449b-beca-d90bd4e9f4ed",
+    "taskSet": [
+      {
+        "claim_id": "Q20821349$9f0ea229-4c5e-904e-4f5a-beb603e55b3f",
+        "verbalised_claim": "The place of burial of Czes\u0142aw Ku\u015bmirek is Lipowa Street Cemetery, Lublin.",
+        "subject_label": "Czes\u0142aw Ku\u015bmirek",
+        "subject_description": "Polish athletics competitor",
+        "subject_aliases": "No aliases available",
+        "predicate_label": "place of burial",
+        "predicate_description": "location of grave, resting place, place of ash-scattering, etc. (e.g., town/city or cemetery) for a person or animal. There may be several places: e.g., re-burials, parts of body buried separately.",
+        "predicate_aliases": [
+          "burial place",
+          "resting place",
+          "place of grave",
+          "buried in",
+          "grave at",
+          "location of burial",
+          "tomb",
+          "interment",
+          "place of interment",
+          "buried at",
+          "burial location",
+          "interment place",
+          "interment location",
+          "entombed at",
+          "interred at",
+          "ashes scattered at",
+          "remains at"
+        ],
+        "object_label": "Lipowa Street cemetery, Lublin",
+        "object_description": "cemetery in Lublin, Poland",
+        "object_aliases": "No aliases available",
+        "g_id": 0
+      },
+      {
+        "claim_id": "Q18942905$230C66D9-A783-4BAD-8B95-F9FB0854D86F",
+        "verbalised_claim": "Beekdal is located in Ulicoten.",
+        "subject_label": "Beekdal",
+        "subject_description": "street in Ulicoten, the Netherlands",
+        "subject_aliases": "No aliases available",
+        "predicate_label": "location",
+        "predicate_description": "location of the object, structure or event. In the case of an administrative entity as containing item use P131 for statistical entities P8138. In the case of a geographic entity use P706. Use P7153 for locations associated with the object.",
+        "predicate_aliases": [
+          "moveable object location",
+          "located in",
+          "event location",
+          "venue",
+          "is in",
+          "location of item",
+          "place held",
+          "based in",
+          "neighborhood",
+          "region",
+          "in",
+          "located",
+          "locality",
+          "locale"
+        ],
+        "object_label": "Ulicoten",
+        "object_description": "human settlement in the Netherlands",
+        "object_aliases": "No aliases available",
+        "g_id": {
+          "fluency": [
+            4,
+            5
+          ],
+          "adequacy": [
+            0
+          ]
+        }
+      },
+      {
+        "claim_id": "Q36071500$0E51CD39-B88C-4044-A3AB-AAA1FB9FF917",
+        "verbalised_claim": "Chlorella viruses are isolated in China and have a volume of 54.",
+        "subject_label": "Chlorella viruses isolated in China.",
+        "subject_description": "scientific article",
+        "subject_aliases": "No aliases available",
+        "predicate_label": "volume",
+        "predicate_description": "volume of a book or music release in a collection/series or a published collection of journal issues in a serial publication",
+        "predicate_aliases": [
+          "volume of a book",
+          "volume of serial",
+          "vol.",
+          "tome"
+        ],
+        "object_label": "54",
+        "object_description": "No description available",
+        "object_aliases": "No aliases available",
+        "g_id": 0
+      },
+      {
+        "claim_id": "Q6106177$4C79CF6F-1F45-4535-A463-7442B1606AC8",
+        "verbalised_claim": "J. James Marzilli, Jr. was a significant event in the 1993-1994 Massachusetts legislature.",
+        "subject_label": "J. James Marzilli, Jr.",
+        "subject_description": "politician in Massachusetts, US",
+        "subject_aliases": [
+          "Jim Marzilli",
+          "Marzilli, J. James Jr.",
+          "J. J. Marzilli",
+          "J. Marzilli"
+        ],
+        "predicate_label": "significant event",
+        "predicate_description": "significant or notable events associated with the subject",
+        "predicate_aliases": [
+          "key event",
+          "key incident",
+          "significant incident",
+          "notable event",
+          "notable incident",
+          "major event",
+          "big event",
+          "main events",
+          "fate",
+          "outcome",
+          "event",
+          "known for",
+          "significant achievment",
+          "sign. event",
+          "important event"
+        ],
+        "object_label": "1993-1994 Massachusetts legislature",
+        "object_description": "No description available",
+        "object_aliases": [
+          "178th Massachusetts General Court",
+          "Massachusetts Legislature, 1993\u20131994",
+          "Massachusetts General Court of 1993\u20131994",
+          "Massachusetts 178th legislature (1993-1994)",
+          "1993\u20131994 Massachusetts legislature",
+          "1993-94 Massachusetts legislature"
+        ],
+        "g_id": {
+          "fluency": [
+            3,
+            4,
+            5
+          ],
+          "adequacy": [
+            1
+          ]
+        }
+      },
+      {
+        "claim_id": "Q35257667$3C719C74-AF36-4065-B840-3A95B47EB23B",
+        "verbalised_claim": "Flying S Air Ranch Airport is different from Flying S Ranch Aerodrome.",
+        "subject_label": "Flying S Air Ranch Airport",
+        "subject_description": "Airport in Texas",
+        "subject_aliases": [
+          "Flying S Air Ranch Aerodrome"
+        ],
+        "predicate_label": "different from",
+        "predicate_description": "item that is different from another item, with which it is often confused",
+        "predicate_aliases": [
+          "different than",
+          "different to",
+          "is not",
+          "distinct from",
+          "not the same as",
+          "isn't",
+          "distinguished from",
+          "to be distinguished from",
+          "disambiguated from",
+          "not same as",
+          "confused with",
+          "is different from",
+          "mistakenly taken for",
+          "differs from",
+          "differ from",
+          "often confused with",
+          "rejected match",
+          "not to be confused with",
+          "\u2260",
+          "not equal to",
+          "is not the same as",
+          "do not confuse with",
+          "not identical to",
+          "different thing from",
+          "different entity from",
+          "is not same as",
+          "different entity than",
+          "different thing than"
+        ],
+        "object_label": "Flying S Ranch Aerodrome",
+        "object_description": "Airport in North Dakota",
+        "object_aliases": "No aliases available",
+        "g_id": 0
+      },
+      {
+        "claim_id": "Q237046$288829C0-D8D0-47C2-A8C6-462BC25F015C",
+        "verbalised_claim": "The common name of Sparus aurata is Dorade Royale.",
+        "subject_label": "Sparus aurata",
+        "subject_description": "species of fish",
+        "subject_aliases": [
+          "gilt-head bream",
+          "Dorade",
+          "gilthead seabream"
+        ],
+        "predicate_label": "taxon common name",
+        "predicate_description": "common or vernacular name of a biological taxon",
+        "predicate_aliases": [
+          "vernacular name",
+          "common name"
+        ],
+        "object_label": "Dorade Royale",
+        "object_description": "No description available",
+        "object_aliases": "No aliases available",
+        "g_id": 0
+      }
+    ]
+  },
+  {
+    "_id": "fe3d248d-b21a-4e8c-a5de-d0e7a68a649d",
+    "taskSet": [
+      {
+        "claim_id": "Q7895656$5D365141-CBBB-450A-8FF3-F8C583591B5F",
+        "verbalised_claim": "224 Main St., Farmington, ME, 04938-9978 is the street address of the University of Maine at Farmington.",
+        "subject_label": "University of Maine at Farmington",
+        "subject_description": "No description available",
+        "subject_aliases": [
+          "UMF",
+          "UMaine Farmington"
+        ],
+        "predicate_label": "street address",
+        "predicate_description": "full street address where subject is located. Include building number, city/locality, post code, but not country. Use also P669 if the street has its own separate item",
+        "predicate_aliases": [
+          "address",
+          "located at street address",
+          "physical address",
+          "mailing address",
+          "mail address",
+          "postal address"
+        ],
+        "object_label": "224 Main St., Farmington, ME, 04938-9978",
+        "object_description": "No description available",
+        "object_aliases": "No aliases available",
+        "g_id": 0
+      },
+      {
+        "claim_id": "Q29001836$d636ac90-4698-f1f9-32d9-c056ce462941",
+        "verbalised_claim": "Los nombres de las calles de Madrid is the name given to Calle de la Victoria, Madrid.",
+        "subject_label": "Calle de la Victoria, Madrid",
+        "subject_description": "street in Madrid, Spain",
+        "subject_aliases": "No aliases available",
+        "predicate_label": "described by source",
+        "predicate_description": "work where this item is described",
+        "predicate_aliases": [
+          "described in source",
+          "written about in",
+          "entry",
+          "subject of",
+          "described by encyclopedia",
+          "described by reference work",
+          "described by biography",
+          "reviewed in",
+          "source of item",
+          "described by obituary",
+          "mentioned in news article"
+        ],
+        "object_label": "Los nombres de las calles de Madrid",
+        "object_description": "No description available",
+        "object_aliases": "No aliases available",
+        "g_id": 0
+      },
+      {
+        "claim_id": "Q6106177$4C79CF6F-1F45-4535-A463-7442B1606AC8",
+        "verbalised_claim": "J. James Marzilli, Jr. was a significant event in the 1993-1994 Massachusetts legislature.",
+        "subject_label": "J. James Marzilli, Jr.",
+        "subject_description": "politician in Massachusetts, US",
+        "subject_aliases": [
+          "Jim Marzilli",
+          "Marzilli, J. James Jr.",
+          "J. J. Marzilli",
+          "J. Marzilli"
+        ],
+        "predicate_label": "significant event",
+        "predicate_description": "significant or notable events associated with the subject",
+        "predicate_aliases": [
+          "key event",
+          "key incident",
+          "significant incident",
+          "notable event",
+          "notable incident",
+          "major event",
+          "big event",
+          "main events",
+          "fate",
+          "outcome",
+          "event",
+          "known for",
+          "significant achievment",
+          "sign. event",
+          "important event"
+        ],
+        "object_label": "1993-1994 Massachusetts legislature",
+        "object_description": "No description available",
+        "object_aliases": [
+          "178th Massachusetts General Court",
+          "Massachusetts Legislature, 1993\u20131994",
+          "Massachusetts General Court of 1993\u20131994",
+          "Massachusetts 178th legislature (1993-1994)",
+          "1993\u20131994 Massachusetts legislature",
+          "1993-94 Massachusetts legislature"
+        ],
+        "g_id": {
+          "fluency": [
+            3,
+            4,
+            5
+          ],
+          "adequacy": [
+            1
+          ]
+        }
+      },
+      {
+        "claim_id": "Q5514956$2b0261a1-497f-7d27-1430-a7e56ae7da10",
+        "verbalised_claim": "The GWR 4073 Class replaces the GWR 111 The Great Bear.",
+        "subject_label": "GWR 4073 Class",
+        "subject_description": "class of 171 four-cylinder 4-6-0 locomotives",
+        "subject_aliases": [
+          "GWR Castle class"
+        ],
+        "predicate_label": "replaces",
+        "predicate_description": "person, state or item replaced. Use \"structure replaces\" (P1398) for structures. Use \"follows\" (P155) if the previous item was not replaced or predecessor and successor are identical",
+        "predicate_aliases": [
+          "forefather",
+          "previous job holder",
+          "replaced",
+          "preceded by",
+          "succeeds",
+          "predecessor",
+          "supersedes",
+          "continues from",
+          "continues"
+        ],
+        "object_label": "GWR 111 The Great Bear",
+        "object_description": "class of 1 four-cylinder 4-6-2 locomotive",
+        "object_aliases": "No aliases available",
+        "g_id": 0
+      },
+      {
+        "claim_id": "Q29238920$321C8846-FCD5-4FA3-BFC9-6829E0025575",
+        "verbalised_claim": "Saint Michel, et son cadre is a genre of religious art.",
+        "subject_label": "Saint Michel, et son cadre",
+        "subject_description": "No description available",
+        "subject_aliases": "No aliases available",
+        "predicate_label": "genre",
+        "predicate_description": "creative work's genre or an artist's field of work (P101). Use main subject (P921) to relate creative works to their topic",
+        "predicate_aliases": [
+          "music genre",
+          "film genre",
+          "artistic genre",
+          "literary genre",
+          "kind of music",
+          "type of film",
+          "genre of music",
+          "type of music"
+        ],
+        "object_label": "religious art",
+        "object_description": "art that is religious in theme",
+        "object_aliases": [
+          "religious heritage",
+          "sacred art",
+          "spiritual art"
+        ],
+        "g_id": {
+          "fluency": [
+            4,
+            5
+          ],
+          "adequacy": [
+            1
+          ]
+        }
+      },
+      {
+        "claim_id": "Q1655471$9d4833bd-4a7e-eb48-ac96-614ca35aa124",
+        "verbalised_claim": "College Park Airport is located in the time zone UTC\u221204:00.",
+        "subject_label": "College Park Airport",
+        "subject_description": "airport in College Park, Maryland, United States",
+        "subject_aliases": [
+          "CGS",
+          "KCGS"
+        ],
+        "predicate_label": "located in time zone",
+        "predicate_description": "time zone for this item",
+        "predicate_aliases": [
+          "timezone",
+          "time zone",
+          "time",
+          "TZ"
+        ],
+        "object_label": "UTC\u221204:00",
+        "object_description": "Identifier for a time offset from UTC of \u22124",
+        "object_aliases": [
+          "Eastern Caribbean Time",
+          "Atlantic Standard Time",
+          "Eastern Daylight Time",
+          "UTC-04:00",
+          "utc-4",
+          "UTC\u20134",
+          "UTC\u22124",
+          "UTC-4"
+        ],
+        "g_id": 0
+      }
+    ]
+  },
+  {
+    "_id": "1a317ef7-6dce-4df2-8943-e2269ecbc1b9",
+    "taskSet": [
+      {
+        "claim_id": "Q99711601$7527BE62-DCA6-48CB-95C6-DA07BA6B21B8",
+        "verbalised_claim": "Julien Boccard is the author of Insights on the Structural and Metabolic Resistance of Potato (Solanum tuberosum) Cultivars to Tuber Black Dot (Colletotrichum coccodes).",
+        "subject_label": "Insights on the Structural and Metabolic Resistance of Potato (Solanum tuberosum) Cultivars to Tuber Black Dot (Colletotrichum coccodes)",
+        "subject_description": "scientific article published on 20 August 2020",
+        "subject_aliases": "No aliases available",
+        "predicate_label": "author",
+        "predicate_description": "main creator(s) of a written work (use on works, not humans); use P2093 when Wikidata item is unknown or does not exist",
+        "predicate_aliases": [
+          "written by",
+          "writer",
+          "writers",
+          "authors",
+          "author(s)",
+          "writer(s)",
+          "by",
+          "creator"
+        ],
+        "object_label": "Julien Boccard",
+        "object_description": "researcher",
+        "object_aliases": "No aliases available",
+        "g_id": 0
+      },
+      {
+        "claim_id": "Q18942905$230C66D9-A783-4BAD-8B95-F9FB0854D86F",
+        "verbalised_claim": "Beekdal is located in Ulicoten.",
+        "subject_label": "Beekdal",
+        "subject_description": "street in Ulicoten, the Netherlands",
+        "subject_aliases": "No aliases available",
+        "predicate_label": "location",
+        "predicate_description": "location of the object, structure or event. In the case of an administrative entity as containing item use P131 for statistical entities P8138. In the case of a geographic entity use P706. Use P7153 for locations associated with the object.",
+        "predicate_aliases": [
+          "moveable object location",
+          "located in",
+          "event location",
+          "venue",
+          "is in",
+          "location of item",
+          "place held",
+          "based in",
+          "neighborhood",
+          "region",
+          "in",
+          "located",
+          "locality",
+          "locale"
+        ],
+        "object_label": "Ulicoten",
+        "object_description": "human settlement in the Netherlands",
+        "object_aliases": "No aliases available",
+        "g_id": {
+          "fluency": [
+            4,
+            5
+          ],
+          "adequacy": [
+            0
+          ]
+        }
+      },
+      {
+        "claim_id": "Q18786390$48633692-4fc9-97ad-4658-71a8bc24ae6a",
+        "verbalised_claim": "Tandonella is different from Tandonella.",
+        "subject_label": "Tandonella",
+        "subject_description": "genus of crustaceans",
+        "subject_aliases": "No aliases available",
+        "predicate_label": "different from",
+        "predicate_description": "item that is different from another item, with which it is often confused",
+        "predicate_aliases": [
+          "different than",
+          "different to",
+          "is not",
+          "distinct from",
+          "not the same as",
+          "isn't",
+          "distinguished from",
+          "to be distinguished from",
+          "disambiguated from",
+          "not same as",
+          "confused with",
+          "is different from",
+          "mistakenly taken for",
+          "differs from",
+          "differ from",
+          "often confused with",
+          "rejected match",
+          "not to be confused with",
+          "\u2260",
+          "not equal to",
+          "is not the same as",
+          "do not confuse with",
+          "not identical to",
+          "different thing from",
+          "different entity from",
+          "is not same as",
+          "different entity than",
+          "different thing than"
+        ],
+        "object_label": "Tandonella",
+        "object_description": "genus of fungi",
+        "object_aliases": "No aliases available",
+        "g_id": 0
+      },
+      {
+        "claim_id": "Q63953209$7be8b8a0-450d-7d5b-b118-1ffeefb3c3a1",
+        "verbalised_claim": "Hana Hana \u010c\u00e1pov\u00e1pov\u00e1 was born in Prague.",
+        "subject_label": "Hana \u010c\u00e1pov\u00e1",
+        "subject_description": "No description available",
+        "subject_aliases": [
+          "Hana Capova"
+        ],
+        "predicate_label": "place of birth",
+        "predicate_description": "most specific known (e.g. city instead of country, or hospital instead of city) birth location of a person, animal or fictional character",
+        "predicate_aliases": [
+          "birthplace",
+          "born in",
+          "POB",
+          "birth place",
+          "location born",
+          "born at",
+          "birth location",
+          "location of birth",
+          "birth city"
+        ],
+        "object_label": "Prague",
+        "object_description": "capital city of the Czech Republic",
+        "object_aliases": [
+          "Praha",
+          "Hlavn\u00ed m\u011bsto Praha",
+          "City of Prague"
+        ],
+        "g_id": 0
+      },
+      {
+        "claim_id": "Q29238920$321C8846-FCD5-4FA3-BFC9-6829E0025575",
+        "verbalised_claim": "Saint Michel, et son cadre is a genre of religious art.",
+        "subject_label": "Saint Michel, et son cadre",
+        "subject_description": "No description available",
+        "subject_aliases": "No aliases available",
+        "predicate_label": "genre",
+        "predicate_description": "creative work's genre or an artist's field of work (P101). Use main subject (P921) to relate creative works to their topic",
+        "predicate_aliases": [
+          "music genre",
+          "film genre",
+          "artistic genre",
+          "literary genre",
+          "kind of music",
+          "type of film",
+          "genre of music",
+          "type of music"
+        ],
+        "object_label": "religious art",
+        "object_description": "art that is religious in theme",
+        "object_aliases": [
+          "religious heritage",
+          "sacred art",
+          "spiritual art"
+        ],
+        "g_id": {
+          "fluency": [
+            4,
+            5
+          ],
+          "adequacy": [
+            1
+          ]
+        }
+      },
+      {
+        "claim_id": "Q97755277$13AE4420-98C3-4BF7-8CA7-7090DF2EA40F",
+        "verbalised_claim": "Jesper Skalberg Karlsson is the author of Utvecklande av valfriheten och m\u00e5ngfalden i v\u00e4lf\u00e4rden.",
+        "subject_label": "Utvecklande av valfriheten och m\u00e5ngfalden i v\u00e4lf\u00e4rden",
+        "subject_description": "motion by Fredrik Schulte et al.. 2017",
+        "subject_aliases": "No aliases available",
+        "predicate_label": "author",
+        "predicate_description": "main creator(s) of a written work (use on works, not humans); use P2093 when Wikidata item is unknown or does not exist",
+        "predicate_aliases": [
+          "written by",
+          "writer",
+          "writers",
+          "authors",
+          "author(s)",
+          "writer(s)",
+          "by",
+          "creator"
+        ],
+        "object_label": "Jesper Skalberg Karlsson",
+        "object_description": "politician and Member of the parliament of Sweden",
+        "object_aliases": "No aliases available",
+        "g_id": 0
+      }
+    ]
+  },
+  {
+    "_id": "8205b304-f3e9-4180-9de4-aaa2decc0a1b",
+    "taskSet": [
+      {
+        "claim_id": "Q45982518$F33CEA4F-A019-48F1-8978-7FCFB4043DCC",
+        "verbalised_claim": "Acute MDMA and ethanol interaction effects on psychomotor performance. Issue 4.",
+        "subject_label": "Acute MDMA and ethanol interaction effects on psychomotor performance.",
+        "subject_description": "scientific article published in April 2007",
+        "subject_aliases": "No aliases available",
+        "predicate_label": "issue",
+        "predicate_description": "issue of a newspaper, a scientific journal or magazine for reference purpose",
+        "predicate_aliases": [
+          "no.",
+          "number"
+        ],
+        "object_label": "4",
+        "object_description": "No description available",
+        "object_aliases": "No aliases available",
+        "g_id": 0
+      },
+      {
+        "claim_id": "Q2946099$3a937f1e-4437-1a0e-661c-ecf0860d7fc4",
+        "verbalised_claim": "Alain Badiou is a participant in the University of Vincennes.",
+        "subject_label": "University of Vincennes",
+        "subject_description": "experimental university built in 1968 in the Bois de Vincennes (Paris) and demolished in 1980",
+        "subject_aliases": [
+          "Universit\u00e9 de Vincennes",
+          "centre universitaire de Vincennes",
+          "Universite de Vincennes"
+        ],
+        "predicate_label": "participant",
+        "predicate_description": "person, group of people or organization (object) that actively takes/took part in an event or process (subject).  Preferably qualify with \"object has role\" (P3831). Use P1923 for participants that are teams.",
+        "predicate_aliases": [
+          "participants",
+          "attendee",
+          "player",
+          "competitor",
+          "party",
+          "event participant",
+          "agent",
+          "belligerents",
+          "between",
+          "suspect",
+          "accused"
+        ],
+        "object_label": "Alain Badiou",
+        "object_description": "French writer and philosopher",
+        "object_aliases": "No aliases available",
+        "g_id": {
+          "fluency": [
+            3,
+            4,
+            5
+          ],
+          "adequacy": [
+            0
+          ]
+        }
+      },
+      {
+        "claim_id": "Q23891354$9ba5c94b-4681-16b1-0016-2a439e4b01b5",
+        "verbalised_claim": "Pipo Derani is a crew member of Dalziel-Derani-Cumming.",
+        "subject_label": "Dalziel-Derani-Cumming",
+        "subject_description": "sports car endurance racing team participating in the FIA World Endurance Championship",
+        "subject_aliases": [
+          "Cumming-Dalziel-Derani",
+          "Extreme Speed #31",
+          "WEC 2016 #31"
+        ],
+        "predicate_label": "crew member(s)",
+        "predicate_description": "person(s) that participated operating or serving aboard this vehicle",
+        "predicate_aliases": [
+          "member of crew of"
+        ],
+        "object_label": "Pipo Derani",
+        "object_description": "Brazilian racing driver",
+        "object_aliases": [
+          "Lu\u00eds Felipe Derani",
+          "Derani, Luis Felipe",
+          "Derani, Pipo",
+          "Luis Felipe Derani"
+        ],
+        "g_id": 0
+      },
+      {
+        "claim_id": "Q7196198$51FA9324-A14D-4069-9E49-E73F12DB72DD",
+        "verbalised_claim": "Pinkie C. Wilkerson died in an accident.",
+        "subject_label": "Pinkie C. Wilkerson",
+        "subject_description": "American politician",
+        "subject_aliases": "No aliases available",
+        "predicate_label": "manner of death",
+        "predicate_description": "general circumstances of a person's death; e.g. natural causes, accident, suicide, homicide, etc.  Use 'cause of death' (P509) for the specific physiological mechanism, e.g. heart attack, trauma, pneumonia...",
+        "predicate_aliases": [
+          "death manner",
+          "death type",
+          "type of death",
+          "circumstance of death",
+          "nature of death"
+        ],
+        "object_label": "accident",
+        "object_description": "unforeseen and unplanned event or circumstance, often with a negative outcome",
+        "object_aliases": [
+          "mishap",
+          "misadventure",
+          "misfortune"
+        ],
+        "g_id": 0
+      },
+      {
+        "claim_id": "Q6106177$4C79CF6F-1F45-4535-A463-7442B1606AC8",
+        "verbalised_claim": "J. James Marzilli, Jr. was a significant event in the 1993-1994 Massachusetts legislature.",
+        "subject_label": "J. James Marzilli, Jr.",
+        "subject_description": "politician in Massachusetts, US",
+        "subject_aliases": [
+          "Jim Marzilli",
+          "Marzilli, J. James Jr.",
+          "J. J. Marzilli",
+          "J. Marzilli"
+        ],
+        "predicate_label": "significant event",
+        "predicate_description": "significant or notable events associated with the subject",
+        "predicate_aliases": [
+          "key event",
+          "key incident",
+          "significant incident",
+          "notable event",
+          "notable incident",
+          "major event",
+          "big event",
+          "main events",
+          "fate",
+          "outcome",
+          "event",
+          "known for",
+          "significant achievment",
+          "sign. event",
+          "important event"
+        ],
+        "object_label": "1993-1994 Massachusetts legislature",
+        "object_description": "No description available",
+        "object_aliases": [
+          "178th Massachusetts General Court",
+          "Massachusetts Legislature, 1993\u20131994",
+          "Massachusetts General Court of 1993\u20131994",
+          "Massachusetts 178th legislature (1993-1994)",
+          "1993\u20131994 Massachusetts legislature",
+          "1993-94 Massachusetts legislature"
+        ],
+        "g_id": {
+          "fluency": [
+            3,
+            4,
+            5
+          ],
+          "adequacy": [
+            1
+          ]
+        }
+      },
+      {
+        "claim_id": "Q61801712$9AF17257-14A3-4809-9844-1BA4352E5764",
+        "verbalised_claim": "The Model Polytechnic College, Karunagappalli was approved by the All India Council for Technical Education.",
+        "subject_label": "Model Polytechnic College, Karunagappalli",
+        "subject_description": "Educational institute in Kerala approved by AICTE",
+        "subject_aliases": "No aliases available",
+        "predicate_label": "approved by",
+        "predicate_description": "item is approved by other item(s) [qualifier: statement is approved by other item(s)]",
+        "predicate_aliases": [
+          "erected by"
+        ],
+        "object_label": "All India Council for Technical Education",
+        "object_description": "The statutory body and a national-level council for technical education, under Department of Higher Education, Ministry of Human Resource Development, India",
+        "object_aliases": [
+          "AICTE",
+          "Aicte"
+        ],
+        "g_id": 0
+      }
+    ]
+  },
+  {
+    "_id": "360ceb86-862a-48e9-a738-28a8234aa7a9",
+    "taskSet": [
+      {
+        "claim_id": "Q17593755$E56AACE0-8889-449A-A160-814CF86EABAF",
+        "verbalised_claim": "The ethnic group of Gurgens Ivanjans is Armenians.",
+        "subject_label": "Gurgens Ivanjans",
+        "subject_description": "No description available",
+        "subject_aliases": "No aliases available",
+        "predicate_label": "ethnic group",
+        "predicate_description": "subject's ethnicity (consensus is that a VERY high standard of proof is needed for this field to be used. In general this means 1) the subject claims it themself, or 2) it is widely agreed on by scholars, or 3) is fictional and portrayed as such)",
+        "predicate_aliases": [
+          "ethnicity",
+          "culture",
+          "people",
+          "(cultural) nationality",
+          "race"
+        ],
+        "object_label": "Armenians",
+        "object_description": "ethnic group native to the Armenian Highlands",
+        "object_aliases": [
+          "Armenian people"
+        ],
+        "g_id": 0
+      },
+      {
+        "claim_id": "Q724552$C62D9763-4592-4804-87C5-45CDC4465787",
+        "verbalised_claim": "Jim Wetherbee spent 95663 minutes in space.",
+        "subject_label": "Jim Wetherbee",
+        "subject_description": "American astronaut",
+        "subject_aliases": "No aliases available",
+        "predicate_label": "time in space",
+        "predicate_description": "time in space by an astronaut or cosmonaut",
+        "predicate_aliases": [
+          "space exposure",
+          "logged space hours"
+        ],
+        "object_label": "95663 minute",
+        "object_description": "unit of time",
+        "object_aliases": [
+          "min",
+          "mins",
+          "minutes"
+        ],
+        "g_id": 0
+      },
+      {
+        "claim_id": "Q762243$B0D4E5B2-6F26-4C8B-A4E3-0A0F68BD3533",
+        "verbalised_claim": "The postal code of the University of Chester is CH1 4BJ.",
+        "subject_label": "University of Chester",
+        "subject_description": "university in Chester, United Kingdom",
+        "subject_aliases": "No aliases available",
+        "predicate_label": "postal code",
+        "predicate_description": "identifier assigned by postal authorities for the subject area or building",
+        "predicate_aliases": [
+          "post code",
+          "zip code",
+          "postcode",
+          "zipcode",
+          "ZIP+4",
+          "PIN Code",
+          "postal index number"
+        ],
+        "object_label": "CH1 4BJ",
+        "object_description": "No description available",
+        "object_aliases": "No aliases available",
+        "g_id": 0
+      },
+      {
+        "claim_id": "Q29238920$321C8846-FCD5-4FA3-BFC9-6829E0025575",
+        "verbalised_claim": "Saint Michel, et son cadre is a genre of religious art.",
+        "subject_label": "Saint Michel, et son cadre",
+        "subject_description": "No description available",
+        "subject_aliases": "No aliases available",
+        "predicate_label": "genre",
+        "predicate_description": "creative work's genre or an artist's field of work (P101). Use main subject (P921) to relate creative works to their topic",
+        "predicate_aliases": [
+          "music genre",
+          "film genre",
+          "artistic genre",
+          "literary genre",
+          "kind of music",
+          "type of film",
+          "genre of music",
+          "type of music"
+        ],
+        "object_label": "religious art",
+        "object_description": "art that is religious in theme",
+        "object_aliases": [
+          "religious heritage",
+          "sacred art",
+          "spiritual art"
+        ],
+        "g_id": {
+          "fluency": [
+            4,
+            5
+          ],
+          "adequacy": [
+            1
+          ]
+        }
+      },
+      {
+        "claim_id": "Q93967542$9CEB5F2B-5BA3-4EBB-9864-B3B15DC64951",
+        "verbalised_claim": "CD-55 9106 has an apparent magnitude of 9.426.",
+        "subject_label": "CD-55 9106",
+        "subject_description": "star in the constellation Grus",
+        "subject_aliases": "No aliases available",
+        "predicate_label": "apparent magnitude",
+        "predicate_description": "measurement of the brightness of an astronomic object, as seen from the Earth",
+        "predicate_aliases": "No aliases available",
+        "object_label": "9.426",
+        "object_description": "No description available",
+        "object_aliases": "No aliases available",
+        "g_id": 0
+      },
+      {
+        "claim_id": "Q2946099$3a937f1e-4437-1a0e-661c-ecf0860d7fc4",
+        "verbalised_claim": "Alain Badiou is a participant in the University of Vincennes.",
+        "subject_label": "University of Vincennes",
+        "subject_description": "experimental university built in 1968 in the Bois de Vincennes (Paris) and demolished in 1980",
+        "subject_aliases": [
+          "Universit\u00e9 de Vincennes",
+          "centre universitaire de Vincennes",
+          "Universite de Vincennes"
+        ],
+        "predicate_label": "participant",
+        "predicate_description": "person, group of people or organization (object) that actively takes/took part in an event or process (subject).  Preferably qualify with \"object has role\" (P3831). Use P1923 for participants that are teams.",
+        "predicate_aliases": [
+          "participants",
+          "attendee",
+          "player",
+          "competitor",
+          "party",
+          "event participant",
+          "agent",
+          "belligerents",
+          "between",
+          "suspect",
+          "accused"
+        ],
+        "object_label": "Alain Badiou",
+        "object_description": "French writer and philosopher",
+        "object_aliases": "No aliases available",
+        "g_id": {
+          "fluency": [
+            3,
+            4,
+            5
+          ],
+          "adequacy": [
+            0
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "_id": "cd8df54c-efb4-4306-803d-c93163fa744a",
+    "taskSet": [
+      {
+        "claim_id": "q1702994$5050BCF3-8994-4944-8CF9-51E30FC9DB71",
+        "verbalised_claim": "Jonas Liau\u010dius has a sex or gender of male.",
+        "subject_label": "Jonas Liau\u010dius",
+        "subject_description": "Lithuanian politician",
+        "subject_aliases": "No aliases available",
+        "predicate_label": "sex or gender",
+        "predicate_description": "sex or gender identity of human or animal. For human: male, female, non-binary, intersex, transgender female, transgender male, agender. For animal: male organism, female organism. Groups of same gender use subclass of (P279)",
+        "predicate_aliases": [
+          "gender identity",
+          "gender expression",
+          "gender",
+          "biological sex",
+          "man",
+          "woman",
+          "male",
+          "female",
+          "intersex",
+          "sex"
+        ],
+        "object_label": "male",
+        "object_description": "to be used in \"sex or gender\" (P21) to indicate that the human subject is a male",
+        "object_aliases": [
+          "man",
+          "male person",
+          "male human",
+          "male gender",
+          "guy",
+          "m",
+          "human male",
+          "sterner sex",
+          "masc",
+          "men",
+          "boy",
+          "boys",
+          "\u2642"
+        ],
+        "g_id": 0
+      },
+      {
+        "claim_id": "Q4661214$688be030-4808-fde6-c24e-950e830fa1da",
+        "verbalised_claim": "Aage Kirkegaard died in Nyk\u00f8bing Falster.",
+        "subject_label": "Aage Kirkegaard",
+        "subject_description": "Danish field hockey player",
+        "subject_aliases": "No aliases available",
+        "predicate_label": "place of death",
+        "predicate_description": "most specific known (e.g. city instead of country, or hospital instead of city) death location of a person, animal or fictional character",
+        "predicate_aliases": [
+          "deathplace",
+          "died in",
+          "death place",
+          "POD",
+          "location of death",
+          "death location",
+          "killed in"
+        ],
+        "object_label": "Nyk\u00f8bing Falster",
+        "object_description": "Danish city",
+        "object_aliases": "No aliases available",
+        "g_id": 0
+      },
+      {
+        "claim_id": "Q72989234$eba32589-434c-7184-e892-b855ece43e6a",
+        "verbalised_claim": "Shizuka Takanashi is a child of Kozue Takanashi.",
+        "subject_label": "Shizuka Takanashi",
+        "subject_description": "Working!!'s character",
+        "subject_aliases": "No aliases available",
+        "predicate_label": "child",
+        "predicate_description": "subject has object as child. Do not use for stepchildren",
+        "predicate_aliases": [
+          "son",
+          "daughter",
+          "kid",
+          "has child",
+          "children",
+          "sons",
+          "daughters",
+          "kids",
+          "has children",
+          "has son",
+          "has sons",
+          "has daughter",
+          "has daughters",
+          "has kid",
+          "has kids",
+          "offspring",
+          "progeny",
+          "issue",
+          "parent of",
+          "descendants"
+        ],
+        "object_label": "Kozue Takanashi",
+        "object_description": "Working!!'s character",
+        "object_aliases": "No aliases available",
+        "g_id": {
+          "fluency": [
+            4,
+            5
+          ],
+          "adequacy": [
+            1
+          ]
+        }
+      },
+      {
+        "claim_id": "Q2946099$3a937f1e-4437-1a0e-661c-ecf0860d7fc4",
+        "verbalised_claim": "Alain Badiou is a participant in the University of Vincennes.",
+        "subject_label": "University of Vincennes",
+        "subject_description": "experimental university built in 1968 in the Bois de Vincennes (Paris) and demolished in 1980",
+        "subject_aliases": [
+          "Universit\u00e9 de Vincennes",
+          "centre universitaire de Vincennes",
+          "Universite de Vincennes"
+        ],
+        "predicate_label": "participant",
+        "predicate_description": "person, group of people or organization (object) that actively takes/took part in an event or process (subject).  Preferably qualify with \"object has role\" (P3831). Use P1923 for participants that are teams.",
+        "predicate_aliases": [
+          "participants",
+          "attendee",
+          "player",
+          "competitor",
+          "party",
+          "event participant",
+          "agent",
+          "belligerents",
+          "between",
+          "suspect",
+          "accused"
+        ],
+        "object_label": "Alain Badiou",
+        "object_description": "French writer and philosopher",
+        "object_aliases": "No aliases available",
+        "g_id": {
+          "fluency": [
+            3,
+            4,
+            5
+          ],
+          "adequacy": [
+            0
+          ]
+        }
+      },
+      {
+        "claim_id": "Q1960837$629849D5-4610-41CB-9DFA-D8141D19FEFF",
+        "verbalised_claim": "Aleksei Mikhailovich Abaza's allegiance is the Russian Empire.",
+        "subject_label": "Aleksei Mikhailovich Abaza",
+        "subject_description": "Russian admiral (1853-1915)",
+        "subject_aliases": "No aliases available",
+        "predicate_label": "allegiance",
+        "predicate_description": "country (or other power) that the person or organization serves",
+        "predicate_aliases": [
+          "fidelity",
+          "loyalty"
+        ],
+        "object_label": "Russian Empire",
+        "object_description": "former empire in Eurasia (1721\u20131917) and North America (1721\u20131867)",
+        "object_aliases": [
+          "Tsarist Russia",
+          "Imperial Russia",
+          "Russia",
+          "Empire of Russia"
+        ],
+        "g_id": 0
+      },
+      {
+        "claim_id": "Q8026242$a2547347-429d-5e36-97e3-90ff7442bf0e",
+        "verbalised_claim": "The runway at Winter Haven's Gilbert Airport is 05/23.",
+        "subject_label": "Winter Haven's Gilbert Airport",
+        "subject_description": "airport in Florida, United States of America",
+        "subject_aliases": [
+          "GIF",
+          "KGIF"
+        ],
+        "predicate_label": "runway",
+        "predicate_description": "name (direction) of runway at airport/airfield/airstrip",
+        "predicate_aliases": [
+          "RWY"
+        ],
+        "object_label": "05/23",
+        "object_description": "No description available",
+        "object_aliases": "No aliases available",
+        "g_id": 0
+      }
+    ]
+  },
+  {
+    "_id": "63cca9cc-b9fe-4ba1-b21d-654d1c793576",
+    "taskSet": [
+      {
+        "claim_id": "Q839206$15658950-4b98-1873-40ef-272c9876ec8d",
+        "verbalised_claim": "General Tso's chicken has the native label \u5de6\u5b97\u68e0\u96de.",
+        "subject_label": "General Tso's chicken",
+        "subject_description": "North American Chinese sweet deep-fried chicken dish",
+        "subject_aliases": "No aliases available",
+        "predicate_label": "native label",
+        "predicate_description": "label for item in its official or original language",
+        "predicate_aliases": [
+          "name in original language",
+          "name in official language",
+          "label in original language",
+          "label in official language",
+          "autonym"
+        ],
+        "object_label": "\u5de6\u5b97\u68e0\u96de",
+        "object_description": "No description available",
+        "object_aliases": "No aliases available",
+        "g_id": 0
+      },
+      {
+        "claim_id": "Q624072$19AFA2F5-1876-4EF4-971C-428F07EE0FAE",
+        "verbalised_claim": "Taej\u014fn Taehakkyo is romanized by McCune-Reischauer at Daejeon University.",
+        "subject_label": "Daejeon University",
+        "subject_description": "No description available",
+        "subject_aliases": "No aliases available",
+        "predicate_label": "McCune-Reischauer romanization",
+        "predicate_description": "romanization of Korean with the McCune-Reischauer system",
+        "predicate_aliases": "No aliases available",
+        "object_label": "Taej\u014fn Taehakkyo",
+        "object_description": "No description available",
+        "object_aliases": "No aliases available",
+        "g_id": 0
+      },
+      {
+        "claim_id": "Q2946099$3a937f1e-4437-1a0e-661c-ecf0860d7fc4",
+        "verbalised_claim": "Alain Badiou is a participant in the University of Vincennes.",
+        "subject_label": "University of Vincennes",
+        "subject_description": "experimental university built in 1968 in the Bois de Vincennes (Paris) and demolished in 1980",
+        "subject_aliases": [
+          "Universit\u00e9 de Vincennes",
+          "centre universitaire de Vincennes",
+          "Universite de Vincennes"
+        ],
+        "predicate_label": "participant",
+        "predicate_description": "person, group of people or organization (object) that actively takes/took part in an event or process (subject).  Preferably qualify with \"object has role\" (P3831). Use P1923 for participants that are teams.",
+        "predicate_aliases": [
+          "participants",
+          "attendee",
+          "player",
+          "competitor",
+          "party",
+          "event participant",
+          "agent",
+          "belligerents",
+          "between",
+          "suspect",
+          "accused"
+        ],
+        "object_label": "Alain Badiou",
+        "object_description": "French writer and philosopher",
+        "object_aliases": "No aliases available",
+        "g_id": {
+          "fluency": [
+            3,
+            4,
+            5
+          ],
+          "adequacy": [
+            0
+          ]
+        }
+      },
+      {
+        "claim_id": "Q1163753$D91F5D42-3D82-42BE-80E6-307D1BA68C5A",
+        "verbalised_claim": "Daniele Manin is described by source in Nouvelle Biographie G\u00e9n\u00e9rale.",
+        "subject_label": "Daniele Manin",
+        "subject_description": "Italian politician (1804-1857)",
+        "subject_aliases": [
+          "Daniel Manin"
+        ],
+        "predicate_label": "described by source",
+        "predicate_description": "work where this item is described",
+        "predicate_aliases": [
+          "described in source",
+          "written about in",
+          "entry",
+          "subject of",
+          "described by encyclopedia",
+          "described by reference work",
+          "described by biography",
+          "reviewed in",
+          "source of item",
+          "described by obituary",
+          "mentioned in news article"
+        ],
+        "object_label": "Nouvelle Biographie G\u00e9n\u00e9rale",
+        "object_description": "46 volumes, published 1852-1866",
+        "object_aliases": [
+          "Nouvelle Biographie Generale",
+          "Nouvelle Biographie universelle"
+        ],
+        "g_id": 0
+      },
+      {
+        "claim_id": "Q1970117$bc107a31-4a7b-653e-db58-f077c143d79f",
+        "verbalised_claim": "Hildebrando A Berenguer founded Salinas.",
+        "subject_label": "Salinas",
+        "subject_description": "City & Municipality in Canelones, Uruguay",
+        "subject_aliases": "No aliases available",
+        "predicate_label": "founded by",
+        "predicate_description": "founder or co-founder of this organization, religion or place",
+        "predicate_aliases": [
+          "co-founder",
+          "founders",
+          "established by",
+          "co-founded by",
+          "founder",
+          "started by"
+        ],
+        "object_label": "Hildebrando A. Berenguer",
+        "object_description": "Uruguayan writer",
+        "object_aliases": "No aliases available",
+        "g_id": {
+          "fluency": [
+            4,
+            5
+          ],
+          "adequacy": [
+            0
+          ]
+        }
+      },
+      {
+        "claim_id": "Q2714043$2892AD81-2008-453A-9048-C4703E466C70",
+        "verbalised_claim": "The common name of Chalcides pentadactylus is Five-fingered Skink.",
+        "subject_label": "Chalcides pentadactylus",
+        "subject_description": "species of reptile",
+        "subject_aliases": "No aliases available",
+        "predicate_label": "taxon common name",
+        "predicate_description": "common or vernacular name of a biological taxon",
+        "predicate_aliases": [
+          "vernacular name",
+          "common name"
+        ],
+        "object_label": "Five-fingered Skink",
+        "object_description": "No description available",
+        "object_aliases": "No aliases available",
+        "g_id": 0
+      }
+    ]
+  },
+  {
+    "_id": "f9e64b26-c623-4b84-9e0a-5e4dbb4a29e2",
+    "taskSet": [
+      {
+        "claim_id": "Q1970117$bc107a31-4a7b-653e-db58-f077c143d79f",
+        "verbalised_claim": "Hildebrando A Berenguer founded Salinas.",
+        "subject_label": "Salinas",
+        "subject_description": "City & Municipality in Canelones, Uruguay",
+        "subject_aliases": "No aliases available",
+        "predicate_label": "founded by",
+        "predicate_description": "founder or co-founder of this organization, religion or place",
+        "predicate_aliases": [
+          "co-founder",
+          "founders",
+          "established by",
+          "co-founded by",
+          "founder",
+          "started by"
+        ],
+        "object_label": "Hildebrando A. Berenguer",
+        "object_description": "Uruguayan writer",
+        "object_aliases": "No aliases available",
+        "g_id": {
+          "fluency": [
+            4,
+            5
+          ],
+          "adequacy": [
+            0
+          ]
+        }
+      },
+      {
+        "claim_id": "Q29238920$321C8846-FCD5-4FA3-BFC9-6829E0025575",
+        "verbalised_claim": "Saint Michel, et son cadre is a genre of religious art.",
+        "subject_label": "Saint Michel, et son cadre",
+        "subject_description": "No description available",
+        "subject_aliases": "No aliases available",
+        "predicate_label": "genre",
+        "predicate_description": "creative work's genre or an artist's field of work (P101). Use main subject (P921) to relate creative works to their topic",
+        "predicate_aliases": [
+          "music genre",
+          "film genre",
+          "artistic genre",
+          "literary genre",
+          "kind of music",
+          "type of film",
+          "genre of music",
+          "type of music"
+        ],
+        "object_label": "religious art",
+        "object_description": "art that is religious in theme",
+        "object_aliases": [
+          "religious heritage",
+          "sacred art",
+          "spiritual art"
+        ],
+        "g_id": {
+          "fluency": [
+            4,
+            5
+          ],
+          "adequacy": [
+            1
+          ]
+        }
+      },
+      {
+        "claim_id": "Q17362191$fd9069c4-aa5c-4540-adaf-c8c4db65855c",
+        "verbalised_claim": "J\u00f3zef Korzeniowski was buried at Witomino Cemetary in Gdynia.",
+        "subject_label": "J\u00f3zef Korzeniowski",
+        "subject_description": "No description available",
+        "subject_aliases": "No aliases available",
+        "predicate_label": "place of burial",
+        "predicate_description": "location of grave, resting place, place of ash-scattering, etc. (e.g., town/city or cemetery) for a person or animal. There may be several places: e.g., re-burials, parts of body buried separately.",
+        "predicate_aliases": [
+          "burial place",
+          "resting place",
+          "place of grave",
+          "buried in",
+          "grave at",
+          "location of burial",
+          "tomb",
+          "interment",
+          "place of interment",
+          "buried at",
+          "burial location",
+          "interment place",
+          "interment location",
+          "entombed at",
+          "interred at",
+          "ashes scattered at",
+          "remains at"
+        ],
+        "object_label": "Witomino Cemetary in Gdynia",
+        "object_description": "cemetary in Gdynia, Poland",
+        "object_aliases": "No aliases available",
+        "g_id": 0
+      },
+      {
+        "claim_id": "Q586904$dac80c52-498c-7ffc-5cba-ec603bbe1e81",
+        "verbalised_claim": "The Federal University of Rio de Janeiro has a budget of 3100000000 Brazilian real.",
+        "subject_label": "Federal University of Rio de Janeiro",
+        "subject_description": "university in Brazil",
+        "subject_aliases": [
+          "UFRJ",
+          "University of Brazil",
+          "Universidade Federal do Rio de Janeiro",
+          "Universidade Federal do Rio de Janeiro (UFRJ)",
+          "University of Rio de Janeiro"
+        ],
+        "predicate_label": "budget",
+        "predicate_description": "assigned monetary amount for a project (for the estimated cost of a film, also commonly referred to as budget, use P2130)",
+        "predicate_aliases": "No aliases available",
+        "object_label": "3100000000 Brazilian real",
+        "object_description": "Brazilian currency since 1994",
+        "object_aliases": [
+          "BRL",
+          "R$",
+          "real",
+          "reais"
+        ],
+        "g_id": 0
+      },
+      {
+        "claim_id": "Q12693708$7b6f9528-4dd1-e117-9a03-cf5359c02d36",
+        "verbalised_claim": "Luzern-Beromunster Airport is named after Lucerne.",
+        "subject_label": "Luzern-Beromunster Airport",
+        "subject_description": "airport in Switzerland",
+        "subject_aliases": [
+          "LSZO"
+        ],
+        "predicate_label": "named after",
+        "predicate_description": "entity or event that inspired the subject's name, or namesake (in at least one language). Qualifier \"applies to name\" (P5168) can be used to indicate which one",
+        "predicate_aliases": [
+          "eponym",
+          "named for",
+          "namesake",
+          "etymology",
+          "toponym",
+          "name after",
+          "named in honor of",
+          "linked with"
+        ],
+        "object_label": "Lucerne",
+        "object_description": "city on Lake Lucerne, in central Switzerland",
+        "object_aliases": [
+          "Luzern",
+          "Lucerne, Switzerland",
+          "Lucerne LU"
+        ],
+        "g_id": 0
+      },
+      {
+        "claim_id": "Q134015$a594cca0-5bdf-46ac-b678-1cc8d3a2e622",
+        "verbalised_claim": "The meerkat has a mass of 30.5 grams.",
+        "subject_label": "meerkat",
+        "subject_description": "species of mongoose",
+        "subject_aliases": [
+          "suricate",
+          "Suricata suricatta",
+          "mierkat"
+        ],
+        "predicate_label": "mass",
+        "predicate_description": "mass (in colloquial usage also known as weight) of the item",
+        "predicate_aliases": [
+          "weight",
+          "displacement"
+        ],
+        "object_label": "30.5 gram",
+        "object_description": "unit of mass 1/1000th of a kilogram",
+        "object_aliases": [
+          "g",
+          "gm",
+          "gramme",
+          "grams"
+        ],
+        "g_id": 0
+      }
+    ]
+  },
+  {
+    "_id": "592376c5-fdfc-4cdb-b6b9-52825a1526f1",
+    "taskSet": [
+      {
+        "claim_id": "Q105067149$991C48E5-BF5D-4B08-9ECC-7E35A5A58186",
+        "verbalised_claim": "Sporisorium setariae is a taxon author of (McAlpine) R.G.Shivas & V\u00e1nky.",
+        "subject_label": "Sporisorium setariae",
+        "subject_description": "Species of fungus",
+        "subject_aliases": "No aliases available",
+        "predicate_label": "taxon author citation",
+        "predicate_description": "valid author citation for a taxon using the appropriate nomenclature (ICBN, ICZN, ect.)",
+        "predicate_aliases": [
+          "author citation for this taxon"
+        ],
+        "object_label": "(McAlpine) R.G.Shivas & V\u00e1nky",
+        "object_description": "No description available",
+        "object_aliases": "No aliases available",
+        "g_id": 0
+      },
+      {
+        "claim_id": "Q2052806$F8EF327A-F827-41BD-B873-AFB4A0A3E6B5",
+        "verbalised_claim": "Basaltkegel Parkstein has a length of 140 metres.",
+        "subject_label": "Basaltkegel Parkstein",
+        "subject_description": "basalt pin in Germany",
+        "subject_aliases": [
+          "Parkstein"
+        ],
+        "predicate_label": "length",
+        "predicate_description": "measured dimension of an object",
+        "predicate_aliases": [
+          "distance",
+          "dimension",
+          "size",
+          "long"
+        ],
+        "object_label": "140 metre",
+        "object_description": "SI unit of length",
+        "object_aliases": [
+          "m",
+          "meter",
+          "meters",
+          "metres",
+          "m\u00e8tre"
+        ],
+        "g_id": 0
+      },
+      {
+        "claim_id": "Q2946099$3a937f1e-4437-1a0e-661c-ecf0860d7fc4",
+        "verbalised_claim": "Alain Badiou is a participant in the University of Vincennes.",
+        "subject_label": "University of Vincennes",
+        "subject_description": "experimental university built in 1968 in the Bois de Vincennes (Paris) and demolished in 1980",
+        "subject_aliases": [
+          "Universit\u00e9 de Vincennes",
+          "centre universitaire de Vincennes",
+          "Universite de Vincennes"
+        ],
+        "predicate_label": "participant",
+        "predicate_description": "person, group of people or organization (object) that actively takes/took part in an event or process (subject).  Preferably qualify with \"object has role\" (P3831). Use P1923 for participants that are teams.",
+        "predicate_aliases": [
+          "participants",
+          "attendee",
+          "player",
+          "competitor",
+          "party",
+          "event participant",
+          "agent",
+          "belligerents",
+          "between",
+          "suspect",
+          "accused"
+        ],
+        "object_label": "Alain Badiou",
+        "object_description": "French writer and philosopher",
+        "object_aliases": "No aliases available",
+        "g_id": {
+          "fluency": [
+            3,
+            4,
+            5
+          ],
+          "adequacy": [
+            0
+          ]
+        }
+      },
+      {
+        "claim_id": "Q74794470$011D5F7F-BD3E-4A7F-A682-972E972B4B9F",
+        "verbalised_claim": "R Suzuki is the author of Bull's eye macular dystrophy associated with peripheral involvement.",
+        "subject_label": "Bull's-eye macular dystrophy associated with peripheral involvement",
+        "subject_description": "scientific article published on 01 January 1998",
+        "subject_aliases": "No aliases available",
+        "predicate_label": "author name string",
+        "predicate_description": "string to store unspecified author or editor name for publications; use if Wikidata item for author (P50) or editor (P98) does not exist or is not known",
+        "predicate_aliases": [
+          "short author name",
+          "author string",
+          "songwriting credits string",
+          "creator name string",
+          "maker name string",
+          "editor name string",
+          "byline"
+        ],
+        "object_label": "R Suzuki",
+        "object_description": "No description available",
+        "object_aliases": "No aliases available",
+        "g_id": 0
+      },
+      {
+        "claim_id": "Q35033268$18A3A506-4CD6-40D8-B6CA-10B631DD5A7A",
+        "verbalised_claim": "Acute leukemia: a pediatric perspective cites work on Pediatric non-Hodgkin's lymphoma: clinical and biologic prognostic factors and risk allocation.",
+        "subject_label": "Acute leukemia: a pediatric perspective.",
+        "subject_description": "scientific article",
+        "subject_aliases": "No aliases available",
+        "predicate_label": "cites work",
+        "predicate_description": "citation from one creative work to another",
+        "predicate_aliases": [
+          "bibliographic citation",
+          "citation"
+        ],
+        "object_label": "Pediatric non-Hodgkin's lymphoma: clinical and biologic prognostic factors and risk allocation.",
+        "object_description": "scientific article",
+        "object_aliases": "No aliases available",
+        "g_id": 0
+      },
+      {
+        "claim_id": "Q29238920$321C8846-FCD5-4FA3-BFC9-6829E0025575",
+        "verbalised_claim": "Saint Michel, et son cadre is a genre of religious art.",
+        "subject_label": "Saint Michel, et son cadre",
+        "subject_description": "No description available",
+        "subject_aliases": "No aliases available",
+        "predicate_label": "genre",
+        "predicate_description": "creative work's genre or an artist's field of work (P101). Use main subject (P921) to relate creative works to their topic",
+        "predicate_aliases": [
+          "music genre",
+          "film genre",
+          "artistic genre",
+          "literary genre",
+          "kind of music",
+          "type of film",
+          "genre of music",
+          "type of music"
+        ],
+        "object_label": "religious art",
+        "object_description": "art that is religious in theme",
+        "object_aliases": [
+          "religious heritage",
+          "sacred art",
+          "spiritual art"
+        ],
+        "g_id": {
+          "fluency": [
+            4,
+            5
+          ],
+          "adequacy": [
+            1
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "_id": "c0875835-4602-43fe-b87e-fb6c09ce7422",
+    "taskSet": [
+      {
+        "claim_id": "Q29238920$321C8846-FCD5-4FA3-BFC9-6829E0025575",
+        "verbalised_claim": "Saint Michel, et son cadre is a genre of religious art.",
+        "subject_label": "Saint Michel, et son cadre",
+        "subject_description": "No description available",
+        "subject_aliases": "No aliases available",
+        "predicate_label": "genre",
+        "predicate_description": "creative work's genre or an artist's field of work (P101). Use main subject (P921) to relate creative works to their topic",
+        "predicate_aliases": [
+          "music genre",
+          "film genre",
+          "artistic genre",
+          "literary genre",
+          "kind of music",
+          "type of film",
+          "genre of music",
+          "type of music"
+        ],
+        "object_label": "religious art",
+        "object_description": "art that is religious in theme",
+        "object_aliases": [
+          "religious heritage",
+          "sacred art",
+          "spiritual art"
+        ],
+        "g_id": {
+          "fluency": [
+            4,
+            5
+          ],
+          "adequacy": [
+            1
+          ]
+        }
+      },
+      {
+        "claim_id": "Q2946099$3a937f1e-4437-1a0e-661c-ecf0860d7fc4",
+        "verbalised_claim": "Alain Badiou is a participant in the University of Vincennes.",
+        "subject_label": "University of Vincennes",
+        "subject_description": "experimental university built in 1968 in the Bois de Vincennes (Paris) and demolished in 1980",
+        "subject_aliases": [
+          "Universit\u00e9 de Vincennes",
+          "centre universitaire de Vincennes",
+          "Universite de Vincennes"
+        ],
+        "predicate_label": "participant",
+        "predicate_description": "person, group of people or organization (object) that actively takes/took part in an event or process (subject).  Preferably qualify with \"object has role\" (P3831). Use P1923 for participants that are teams.",
+        "predicate_aliases": [
+          "participants",
+          "attendee",
+          "player",
+          "competitor",
+          "party",
+          "event participant",
+          "agent",
+          "belligerents",
+          "between",
+          "suspect",
+          "accused"
+        ],
+        "object_label": "Alain Badiou",
+        "object_description": "French writer and philosopher",
+        "object_aliases": "No aliases available",
+        "g_id": {
+          "fluency": [
+            3,
+            4,
+            5
+          ],
+          "adequacy": [
+            0
+          ]
+        }
+      },
+      {
+        "claim_id": "Q22252164$9875ABF8-0B7C-4E25-91C5-7B5CC7D6F1FA",
+        "verbalised_claim": "Raoul De Keyser (Hasselt 1973) is the exhibition history of Camping II.",
+        "subject_label": "Camping II",
+        "subject_description": "painting by Raoul De Keyser",
+        "subject_aliases": "No aliases available",
+        "predicate_label": "exhibition history",
+        "predicate_description": "exhibitions where the item is or was displayed",
+        "predicate_aliases": [
+          "salon",
+          "exhibited at",
+          "shown at",
+          "displayed at",
+          "shown"
+        ],
+        "object_label": "Raoul De Keyser (Hasselt 1973)",
+        "object_description": "art exhibition",
+        "object_aliases": "No aliases available",
+        "g_id": 0
+      },
+      {
+        "claim_id": "Q3914966$e4f31ab1-9f9d-4042-9dec-26d02d15921f",
+        "verbalised_claim": "Earls Colne Airfield is in the historic county of Essex.",
+        "subject_label": "Earls Colne Airfield",
+        "subject_description": "airport in the United Kingdom",
+        "subject_aliases": [
+          "EGSR"
+        ],
+        "predicate_label": "historic county",
+        "predicate_description": "traditional, geographical division of Great Britain and Ireland",
+        "predicate_aliases": [
+          "ancient or geographic county",
+          "traditional county",
+          "located in historic UK county",
+          "located in historic county of Ireland"
+        ],
+        "object_label": "Essex",
+        "object_description": "historic county of England",
+        "object_aliases": "No aliases available",
+        "g_id": 0
+      },
+      {
+        "claim_id": "Q7327$80D113EB-0B63-4CE7-A5A3-AADAE7D980DD",
+        "verbalised_claim": "Yuri Gagarin died in Novosyolovo.",
+        "subject_label": "Yuri Gagarin",
+        "subject_description": "Soviet pilot and cosmonaut, first human in space (1934-1968)",
+        "subject_aliases": [
+          "Yuri Alekseyevich Gagarin",
+          "Yuri Alexeyevich Gagarin",
+          "Yury Alekseyevich Gagarin",
+          "Yury Gagarin"
+        ],
+        "predicate_label": "place of death",
+        "predicate_description": "most specific known (e.g. city instead of country, or hospital instead of city) death location of a person, animal or fictional character",
+        "predicate_aliases": [
+          "deathplace",
+          "died in",
+          "death place",
+          "POD",
+          "location of death",
+          "death location",
+          "killed in"
+        ],
+        "object_label": "Novosyolovo",
+        "object_description": "human settlement in Kirzhachsky District, Vladimir Oblast, Russia",
+        "object_aliases": "No aliases available",
+        "g_id": 0
+      },
+      {
+        "claim_id": "Q29340567$8B9ED01D-EF4C-4453-9A6A-95B70C7B3804",
+        "verbalised_claim": "Sommeil de l'Enfant J\u00e9sus is listed as a historic monument.",
+        "subject_label": "Sommeil de l'Enfant J\u00e9sus",
+        "subject_description": "No description available",
+        "subject_aliases": "No aliases available",
+        "predicate_label": "heritage designation",
+        "predicate_description": "heritage designation of a cultural or natural site",
+        "predicate_aliases": [
+          "designation",
+          "listing",
+          "listed status",
+          "protected status",
+          "protection",
+          "legal protection",
+          "heritage designation",
+          "heritage status"
+        ],
+        "object_label": "object listed as historical monument",
+        "object_description": "French object listed as a Historical Monument by the French State",
+        "object_aliases": "No aliases available",
+        "g_id": 0
+      }
+    ]
+  },
+  {
+    "_id": "80687f6f-eb6c-4f4e-9498-1723d0215927",
+    "taskSet": [
+      {
+        "claim_id": "Q18942905$230C66D9-A783-4BAD-8B95-F9FB0854D86F",
+        "verbalised_claim": "Beekdal is located in Ulicoten.",
+        "subject_label": "Beekdal",
+        "subject_description": "street in Ulicoten, the Netherlands",
+        "subject_aliases": "No aliases available",
+        "predicate_label": "location",
+        "predicate_description": "location of the object, structure or event. In the case of an administrative entity as containing item use P131 for statistical entities P8138. In the case of a geographic entity use P706. Use P7153 for locations associated with the object.",
+        "predicate_aliases": [
+          "moveable object location",
+          "located in",
+          "event location",
+          "venue",
+          "is in",
+          "location of item",
+          "place held",
+          "based in",
+          "neighborhood",
+          "region",
+          "in",
+          "located",
+          "locality",
+          "locale"
+        ],
+        "object_label": "Ulicoten",
+        "object_description": "human settlement in the Netherlands",
+        "object_aliases": "No aliases available",
+        "g_id": {
+          "fluency": [
+            4,
+            5
+          ],
+          "adequacy": [
+            0
+          ]
+        }
+      },
+      {
+        "claim_id": "Q38097905$9b1c1139-44b5-adc4-43d9-1a577138770a",
+        "verbalised_claim": "Sebastian Langeveld is the general classification of the 2013 Eneco Tour, Stage 5.",
+        "subject_label": "2013 Eneco Tour, Stage 5",
+        "subject_description": "Sittard-Geleen \u2014 Sittard-Geleen, 13.2 km",
+        "subject_aliases": "No aliases available",
+        "predicate_label": "general classification of race participants",
+        "predicate_description": "classification of race participants",
+        "predicate_aliases": [
+          "GC"
+        ],
+        "object_label": "Sebastian Langeveld",
+        "object_description": "Dutch road bicycle racer",
+        "object_aliases": "No aliases available",
+        "g_id": 0
+      },
+      {
+        "claim_id": "Q78370845$9EEF22E4-71D9-4F98-A5ED-04792D833B30",
+        "verbalised_claim": "OGLE LMC570.23.006052 is a variable star with asymmetric light curves and RR Lyrae variables.",
+        "subject_label": "OGLE LMC570.23.006052",
+        "subject_description": "No description available",
+        "subject_aliases": "No aliases available",
+        "predicate_label": "type of variable star",
+        "predicate_description": "type of variable star",
+        "predicate_aliases": [
+          "variable type"
+        ],
+        "object_label": "RR Lyrae variables w asymmetric light curves",
+        "object_description": "No description available",
+        "object_aliases": "No aliases available",
+        "g_id": 0
+      },
+      {
+        "claim_id": "Q28111170$6DA3DA0A-B057-4295-AADA-2957576E9B12",
+        "verbalised_claim": "Zonsopgang has the inventory number E362.",
+        "subject_label": "Zonsopgang",
+        "subject_description": "painting by G.H. Frauenfelder",
+        "subject_aliases": "No aliases available",
+        "predicate_label": "inventory number",
+        "predicate_description": "identifier for a physical object or a set of physical objects in a collection",
+        "predicate_aliases": [
+          "reference",
+          "accession number",
+          "shelfmark",
+          "call number",
+          "reference number",
+          "catalogue number",
+          "collection number",
+          "object number",
+          "local identifier",
+          "control number",
+          "loan number"
+        ],
+        "object_label": "E362",
+        "object_description": "No description available",
+        "object_aliases": "No aliases available",
+        "g_id": 0
+      },
+      {
+        "claim_id": "Q66010655$F41B8D3A-2D88-424C-8F6E-39EB3B260AF7",
+        "verbalised_claim": "T\u00eate d\u2019un vieillard de l\u2019Apocalypse has the catalog code CAT. 17 16.",
+        "subject_label": "T\u00eate d\u2019un vieillard de l\u2019Apocalypse",
+        "subject_description": "No description available",
+        "subject_aliases": "No aliases available",
+        "predicate_label": "catalog code",
+        "predicate_description": "catalog name of an object, use with qualifier P972",
+        "predicate_aliases": [
+          "astronomical catalog",
+          "register",
+          "opus number",
+          "catalogue code",
+          "catalog number",
+          "catalogue number",
+          "cat. no."
+        ],
+        "object_label": "CAT. 17 16",
+        "object_description": "No description available",
+        "object_aliases": "No aliases available",
+        "g_id": 0
+      },
+      {
+        "claim_id": "Q29238920$321C8846-FCD5-4FA3-BFC9-6829E0025575",
+        "verbalised_claim": "Saint Michel, et son cadre is a genre of religious art.",
+        "subject_label": "Saint Michel, et son cadre",
+        "subject_description": "No description available",
+        "subject_aliases": "No aliases available",
+        "predicate_label": "genre",
+        "predicate_description": "creative work's genre or an artist's field of work (P101). Use main subject (P921) to relate creative works to their topic",
+        "predicate_aliases": [
+          "music genre",
+          "film genre",
+          "artistic genre",
+          "literary genre",
+          "kind of music",
+          "type of film",
+          "genre of music",
+          "type of music"
+        ],
+        "object_label": "religious art",
+        "object_description": "art that is religious in theme",
+        "object_aliases": [
+          "religious heritage",
+          "sacred art",
+          "spiritual art"
+        ],
+        "g_id": {
+          "fluency": [
+            4,
+            5
+          ],
+          "adequacy": [
+            1
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "_id": "d4b439ff-9943-46c0-a392-34c4ac94a14e",
+    "taskSet": [
+      {
+        "claim_id": "Q18942905$230C66D9-A783-4BAD-8B95-F9FB0854D86F",
+        "verbalised_claim": "Beekdal is located in Ulicoten.",
+        "subject_label": "Beekdal",
+        "subject_description": "street in Ulicoten, the Netherlands",
+        "subject_aliases": "No aliases available",
+        "predicate_label": "location",
+        "predicate_description": "location of the object, structure or event. In the case of an administrative entity as containing item use P131 for statistical entities P8138. In the case of a geographic entity use P706. Use P7153 for locations associated with the object.",
+        "predicate_aliases": [
+          "moveable object location",
+          "located in",
+          "event location",
+          "venue",
+          "is in",
+          "location of item",
+          "place held",
+          "based in",
+          "neighborhood",
+          "region",
+          "in",
+          "located",
+          "locality",
+          "locale"
+        ],
+        "object_label": "Ulicoten",
+        "object_description": "human settlement in the Netherlands",
+        "object_aliases": "No aliases available",
+        "g_id": {
+          "fluency": [
+            4,
+            5
+          ],
+          "adequacy": [
+            0
+          ]
+        }
+      },
+      {
+        "claim_id": "Q68812809$4BEFE634-DDC6-452B-90EC-63AA7E8B3759",
+        "verbalised_claim": "The franz\u00f6sische General Mortier and Marschall Jean Baptiste Bernadotte, der latere schwedische K\u00f6nig Karl XIV. Johann, wohnten 1803-1804 in the Stadttafel, which has the inscription \"Apartment der Gartendirektors 1747 von J.P. Heumann f\u00fcr C. von Hardenberg erbaut\".",
+        "subject_label": "Stadttafel Wohnung der Gartendirektors",
+        "subject_description": "Memorial plaque in Hanover, Germany",
+        "subject_aliases": "No aliases available",
+        "predicate_label": "inscription",
+        "predicate_description": "inscriptions, markings and signatures on an object",
+        "predicate_aliases": [
+          "legend",
+          "legenda",
+          "epigraph (inscription)",
+          "text of inscription"
+        ],
+        "object_label": "Wohnung der Gartendirektors 1747 von J. P. Heumann f\u00fcr C. von Hardenberg erbaut. Hier wohnten 1803-1804 der franz\u00f6sische General Mortier und Marschall Jean Baptiste Bernadotte, der sp\u00e4tere schwedische K\u00f6nig Karl XIV. Johann",
+        "object_description": "No description available",
+        "object_aliases": "No aliases available",
+        "g_id": 0
+      },
+      {
+        "claim_id": "Q6106177$4C79CF6F-1F45-4535-A463-7442B1606AC8",
+        "verbalised_claim": "J. James Marzilli, Jr. was a significant event in the 1993-1994 Massachusetts legislature.",
+        "subject_label": "J. James Marzilli, Jr.",
+        "subject_description": "politician in Massachusetts, US",
+        "subject_aliases": [
+          "Jim Marzilli",
+          "Marzilli, J. James Jr.",
+          "J. J. Marzilli",
+          "J. Marzilli"
+        ],
+        "predicate_label": "significant event",
+        "predicate_description": "significant or notable events associated with the subject",
+        "predicate_aliases": [
+          "key event",
+          "key incident",
+          "significant incident",
+          "notable event",
+          "notable incident",
+          "major event",
+          "big event",
+          "main events",
+          "fate",
+          "outcome",
+          "event",
+          "known for",
+          "significant achievment",
+          "sign. event",
+          "important event"
+        ],
+        "object_label": "1993-1994 Massachusetts legislature",
+        "object_description": "No description available",
+        "object_aliases": [
+          "178th Massachusetts General Court",
+          "Massachusetts Legislature, 1993\u20131994",
+          "Massachusetts General Court of 1993\u20131994",
+          "Massachusetts 178th legislature (1993-1994)",
+          "1993\u20131994 Massachusetts legislature",
+          "1993-94 Massachusetts legislature"
+        ],
+        "g_id": {
+          "fluency": [
+            3,
+            4,
+            5
+          ],
+          "adequacy": [
+            1
+          ]
+        }
+      },
+      {
+        "claim_id": "Q3447318$DA066EF7-86C7-4F3D-9131-177051548035",
+        "verbalised_claim": "The length of rue Cardinet is 1780 metres.",
+        "subject_label": "rue Cardinet",
+        "subject_description": "street in Paris, France",
+        "subject_aliases": "No aliases available",
+        "predicate_label": "length",
+        "predicate_description": "measured dimension of an object",
+        "predicate_aliases": [
+          "distance",
+          "dimension",
+          "size",
+          "long"
+        ],
+        "object_label": "1780 metre",
+        "object_description": "SI unit of length",
+        "object_aliases": [
+          "m",
+          "meter",
+          "meters",
+          "metres",
+          "m\u00e8tre"
+        ],
+        "g_id": 0
+      },
+      {
+        "claim_id": "Q2739134$CABA1599-602A-4727-AB36-2BBC0F8CA40E",
+        "verbalised_claim": "Richland has the local dialing code 541.",
+        "subject_label": "Richland",
+        "subject_description": "city in Oregon, USA",
+        "subject_aliases": [
+          "Richland, Oregon"
+        ],
+        "predicate_label": "local dialing code",
+        "predicate_description": "identifier dedicated to subject city by the area communication network",
+        "predicate_aliases": [
+          "local calling code",
+          "telephone numbering plan",
+          "STD code",
+          "telephone code",
+          "telephone prefix",
+          "dialling code",
+          "area code",
+          "local dialling code"
+        ],
+        "object_label": "541",
+        "object_description": "No description available",
+        "object_aliases": "No aliases available",
+        "g_id": 0
+      },
+      {
+        "claim_id": "Q48246$F6454928-2F01-4F8E-AEB9-072B5FB97659",
+        "verbalised_claim": "Ernst Haeckel is a member of the Bavarian Academy of Sciences and Humanities.",
+        "subject_label": "Ernst Haeckel",
+        "subject_description": "German biologist, naturalist, philosopher, physician, and artist (1834-1919)",
+        "subject_aliases": [
+          "Haeckel",
+          "Ernst Heinrich Philipp August Haeckel",
+          "Ernst Heinrich Haeckel"
+        ],
+        "predicate_label": "member of",
+        "predicate_description": "organization, club or musical group to which the subject belongs. Do not use for membership in ethnic or social groups, nor for holding a position such as a member of parliament (use P39 for that).",
+        "predicate_aliases": [
+          "membership",
+          "band member of",
+          "be member of",
+          "member of musical group"
+        ],
+        "object_label": "Bavarian Academy of Sciences and Humanities",
+        "object_description": "academy of sciences",
+        "object_aliases": "No aliases available",
+        "g_id": 0
+      }
+    ]
+  },
+  {
+    "_id": "3354d67b-f552-40c2-8599-eb7da70ca9d7",
+    "taskSet": [
+      {
+        "claim_id": "Q1147190$DB3A1218-A4E8-4DE8-86CE-509AB756D530",
+        "verbalised_claim": "Strained yogurt is a dish from the Netherlands.",
+        "subject_label": "strained yogurt",
+        "subject_description": "dairy product",
+        "subject_aliases": [
+          "Greek yogurt",
+          "yogurt cheese",
+          "labneh",
+          "chaka",
+          "chakka",
+          "suzma"
+        ],
+        "predicate_label": "country",
+        "predicate_description": "sovereign state of this item (not to be used for human beings)",
+        "predicate_aliases": [
+          "sovereign state",
+          "state",
+          "land",
+          "host country"
+        ],
+        "object_label": "Netherlands",
+        "object_description": "country in western Europe",
+        "object_aliases": [
+          "Holland",
+          "the Netherlands",
+          "NL",
+          "NED",
+          "Nederland",
+          "nl",
+          "Netherlands (after 1945)"
+        ],
+        "g_id": 0
+      },
+      {
+        "claim_id": "Q468077$7893d515-4fdc-dbe6-295d-3cd78f1fdbce",
+        "verbalised_claim": "Eleni Theocharous has an academic degree of Bachelor of Philosophy.",
+        "subject_label": "Eleni Theocharous",
+        "subject_description": "Cypriot politician",
+        "subject_aliases": "No aliases available",
+        "predicate_label": "academic degree",
+        "predicate_description": "academic degree that the person holds",
+        "predicate_aliases": [
+          "degree",
+          "diploma",
+          "academic diploma"
+        ],
+        "object_label": "Bachelor of Philosophy",
+        "object_description": "academic degree",
+        "object_aliases": [
+          "B.Phil.",
+          "B.Ph.",
+          "Ph.B.",
+          "PhB"
+        ],
+        "g_id": 0
+      },
+      {
+        "claim_id": "Q3704333$009e97d0-4801-9f9d-3191-60970ece2ac6",
+        "verbalised_claim": "The media franchise Death the Kid is called Soul Eater.",
+        "subject_label": "Death the Kid",
+        "subject_description": "fictional character from Soul Eater",
+        "subject_aliases": [
+          "Kid"
+        ],
+        "predicate_label": "media franchise",
+        "predicate_description": "this creative work belongs to this media franchise",
+        "predicate_aliases": [
+          "media mix"
+        ],
+        "object_label": "Soul Eater",
+        "object_description": "Japanese manga series",
+        "object_aliases": [
+          "SOUL EATER"
+        ],
+        "g_id": 0
+      },
+      {
+        "claim_id": "Q62815318$CCD4B1D9-6110-41E8-B3D8-0E2818FA5E28",
+        "verbalised_claim": "(42669) 1998 HH33 is followed by (42670) 1998 HY35.",
+        "subject_label": "(42669) 1998 HH33",
+        "subject_description": "asteroid",
+        "subject_aliases": "No aliases available",
+        "predicate_label": "followed by",
+        "predicate_description": "immediately following item in a series of which the subject is a part [if the subject has been replaced, e.g. political offices, use \"replaced by\" (P1366)]",
+        "predicate_aliases": [
+          "continued as",
+          "prequel of",
+          "succeded by",
+          "next is",
+          "precedes",
+          "sequel is",
+          "successor",
+          "preceeds",
+          "comes before",
+          "next",
+          "next element"
+        ],
+        "object_label": "(42670) 1998 HY35",
+        "object_description": "asteroid",
+        "object_aliases": "No aliases available",
+        "g_id": 0
+      },
+      {
+        "claim_id": "Q72989234$eba32589-434c-7184-e892-b855ece43e6a",
+        "verbalised_claim": "Shizuka Takanashi is a child of Kozue Takanashi.",
+        "subject_label": "Shizuka Takanashi",
+        "subject_description": "Working!!'s character",
+        "subject_aliases": "No aliases available",
+        "predicate_label": "child",
+        "predicate_description": "subject has object as child. Do not use for stepchildren",
+        "predicate_aliases": [
+          "son",
+          "daughter",
+          "kid",
+          "has child",
+          "children",
+          "sons",
+          "daughters",
+          "kids",
+          "has children",
+          "has son",
+          "has sons",
+          "has daughter",
+          "has daughters",
+          "has kid",
+          "has kids",
+          "offspring",
+          "progeny",
+          "issue",
+          "parent of",
+          "descendants"
+        ],
+        "object_label": "Kozue Takanashi",
+        "object_description": "Working!!'s character",
+        "object_aliases": "No aliases available",
+        "g_id": {
+          "fluency": [
+            4,
+            5
+          ],
+          "adequacy": [
+            1
+          ]
+        }
+      },
+      {
+        "claim_id": "Q2946099$3a937f1e-4437-1a0e-661c-ecf0860d7fc4",
+        "verbalised_claim": "Alain Badiou is a participant in the University of Vincennes.",
+        "subject_label": "University of Vincennes",
+        "subject_description": "experimental university built in 1968 in the Bois de Vincennes (Paris) and demolished in 1980",
+        "subject_aliases": [
+          "Universit\u00e9 de Vincennes",
+          "centre universitaire de Vincennes",
+          "Universite de Vincennes"
+        ],
+        "predicate_label": "participant",
+        "predicate_description": "person, group of people or organization (object) that actively takes/took part in an event or process (subject).  Preferably qualify with \"object has role\" (P3831). Use P1923 for participants that are teams.",
+        "predicate_aliases": [
+          "participants",
+          "attendee",
+          "player",
+          "competitor",
+          "party",
+          "event participant",
+          "agent",
+          "belligerents",
+          "between",
+          "suspect",
+          "accused"
+        ],
+        "object_label": "Alain Badiou",
+        "object_description": "French writer and philosopher",
+        "object_aliases": "No aliases available",
+        "g_id": {
+          "fluency": [
+            3,
+            4,
+            5
+          ],
+          "adequacy": [
+            0
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "_id": "fe6a6a50-7af1-43f5-a9f9-7f92227386f4",
+    "taskSet": [
+      {
+        "claim_id": "Q1707696$9A4F55E9-26A2-4666-8019-D1AB71FBE277",
+        "verbalised_claim": "Joseph Neuh\u00e4user is a member of the National Socialist German Workers' Party.",
+        "subject_label": "Joseph Neuh\u00e4user",
+        "subject_description": "German composer",
+        "subject_aliases": "No aliases available",
+        "predicate_label": "member of political party",
+        "predicate_description": "the political party of which this politician is or has been a member or otherwise affiliated",
+        "predicate_aliases": [
+          "party",
+          "member of",
+          "member of party",
+          "party membership",
+          "political party member",
+          "political party"
+        ],
+        "object_label": "National Socialist German Workers' Party",
+        "object_description": "Adolf Hitler's far-right fascist party in Germany between 1920 and 1945",
+        "object_aliases": [
+          "Nationalsozialistische Deutsche Arbeiterpartei",
+          "NSDAP",
+          "Nazis",
+          "Nazi Party"
+        ],
+        "g_id": 0
+      },
+      {
+        "claim_id": "Q1839300$BF2F8C98-6742-478A-9E98-EC2962F2E3F4",
+        "verbalised_claim": "Eefje Wentelteefje is a children's television series.",
+        "subject_label": "Eefje Wentelteefje",
+        "subject_description": "No description available",
+        "subject_aliases": "No aliases available",
+        "predicate_label": "genre",
+        "predicate_description": "creative work's genre or an artist's field of work (P101). Use main subject (P921) to relate creative works to their topic",
+        "predicate_aliases": [
+          "music genre",
+          "film genre",
+          "artistic genre",
+          "literary genre",
+          "kind of music",
+          "type of film",
+          "genre of music",
+          "type of music"
+        ],
+        "object_label": "children's television series",
+        "object_description": "television programs designed for, and marketed to children",
+        "object_aliases": [
+          "children's TV series",
+          "kids tv",
+          "kids TV series"
+        ],
+        "g_id": 0
+      },
+      {
+        "claim_id": "Q1970117$bc107a31-4a7b-653e-db58-f077c143d79f",
+        "verbalised_claim": "Hildebrando A Berenguer founded Salinas.",
+        "subject_label": "Salinas",
+        "subject_description": "City & Municipality in Canelones, Uruguay",
+        "subject_aliases": "No aliases available",
+        "predicate_label": "founded by",
+        "predicate_description": "founder or co-founder of this organization, religion or place",
+        "predicate_aliases": [
+          "co-founder",
+          "founders",
+          "established by",
+          "co-founded by",
+          "founder",
+          "started by"
+        ],
+        "object_label": "Hildebrando A. Berenguer",
+        "object_description": "Uruguayan writer",
+        "object_aliases": "No aliases available",
+        "g_id": {
+          "fluency": [
+            4,
+            5
+          ],
+          "adequacy": [
+            0
+          ]
+        }
+      },
+      {
+        "claim_id": "Q72989234$eba32589-434c-7184-e892-b855ece43e6a",
+        "verbalised_claim": "Shizuka Takanashi is a child of Kozue Takanashi.",
+        "subject_label": "Shizuka Takanashi",
+        "subject_description": "Working!!'s character",
+        "subject_aliases": "No aliases available",
+        "predicate_label": "child",
+        "predicate_description": "subject has object as child. Do not use for stepchildren",
+        "predicate_aliases": [
+          "son",
+          "daughter",
+          "kid",
+          "has child",
+          "children",
+          "sons",
+          "daughters",
+          "kids",
+          "has children",
+          "has son",
+          "has sons",
+          "has daughter",
+          "has daughters",
+          "has kid",
+          "has kids",
+          "offspring",
+          "progeny",
+          "issue",
+          "parent of",
+          "descendants"
+        ],
+        "object_label": "Kozue Takanashi",
+        "object_description": "Working!!'s character",
+        "object_aliases": "No aliases available",
+        "g_id": {
+          "fluency": [
+            4,
+            5
+          ],
+          "adequacy": [
+            1
+          ]
+        }
+      },
+      {
+        "claim_id": "Q3703798$964b5093-4f9c-2d61-3cbb-c82eb9be4d15",
+        "verbalised_claim": "Dawnstar's home world is Starhaven.",
+        "subject_label": "Dawnstar",
+        "subject_description": "DC Comics character",
+        "subject_aliases": "No aliases available",
+        "predicate_label": "home world",
+        "predicate_description": "home planet or natural satellite for a fictional character or species",
+        "predicate_aliases": [
+          "homeworld",
+          "home planet"
+        ],
+        "object_label": "Starhaven",
+        "object_description": "fictional planet in the DC Universe",
+        "object_aliases": "No aliases available",
+        "g_id": 0
+      },
+      {
+        "claim_id": "Q632212$9F9F57B3-C45D-4526-BBEB-BB0273F9D1BC",
+        "verbalised_claim": "Storm has a dark skin.",
+        "subject_label": "Storm",
+        "subject_description": "comic book character",
+        "subject_aliases": [
+          "Ororo Munroe"
+        ],
+        "predicate_label": "has quality",
+        "predicate_description": "the entity has an inherent or distinguishing non-material characteristic",
+        "predicate_aliases": [
+          "trait",
+          "inherent property",
+          "attribute",
+          "aspect",
+          "defining feature",
+          "has feature",
+          "has characteristic",
+          "has property",
+          "characterized by",
+          "required property",
+          "quality",
+          "defining parameter",
+          "parameter",
+          "requirement",
+          "defined by"
+        ],
+        "object_label": "dark skin",
+        "object_description": "human skin color",
+        "object_aliases": [
+          "dark skin color",
+          "dark skin colour"
+        ],
+        "g_id": 0
+      }
+    ]
+  },
+  {
+    "_id": "07dac3c3-3603-45c8-aa84-d90c0a079783",
+    "taskSet": [
+      {
+        "claim_id": "Q22703040$8C8636B7-5AA4-492B-9AC8-5990D386C1FA",
+        "verbalised_claim": "Le Trident is different from Le Trident.",
+        "subject_label": "Le Trident",
+        "subject_description": "mountain in Switzerland",
+        "subject_aliases": "No aliases available",
+        "predicate_label": "different from",
+        "predicate_description": "item that is different from another item, with which it is often confused",
+        "predicate_aliases": [
+          "different than",
+          "different to",
+          "is not",
+          "distinct from",
+          "not the same as",
+          "isn't",
+          "distinguished from",
+          "to be distinguished from",
+          "disambiguated from",
+          "not same as",
+          "confused with",
+          "is different from",
+          "mistakenly taken for",
+          "differs from",
+          "differ from",
+          "often confused with",
+          "rejected match",
+          "not to be confused with",
+          "\u2260",
+          "not equal to",
+          "is not the same as",
+          "do not confuse with",
+          "not identical to",
+          "different thing from",
+          "different entity from",
+          "is not same as",
+          "different entity than",
+          "different thing than"
+        ],
+        "object_label": "Le Trident",
+        "object_description": "theatre company in Cherburg, operating three theaters",
+        "object_aliases": "No aliases available",
+        "g_id": 0
+      },
+      {
+        "claim_id": "Q63298499$9EA69100-9860-4324-8B53-F9E9195B5B79",
+        "verbalised_claim": "(203243) 2001 OP64 was followed by (203244) 2001 ON100.",
+        "subject_label": "(203243) 2001 OP64",
+        "subject_description": "asteroid",
+        "subject_aliases": "No aliases available",
+        "predicate_label": "followed by",
+        "predicate_description": "immediately following item in a series of which the subject is a part [if the subject has been replaced, e.g. political offices, use \"replaced by\" (P1366)]",
+        "predicate_aliases": [
+          "continued as",
+          "prequel of",
+          "succeded by",
+          "next is",
+          "precedes",
+          "sequel is",
+          "successor",
+          "preceeds",
+          "comes before",
+          "next",
+          "next element"
+        ],
+        "object_label": "(203244) 2001 ON100",
+        "object_description": "asteroid",
+        "object_aliases": "No aliases available",
+        "g_id": 0
+      },
+      {
+        "claim_id": "Q38097905$9b1c1139-44b5-adc4-43d9-1a577138770a",
+        "verbalised_claim": "Sebastian Langeveld is the general classification of the 2013 Eneco Tour, Stage 5.",
+        "subject_label": "2013 Eneco Tour, Stage 5",
+        "subject_description": "Sittard-Geleen \u2014 Sittard-Geleen, 13.2 km",
+        "subject_aliases": "No aliases available",
+        "predicate_label": "general classification of race participants",
+        "predicate_description": "classification of race participants",
+        "predicate_aliases": [
+          "GC"
+        ],
+        "object_label": "Sebastian Langeveld",
+        "object_description": "Dutch road bicycle racer",
+        "object_aliases": "No aliases available",
+        "g_id": 0
+      },
+      {
+        "claim_id": "Q29238920$321C8846-FCD5-4FA3-BFC9-6829E0025575",
+        "verbalised_claim": "Saint Michel, et son cadre is a genre of religious art.",
+        "subject_label": "Saint Michel, et son cadre",
+        "subject_description": "No description available",
+        "subject_aliases": "No aliases available",
+        "predicate_label": "genre",
+        "predicate_description": "creative work's genre or an artist's field of work (P101). Use main subject (P921) to relate creative works to their topic",
+        "predicate_aliases": [
+          "music genre",
+          "film genre",
+          "artistic genre",
+          "literary genre",
+          "kind of music",
+          "type of film",
+          "genre of music",
+          "type of music"
+        ],
+        "object_label": "religious art",
+        "object_description": "art that is religious in theme",
+        "object_aliases": [
+          "religious heritage",
+          "sacred art",
+          "spiritual art"
+        ],
+        "g_id": {
+          "fluency": [
+            4,
+            5
+          ],
+          "adequacy": [
+            1
+          ]
+        }
+      },
+      {
+        "claim_id": "Q1655471$9d4833bd-4a7e-eb48-ac96-614ca35aa124",
+        "verbalised_claim": "College Park Airport is located in the time zone UTC\u221204:00.",
+        "subject_label": "College Park Airport",
+        "subject_description": "airport in College Park, Maryland, United States",
+        "subject_aliases": [
+          "CGS",
+          "KCGS"
+        ],
+        "predicate_label": "located in time zone",
+        "predicate_description": "time zone for this item",
+        "predicate_aliases": [
+          "timezone",
+          "time zone",
+          "time",
+          "TZ"
+        ],
+        "object_label": "UTC\u221204:00",
+        "object_description": "Identifier for a time offset from UTC of \u22124",
+        "object_aliases": [
+          "Eastern Caribbean Time",
+          "Atlantic Standard Time",
+          "Eastern Daylight Time",
+          "UTC-04:00",
+          "utc-4",
+          "UTC\u20134",
+          "UTC\u22124",
+          "UTC-4"
+        ],
+        "g_id": 0
+      },
+      {
+        "claim_id": "Q2946099$3a937f1e-4437-1a0e-661c-ecf0860d7fc4",
+        "verbalised_claim": "Alain Badiou is a participant in the University of Vincennes.",
+        "subject_label": "University of Vincennes",
+        "subject_description": "experimental university built in 1968 in the Bois de Vincennes (Paris) and demolished in 1980",
+        "subject_aliases": [
+          "Universit\u00e9 de Vincennes",
+          "centre universitaire de Vincennes",
+          "Universite de Vincennes"
+        ],
+        "predicate_label": "participant",
+        "predicate_description": "person, group of people or organization (object) that actively takes/took part in an event or process (subject).  Preferably qualify with \"object has role\" (P3831). Use P1923 for participants that are teams.",
+        "predicate_aliases": [
+          "participants",
+          "attendee",
+          "player",
+          "competitor",
+          "party",
+          "event participant",
+          "agent",
+          "belligerents",
+          "between",
+          "suspect",
+          "accused"
+        ],
+        "object_label": "Alain Badiou",
+        "object_description": "French writer and philosopher",
+        "object_aliases": "No aliases available",
+        "g_id": {
+          "fluency": [
+            3,
+            4,
+            5
+          ],
+          "adequacy": [
+            0
+          ]
+        }
+      }
+    ]
+  }
+]
