@@ -1,5 +1,12 @@
 # Big files
-*.tar.gz
+verb.tar.gz
+WDV.tar.gz
+
+## Big data files at WikidataClaims, all these can be reconstructed by running the scripts in the Repo
+WikidataClaims/data/P31_df.csv
+WikidataClaims/data/final_entity_list.p
+WikidataClaims/data/theme_dfs
+WikidataClaims/data/sampled_dfs
 
 # Python files
 .ipynb_checkpoints

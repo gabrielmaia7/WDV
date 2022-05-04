@@ -22,12 +22,20 @@ There are individual README.md files inside each folder for more detailed descri
 ## The Paper and the Data
 
 You can check our paper here: [link to paper at ArXiv](TBD)
-You can also find the data at figshare here: [link to data at Figshare](TBD)
+
+You can also find the data at figshare here: [link to data at Figshare](https://figshare.com/articles/dataset/WDV/17159045)
 
 ## Citation
 
 ```
-TBD
+@article{WDVAmaral2022,
+    author = "Gabriel Amaral",
+    title = "{WDV}",
+    year = "2022",
+    month = "5",
+    url = "https://figshare.com/articles/dataset/WDV/17159045",
+    doi = "10.6084/m9.figshare.17159045.v1"
+} 
 ```
 
 ## Contact
