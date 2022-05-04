@@ -1,0 +1,28 @@
+{
+    "test": [
+        {
+            "test_avg_loss": 0.7224917411804199,
+            "test_avg_sacrebleu": 39.40668068669528,
+            "test_avg_gen_time": 0.10503686663930509,
+            "test_avg_gen_len": 43.20600858369099,
+            "test_avg_bleu": 59.41,
+            "step_count": -1
+        },
+        {
+            "test_avg_loss": 0.5591329336166382,
+            "test_avg_sacrebleu": 45.7346893442623,
+            "test_avg_gen_time": 0.10804797472849569,
+            "test_avg_gen_len": 44.00819672131148,
+            "test_avg_bleu": 65.51,
+            "step_count": -1
+        },
+        {
+            "test_avg_loss": 0.9001267552375793,
+            "test_avg_sacrebleu": 32.39106964285715,
+            "test_avg_gen_time": 0.10503243220349152,
+            "test_avg_gen_len": 42.098214285714285,
+            "test_avg_bleu": 51.71,
+            "step_count": -1
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+{
+    "input_ids": [
+        "translate Graph to English: <H> Abilene Regional Airport <R> city Served <T> Abilene Texas",
+        "translate Graph to English: <H> Adolfo Suarez Madrid-Barajas Airport <R> location <T> Madrid Paracuellos de Jarama San Sebastian de los Reyes and Alcobendas",
+        "translate Graph to English: <H> Adolfo Suarez Madrid-Barajas Airport <R> runway Name <T> 18L/36R",
+        "translate Graph to English: <H> Afonso Pena International Airport <R> ICAO Location Identifier <T> SBCT",
+        "translate Graph to English: <H> Afonso Pena International Airport <R> city Served <T> Curitiba",
+        "translate Graph to English: <H> Al-Taqaddum Air Base <R> city Served <T> Fallujah",
+        "translate Graph to English: <H> Al-Taqaddum Air Base <R> runway Length <T> 3684.0",
+        "translate Graph to English: <H> Alderney Airport <R> runway Name <T> 14/32"
+    ],
+    "attention_mask": [
+        8,
+        46
+    ],
+    "labels": [
+        "Abilene, Texas is served by the Abilene regional airport.",
+        "Adolfo Su\u00e1rez Madrid\u2013Barajas Airport can be found in Madrid, Paracuellos de Jarama, San Sebasti\u00e1n de los Reyes and Alcobendas.",
+        "The runway name of Adolfo Su\u00e1rez Madrid\u2013Barajas Airport is 18L/36R.",
+        "Afonso Pena International Airport ICAO Location Idenitifier is SBCT.",
+        "Afonso Pena International Airport serves the city of Curitiba.",
+        "The Al Taqaddum Air Base serves the city of Fallujah.",
+        "The runway length of Al-Taqaddum Air Base is 3684.0.",
+        "Alderney Airport runway name is 14/32."
+    ],
+    "ids": [
+        "<pad>",
+        "</s>",
+        "<unk>",
+        "",
+        "X",
+        ".",
+        ",",
+        "s"
+    ],
+    "decoder_input_ids": [
+        "Abilene, Texas is served by the Abilene regional airport.",
+        "Adolfo Su\u00e1rez Madrid\u2013Barajas Airport can be found in Madrid, Paracuellos de Jarama, San Sebasti\u00e1n de los Reyes and Alcobendas.",
+        "The runway name of Adolfo Su\u00e1rez Madrid\u2013Barajas Airport is 18L/36R.",
+        "Afonso Pena International Airport ICAO Location Idenitifier is SBCT.",
+        "Afonso Pena International Airport serves the city of Curitiba.",
+        "The Al Taqaddum Air Base serves the city of Fallujah.",
+        "The runway length of Al-Taqaddum Air Base is 3684.0.",
+        "Alderney Airport runway name is 14/32."
+    ]
+}
