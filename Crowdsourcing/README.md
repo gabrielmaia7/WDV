@@ -40,8 +40,8 @@ This directory holds the data, scripts, and configuration files to actually run 
     - *campaign*: Data used in and collected from the crowdsourcing pilot:
         - *campaign_sampled_df_verbalised.csv*: The claims sampled from Wikidata after passing through verbalisation.
         - *campaign_sampled_df_verbalised_english.csv*: Subset of *campaign_sampled_df_verbalised.csv* with only claim-verbalisation pairs where all labels are in English. Broken down in multiple proportionaly represented campaign groups in order to better manage crowdsourcing expenses.
-        - *campaign_sampled_df_verbalised_unk_fixed.csv*: The data from *campaign_sampled_df_verbalised.csv* with *unk* tokens corrected.
-        - *campaign_sampled_df_verbalised_unk_fixed.csv*: The data from *campaign_sampled_df_verbalised_unk_fixed.csv* merged with the aggregated annotations from the crowd.
+        - *campaign_sampled_df_verbalised_unk_fixed.csv*: The data from *campaign_sampled_df_verbalised.csv* with *unk* tokens manually corrected.
+        - *campaign_sampled_df_verbalised_unk_fixed_crowd_merged_FULL.csv*: The data from *campaign_sampled_df_verbalised_unk_fixed.csv* merged with the aggregated annotations from the crowd.
         - *crowdsourced_campaign_sampled_df_verbalised_english.csv*: A subset of the the data from *campaign_sampled_df_verbalised_english.csv* alongside aggregated annotations from the crowd, but only those entries that were annotated.
         - *batch_1*: Data used in the first batch of the crowdsourcing campaign.
             - *verbalisations.json*: Claim-verbalisation pairs parsed from *campaign_sampled_df_verbalised_english.csv*, except for those selected to be golden data. Campaign groups 1 to 3 were used in batch 1.
@@ -65,7 +65,7 @@ This directory holds the data, scripts, and configuration files to actually run 
         - *LowScoringVerbalisations_NVIVO_Project.nvp*: NVIVO project used to perform the coding.
 - *imgs*: Images outputed by the scripts in *notebooks*, used in the paper.
 - *notebooks*: Jupyter notebooks and Python notebooks that ran the crowdsourcing, as well as processed and analysed the data from the crowdsourcing.
-    - *Full_Dataset_(Not_Only_English)_Breakdown.ipynb*: Analysis of full dataset before engaging with crowdsourcing. 
+    - *Full_Dataset_(Not_Only_English)_Breakdown.ipynb*: Analysis of full dataset before engaging with crowdsourcing. It also manually corrects unk-replacements on verbalisations. Lastly, it combines all verbalised data and crowdsourced annotations into the *WDV_JSON.json* file.
     - *Full_English_Dataset_Stratification_Analysis_(PreCrowdsourcing).ipynb*: Checks each campaign group in the English-only portion of the data to see if they have the same representation of claim types.
     - *GenerateTaskSets.ipynb*: Notebook responsible for taking the data in CSV format straight from the verbalisation stage and transforming it into the TaskSets seen in the data folder. Includes generation of golden data and split of data into separate task sets.
     - *ExperimentRunner.ipynb*: Notebook responsible for putting the tasksets into the HTML templates and sending them to MTurk.
