@@ -1,0 +1,1172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Verbalized Claim Adequacy</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://s3.amazonaws.com/mturk-public/externalHIT_v1.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous" />
+    <style>
+        input[type="range"].unmoved::-webkit-slider-thumb {
+            border: 1px solid #dddddd;
+            background: #dddddd;
+        }
+
+        input[type="range"].unmoved::-moz-range-thumb {
+            border: 1px solid #dddddd;
+            background-color: #dddddd;
+        }
+
+        .btn {border-radius: 0;}
+    </style>
+</head>
+
+<body>
+    <div class="container p-5">
+        
+        <!-- INSTRUCTION PANELS  -->
+        <!-- ------------------------------------------------- -->
+        <!-- THE TOGGLE BUTTON, THE NAVIGATION BUTTONS, THEN THE TEXT.-->
+        <div id='instructions'>
+            <div class="row justify-content-center">
+                <button type="button" class="btn btn-primary col-sm-12 d-none" data-toggle="collapse"
+                    data-target="#instructions-panel" id="instructions-toggle">
+                    <span id="instructions-toggle-text">Show Instructions</span>
+                </button>
+            </div>
+            <div id="instructions-btns" class="row">
+                <button type="button" class="btn btn-primary mr-auto col-sm-2 mb-3 d-none" id="intro-previous">
+                    Previous
+                </button>
+                <button type="button" class="btn btn-primary ml-auto col-sm-2 mb-3" id="intro-next">
+                    Next
+                </button>
+                <button type="button" class="btn btn-success ml-auto col-sm-2 mb-3 d-none" id="ready-button">
+                    Proceed
+                </button+>
+            </div>
+            <div id="instructions-panel" class="row">
+                <div class="col-sm-12 mx-auto border rounded shadow-sm text-center" style="background-color: #f5f5f5;">
+                    <h4 class="text-left mt-3"><strong>Task instructions</strong></h4>
+                    <div class="text-left">
+                        <div id="instructions-0" class="instructions active">
+                            <h5><b>Project</b></h5>
+                            <div id="instructions-project-text">
+                                <p>We are researchers at King's College London (United Kingdom), currently conducting research
+                                to verify certain quality aspects of <a href='https://wikidata.org' target='_blank'>Wikidata</a>,
+                                an open knowledge base which gathers claims and references to support these claims. This study is funded by
+                                the European Union's Horizon 2020 research and innovation programme under grant agreement No 780247.
+                                No personal information will be collected during this experiment and all data will be completely anonymous.
+                                There are no potential risks from participating, be them pyshical, psychological, legal, or any other type, and no way of identifying your personal details.</p>
+                                <p>After you've submitted your responses, you can withdraw them by contacting the researchers (see next paragraph). The data collected in this
+                                study will consist only of your inputs, the time you spent on the task and which buttons you clicked.
+                                It will be stored in a password protected computer and analysed for research purposes and its results published
+                                on academic journals.</p>
+                                <p>This experiment has received ethical clearance on the 30th of July of 2021 by KCL, with
+                                registration number MRA-20/21-25957. The data controller for this project will be King's College London (KCL).
+                                Research is a task that the University carries out in the public interest. Your data will be processed in accordance
+                                with the standards set by the General Data Protection Regulation 2016 (GDPR). If you have any questions or need further
+                                assistance, please contact the researcher responsible for this study at
+                                <a href='mailto:k2031554@kcl.ac.uk'>k2031554@kcl.ac.uk</a>.</p>
+                                <p>By continuing with the task, you <b>agree</b> to take part in this research project and consent for
+                                the data collected to be used for the purpose of this study. Participation is voluntary and you may cancel
+                                the task at anytime for any reason before submitting it.</p>
+                                <p><b>Please note</b> that, in order for you to
+                                proceed with the task, you'll need to have a good comprehension of the English language! <b>This will be
+                                measured by a very short and simple quiz</b>.</p>
+                            </div>
+                        </div>
+                        <div id="instructions-1" class="instructions d-none">
+                            <h5><b>Task Overview</b></h5>
+                            <div id="instructions-intro-text">
+                                <p>
+                                    In this task, we want your help verifying how adequately some information is written. You will be asked to take a look
+                                    at six pairs of information. Each pair consists of an English sentence and a triple formed by a subject, a predicate, and an object. Your goal is to
+                                    identify whether the triple and the sentence convey the same information. To help you, whenever possible, we will provide you with descriptions and aliases (alternative names)
+                                    for the subject, predicate, and object.
+                                </p>
+                                <p>
+                                    For each pair, you will be asked to select between <b>Yes</b>, <b>No</b>, and <b>Not Sure</b> values, telling us if the pair communicates the same information.
+                                    In case you select <b>No</b> or <b>Not Sure</b> we will ask you to select a reason from a predefined list.
+                                </p>
+                                <p>
+                                    If your reason for selecting either No or Not Sure is <i>Other</i>, a little box will appear for you to tell us what it was.
+                                    Please provide a simple but informative reason, as we are trying to improve this task in order to cost you and others less time to complete!
+                                </p>
+                                <p>
+                                    <b>Please note: </b>
+                                    <ul>
+                                        <li>
+                                            We are not asking if the information is true. Even if the information is potentially or provably false, or goes against some common sense, please judge only if it is the same or different.
+                                        </li>
+                                        <li>
+                                            Some elements in the sentence or triple might be written in a language other than English, or have one or many grammatical errors.
+                                            <!--This will only happen for entities, such as people, places, etc, where their names were originally given to us in their native language.-->
+                                            Please <b>do not consider these</b> as a defect to the adequacy of the pair, unless it truly changes the information being communicated. If it makes the sentence impossible to understand, select <b>Not Sure</b>.
+                                        </li>                          
+                                        <li>
+                                            Some characters in the sentence might be replaced by the special token <b>??</b> (two question marks). If that does not affect the meaning of the sentence, please do not take it into consideration.
+                                        </li>
+                                        
+                                    </ul>
+                                </p>
+                            </div>
+                        </div>
+                        <div id="instructions-2" class="instructions d-none">
+                            <h5><b>Examples</b></h5>
+
+                            <h6><b>Example #1</b></h6>
+                            <p>
+                                Sentence: Bill de Blasio is the Mayor of New York City.
+                                <br>
+                                Triple:
+                                <br>
+                                &emsp; <b>Subject</b>: New York City
+                                <br>
+                                &emsp; &emsp; Description: largest city in the United States
+                                <br>
+                                &emsp; &emsp; Aliases: NYC, New York, the five boroughs, Big Apple, City of New York, NY City, New York, New York, New York City, New York, New York, NY, New York City (NYC)
+                                <br>
+                                
+                                &emsp; <b>Predicate</b>: head of government
+                                <br>
+                                &emsp; &emsp; Description: head of the executive power of this town, city, municipality, state, country, or other governmental body
+                                <br>
+                                &emsp; &emsp; Aliases: mayor, prime minister, premier, first minister, head of national government, chancellor, governor, government headed by, executive power headed by, president
+                                <br>
+                                
+                                &emsp; <b>Object</b>: Bill de Blasio          
+                                <br>
+                                &emsp; &emsp; Description: 109th Mayor of New York City
+                                <br>
+                                &emsp; &emsp; Aliases: Warren Wilhelm, Jr., Bill deBlasio, Warren Wilhelm Jr.
+                                <br>
+                                <br>
+                                The triple is read as New York City -> head of government -> Bill the Blasio. Here, both the sentence and the triple seem to suggest that Bill de Blasio is the mayor of NY, so we can select <b>Yes</b>.
+                            </p>
+
+                            <h6><b>Example #2</b></h6>
+                            <p>
+                                Sentence: Mona Lisa painted was was in the 1500s.
+                                <br>
+                                Triple:
+                                <br>
+                                &emsp; <b>Subject</b>: Mona Lisa
+                                <br>
+                                &emsp; &emsp; Description: oil painting by Leonardo da Vinci
+                                <br>
+                                &emsp; &emsp; Aliases: La Joconde, La Gioconda
+                                <br>
+                                
+                                &emsp; <b>Predicate</b>: inception
+                                <br>
+                                &emsp; &emsp; Description: date or point in time when the subject came into existence as defined
+                                <br>
+                                &emsp; &emsp; Aliases: date founded, date created, incorporated, foundation, created, date of foundation, ...
+                                <br>
+                                
+                                &emsp; <b>Object</b>: 1500s
+                                <br>
+                                &emsp; &emsp; Description: None
+                                <br>
+                                &emsp; &emsp; Aliases: None
+                                <br>
+                                <br>
+                                The triple is read as Mona Lisa -> inception -> 1500s. Considering the predicate's description, both the sentence (even with lots of grammatical errors) and the triple seem to suggest that the Mona Lisa was painted in the 1500s, so we can select <b>Yes</b>.
+                            </p>
+
+                            <h6><b>Example #3</b></h6>
+                            <p>
+                                Sentence: Преобра<b>??</b>енский was born in 1950
+                                <br>
+                                Triple:
+                                <br>
+                                &emsp; <b>Subject</b>: Преображенский
+                                <br>
+                                &emsp; &emsp; Description: None
+                                <br>
+                                &emsp; &emsp; Aliases: None
+                                <br>
+                                
+                                &emsp; <b>Predicate</b>: date of birth
+                                <br>
+                                &emsp; &emsp; Description: date on which the subject was born
+                                <br>
+                                &emsp; &emsp; Aliases: born on, birth date, birthdate, birth year, year of birth, birthyear, DOB
+                                <br>
+                                
+                                &emsp; <b>Object</b>: 3 February 1939
+                                <br>
+                                &emsp; &emsp; Description: None
+                                <br>
+                                &emsp; &emsp; Aliases: 3/02/1939, February 3rd 1939, 3 Feb 1939
+                                <br>
+                                <br>
+                                The triple is read as "Преображенский" -> date of birth -> 3 February 1939. Note that the subjects seem to be the same, even if not written in English, and even if <b>ж</b> was replaced by <b>??</b>, so that is <b>not</b> a reason for inadequacy. However, there seems to be conflicting information, with the sentence pointing to 1950 but the triple to 1939, so we can select <b>No</b> because of it. A fitting reason would be <i>The object of the triple and the object of the sentence are different entities or values.</i>
+                            </p>
+
+                            <h6><b>Example #4</b></h6>
+                            <p>
+                                Sentence: Stilleven met likeurfles is a still life photography.
+                                <br>
+                                Triple:
+                                <br>
+                                &emsp; <b>Subject</b>: Stilleven met likeurfles
+
+                                <br>
+                                &emsp; &emsp; Description: painting by A.J.G. Colnot
+                                <br>
+                                &emsp; &emsp; Aliases: None
+                                <br>
+                                
+                                &emsp; <b>Predicate</b>: genre
+                                <br>
+                                &emsp; &emsp; Description: creative work's genre or an artist's field of work (P101). Use main subject (P921) to relate creative works to their topic
+                                <br>
+                                &emsp; &emsp; Aliases: music genre, film genre, artistic genre, literary genre, kind of music, type of film, genre of music, type of music
+                                <br>
+                                
+                                &emsp; <b>Object</b>: still life
+                                <br>
+                                &emsp; &emsp; Description: art genre
+                                <br>
+                                &emsp; &emsp; Aliases: still-life art, nature morte, bodegón, still-life, bodegon
+                                <br>
+                                <br>
+                                The triple is read as Stilleven met likeurfles -> genre -> still life. Here, both the sentence and the triple seem to suggest that the genre of Stilleven met likeurfles is still life. However, there is additional information on the sentence that conflicts with details of the triple; the sentence claims that Stilleven met likeurfles is a photography, while the subject's description claims it is a painting , so we can select <b>No</b>. A fitting reason would be <i> The sentence introduces additional information that conflicts with descriptions given with the triple.</i>
+                            </p>
+
+                            <h6><b>Not Sure</b></h6>
+                            <p>
+                                Sometimes, sentences might be full of foreign words and/or grammar mistakes that make the sentence impossible to judge. For any pair where you <i>legitimately</i> can not arrive at a conclusion, you can mark <b>Not Sure</b>, provide a fitting reason and move on.
+                            </p>
+                        </div>
+                        <div id="instructions-3" class="instructions d-none">
+                            <h5><b>Task rules</b></h5>
+                            <p id="instructions-rules-text">
+                                <ul>
+                                    <li>
+                                        You can navigate freely through the pairs using the buttons at the bottom of the page.
+                                    </li>
+                                    <li>
+                                        You must fill all the information requested. This means always clicking either Yes, No, or Not Sure, and providing a reason <b>if</b> you selected either No or Not Sure. This also means providing another reason if you chose <i>Other</i>.
+                                    </li>
+                                    <li>
+                                        At the end of the task, we check the some indicators of the quality of your work, to make sure you are not a spammer. If you don't pass the test, you can try two more times, for a total of three trials. If you fail three times, the task ends and the work is not accepted.
+                                    </li>
+                                    <li>
+                                        This task will need you to have a good comprehension of English. Please answer the following short English language test and click on the green button to proceed. You can try the language test three times.
+                                    </li>
+                                    <li>
+                                        You can open these instructions again anytime you wish.
+                                    </li>
+                                    <li>
+                                        Make sure you are using either Chrome, Firefox or Edge. <b>Do not use Internet Explorer.</b>
+                                    </li>
+                                </ul>
+                            </p>
+                        </div>
+                        <div id="instructions-4" class="instructions d-none">
+                            <div id="attention_test" class="text-left">
+                                <p><b>Attention Test:</b> Short English Quiz</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br />
+
+        <!-- TASK PANELS  -->
+        <!-- ------------------------------------------------- -->
+        <!-- THE TASK ITSELF. FILL AS NEEDED PER THE TASK.-->
+        <div id="task-panel" class="row d-none">
+            <div class="col-sm-12 mx-auto border rounded shadow-sm" style="background-color: #f5f5f5;">
+                <h4 class="text-left mt-3">
+                    Sentence <strong><span id="current-page"></span></strong> of
+                    <strong><span id="n-pages"></span></strong>:
+                </h4>
+                <br/>   
+                <!---->
+                <div class="row d-flex justify-content-center">
+                    <div class="col-sm-11 pr-0 pl-0">
+                        <h5>Read the following sentence:</h5>
+                    </div>
+                </div>
+                <div class="row d-flex justify-content-center">
+                    <div class="col-sm-11 bg-light border rounded p-2" style="width: 100%;">
+                        <p><span id="verbalised_claim"></span></p>
+                    </div>
+                </div>
+                <br/>
+                <!---->
+                <div class="row d-flex justify-content-center">
+                    <div class="col-sm-11 pr-0 pl-0">
+                        <h5>This sentence is a verbalisation of this subject-predicate-object triple:</h5>
+                    </div>
+                </div>
+                <div class="row d-flex justify-content-center">
+                    <div class="col-sm-11 bg-light border rounded p-2">
+                        <p><b>Subject:</b> <span id="claim_subject_label"></span></p>
+                        <p>&emsp;Description: <span id="claim_subject_description"></span></p>
+                        <p>&emsp;Aliases: <span id="claim_subject_aliases"></span></p>
+                    </div>
+                    <div class="col-sm-11 bg-light border rounded p-2">                        
+                        <p><b>Predicate:</b> <span id="claim_predicate_label"></span></p>
+                        <p>&emsp;Description: <span id="claim_predicate_description"></span></p>
+                        <p>&emsp;Aliases: <span id="claim_predicate_aliases"></span></p>
+                    </div>
+                    <div class="col-sm-11 bg-light border rounded p-2">
+                        <p><b>Object:</b> <span id="claim_object_label"></span></p>
+                        <p>&emsp;Description: <span id="claim_object_description"></span></p>
+                        <p>&emsp;Aliases: <span id="claim_object_aliases"></span></p>
+                    </div>
+                </div>
+                <br />
+                <!---->
+                <div class="row d-flex justify-content-center">
+                    <div class="col-sm-11 pr-0 pl-0">
+                        <h5>Are both the sentence and the triple conveying the same information?</h5>
+                    </div>
+                </div>
+                <div class="row d-flex justify-content-center">
+                    <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                        <label id="adequacy_yes" class="btn btn-primary adequacy-button" style="width: 200px;">
+                            <input type="radio" autocomplete="off"> Yes
+                        </label>
+                        <label id="adequacy_no" class="btn btn-primary adequacy-button" style="width: 200px;">
+                            <input type="radio" autocomplete="off"> No
+                        </label>
+                        <label id="adequacy_not_sure" class="btn btn-primary adequacy-button" style="width: 200px;">
+                            <input type="radio" autocomplete="off"> Not Sure
+                        </label>
+                    </div>
+                </div>
+                <br />
+                <!---->
+                <div id="reasons-no-panel" class=''>
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-sm-11 pr-0 pl-0">
+                            <h5>If you marked <b>No</b>, please select one of the reasons why:</h5>
+                        </div>
+                    </div>
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-sm-11 pr-0 pl-0">
+                            <div id="reason_no_buttons" class="btn-group btn-group-vertical" data-toggle="buttons" style="width: 100%;">
+                                <label id="reason_no_0" class="btn btn-primary text-left reason_no_button">
+                                    <input type="radio" autocomplete="off" value='unavailable' name='reason_no_radios'> The subject of the triple and the subject of the sentence are different entities.
+                                </label>
+                                <label id="reason_no_1" class="btn btn-primary text-left reason_no_button">
+                                    <input type="radio" autocomplete="off" value='unavailable' name='reason_no_radios'> The predicate of the triple is not properly reflected in the sentence according to its description.
+                                </label>
+                                <label id="reason_no_2" class="btn btn-primary text-left reason_no_button">
+                                    <input type="radio" autocomplete="off" value='unavailable' name='reason_no_radios'> The object of the triple and the object of the sentence are different entities or values.
+                                </label>
+                                <label id="reason_no_3" class="btn btn-primary text-left reason_no_button">
+                                    <input type="radio" autocomplete="off" value='unavailable' name='reason_no_radios'> A combination of the above: two or more of subject, predicate and object do not match.
+                                </label>
+                                <label id="reason_no_4" class="btn btn-primary text-left reason_no_button">
+                                    <input type="radio" autocomplete="off" value='unavailable' name='reason_no_radios'> The sentence introduces additional information that conflicts with descriptions given with the triple.
+                                </label>
+                                <div class='container pl-0 pr-0 text-left' style="margin-left: -1px;margin-right: 0px;border-left-style: solid;border-left-width: 0px;">
+                                    <label id="reason_no_5" class="btn btn-primary text-left reason_no_button col-sm-2">
+                                        <input type="radio" autocomplete="off" value='unavailable' name='reason_no_radios'> Other:
+                                    </label>
+                                    <input id="reason_no_other" type="text" autocomplete="off" placeholder='type a reason here' class='h-75 w-75'>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!---->
+                <div id="reasons-not-sure-panel" class=''>
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-sm-11 pr-0 pl-0">
+                            <h5>If you marked <b>Not Sure</b>, please select one of the reasons why:</h5>
+                        </div>
+                    </div>
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-sm-11 pr-0 pl-0">
+                            <div id="reason_not_sure_buttons"  class="btn-group btn-group-vertical" data-toggle="buttons" style="width: 100%;">
+                                <label id="reason_not_sure_0" class="btn btn-primary text-left reason_not_sure_button">
+                                    <input type="radio" autocomplete="off" value='unavailable' name='reason_not_sure_radios'> The sentence refers to the subject through an unrecognizable or confusing alias or label.
+                                </label>
+                                <label id="reason_not_sure_1" class="btn btn-primary text-left reason_not_sure_button">
+                                    <input type="radio" autocomplete="off" value='unavailable' name='reason_not_sure_radios'> It is not clear if the sentence is using the same predicate from the triple.
+                                </label>
+                                <label id="reason_not_sure_2" class="btn btn-primary text-left reason_not_sure_button">
+                                    <input type="radio" autocomplete="off" value='unavailable' name='reason_not_sure_radios'> The sentence refers to the object through an unrecognizable or confusing alias, label or measure unit.
+                                </label>
+                                <label id="reason_not_sure_3" class="btn btn-primary text-left reason_not_sure_button">
+                                    <input type="radio" autocomplete="off" value='unavailable' name='reason_not_sure_radios'> The sentence is mostly not in English, or its meaning is ambiguous, vague, or hard to understand.
+                                </label>
+                                <label id="reason_not_sure_4" class="btn btn-primary text-left reason_not_sure_button">
+                                    <input type="radio" autocomplete="off" value='unavailable' name='reason_not_sure_radios'> The triple's information (labels, descriptions, aliases) is not clear enough to understand it.
+                                </label>
+                                <div class='container pl-0 pr-0 text-left' style="margin-left: -1px;margin-right: 0px;border-left-style: solid;border-left-width: 0px;">
+                                    <label id="reason_not_sure_5" class="btn btn-primary text-left reason_not_sure_button col-sm-2">
+                                        <input type="radio" autocomplete="off" value='unavailable' name='reason_not_sure_radios'> Other:
+                                    </label>
+                                    <input id="reason_not_sure_other" type="text" autocomplete="off" placeholder='type a reason here' class='h-75 w-75'>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!---->
+                <div class="row p-3">
+                    <button type="button" class="btn btn-primary col-sm-2 mr-auto" id="previous-page">
+                        Previous
+                    </button>
+                    <button type="button" class="btn btn-success col-sm-2 ml-auto" id="presubmit" data-toggle="modal"
+                        data-target="#submitModal">
+                        Submit
+                    </button>
+                    <button type="button" class="btn btn-primary col-sm-2 ml-auto" id="next-page">
+                        Next
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODALS -->
+    <!-- ------------------------------------------------- -->
+    <!-- SUBMIT MODAL-->
+    <div class="modal" id="submitModal">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title mx-auto">Submit your work?</h4>
+                </div>
+                <!-- Modal body -->
+                <div class="modal-body">
+                    Please make sure every question has been properly answered before
+                    submitting your work. Incomplete work will not be rewarded!
+                </div>
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <input type="button" class="btn btn-danger ml-auto" data-dismiss="modal" value="Cancel" />
+                    <input type="button" class="btn btn-success mr-auto" data-dismiss="modal" value="Submit"
+                        id="submit" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ATTENTION TASK FAILURE MODAL -->
+    <div class="modal" id="attErrorModal">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title mx-auto">Warning</h4>
+                </div>
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <span id="att_warning_text">You didn't pass the attention test. Please review your
+                        answers and try again!</span>
+                </div>
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <input type="button" class="btn btn-warning mx-auto" data-dismiss="modal" value="OK"
+                        id="att_close_error" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- QUALITY CHECK FAILURE MODAL -->
+    <div class="modal" id="errorModal">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title mx-auto">Warning</h4>
+                </div>
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <span id="warning-text">Your answer didn't pass our quality check. Please review your
+                        answers and try again!</span>
+                    <span id="warning-hints"></span>
+                </div>
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <input type="button" class="btn btn-warning mx-auto" data-dismiss="modal" value="OK"
+                        id="close_error" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- SUCCESS MODAL -->
+    <div class="modal" id="successModal">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title mx-auto">Success!</h4>
+                </div>
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <span id="success-text">Your answer passed our quality check! Press finish to submit
+                        them. We appreciate any feedback you may have on the task.</span>
+                </div>
+                <textarea class="form-control" rows="5" id="feedback_text"
+                    placeholder="Type your feeback here ..."></textarea>
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <input type="button" class="btn btn-success mx-auto" data-dismiss="modal" value="Finish"
+                        id="close_success" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- RETURNED VARIABLES AND SUBMIT BUTTON.-->
+    <form name="mturk_form" method="post" id="mturk_form" action="https://www.mturk.com/mturk/externalSubmit">
+        <input type="hidden" name="assignmentId"    value="" id="assignmentId" />
+        <input type="hidden" name="outputs"         value="" id="outputs" />
+        <input type="hidden" name="times"           value="" id="times" />
+        <input type="hidden" name="events"          value="" id="events" />
+        <input type="hidden" name="feedback"        value="" id="feedback" />
+
+        <input type="submit" id="submitButton" style="visibility: hidden;" />
+    </form>
+
+    <!-- TASK LOGIC -->
+    <script language="Javascript">
+        // INITIALIZATION LOGIC
+        // ---------------------------------------------------------------- //
+        let verbalisations = [
+            {
+                "claim_id":"Q30085887$193fbf40-4d7b-ab6c-98df-affb6307a023",
+                "verbalised_claim":"Proteas Voulas B.C. (women's basketball) is located in Voula.",
+                "subject_label":"Proteas Voulas B.C. (women's basketball)",
+                "subject_description":"Basketball team based in Voula, Attica, Greece.",
+                "subject_aliases":[
+                    "A.E.O. Proteas Voulas",
+                    "Proteas Voulas"
+                ],
+                "predicate_label":"location of formation",
+                "predicate_description":"location where a group or organization was formed",
+                "predicate_aliases":[
+                    "originates from",
+                    "comes from",
+                    "place of foundation",
+                    "founded in",
+                    "formation location",
+                    "source location of group/organisation",
+                    "formed in",
+                    "from",
+                    "place of formation",
+                    "place of incorporation"
+                ],
+                "object_label":"Voula",
+                "object_description":"human settlement in Athens",
+                "object_aliases":"No aliases available",
+                "g_id":{
+                    "fluency":[
+                        2,
+                        3,
+                        4,
+                        5
+                    ],
+                    "adequacy":[
+                        0,
+                        2
+                    ]
+                }
+            },
+            {
+                "claim_id":"Q54607217$f6975959-4cbf-5f98-75f1-86630b82403d",
+                "verbalised_claim":"A8 is different from A8.",
+                "subject_label":"A8",
+                "subject_description":"cell line",
+                "subject_aliases":[
+                    "A-8"
+                ],
+                "predicate_label":"different from",
+                "predicate_description":"item that is different from another item, with which it is often confused",
+                "predicate_aliases":[
+                    "different than",
+                    "different to",
+                    "is not",
+                    "distinct from",
+                    "not the same as",
+                    "isn't",
+                    "distinguished from",
+                    "to be distinguished from",
+                    "disambiguated from",
+                    "not same as",
+                    "confused with",
+                    "is different from",
+                    "mistakenly taken for",
+                    "differs from",
+                    "differ from",
+                    "often confused with",
+                    "rejected match",
+                    "not to be confused with",
+                    "≠",
+                    "not equal to",
+                    "is not the same as",
+                    "do not confuse with",
+                    "not identical to",
+                    "different thing from",
+                    "different entity from",
+                    "is not same as",
+                    "different entity than",
+                    "different thing than"
+                ],
+                "object_label":"A8",
+                "object_description":"Wikimedia disambiguation page",
+                "object_aliases":"No aliases available",
+                "g_id":{
+                    "fluency":[
+                        3,
+                        4,
+                        5
+                    ],
+                    "adequacy":[
+                        0,
+                        2
+                    ]
+                }
+            },
+            {
+                "claim_id":"Q5859109$7288c2d7-40fd-cf2e-fa3e-5d614d0c7679",
+                "verbalised_claim":"Fernando Abad Bécquer is a second family name in Spanish.",
+                "subject_label":"Fernando Abad Bécquer",
+                "subject_description":"Spanish politician",
+                "subject_aliases":[
+                    "Fernando Abad Becquer"
+                ],
+                "predicate_label":"second family name in Spanish name",
+                "predicate_description":"second (generally maternal) family name in Spanish names (do not use for other double barrelled names)",
+                "predicate_aliases":[
+                    "Spanish maternal name",
+                    "second surname in Spanish name",
+                    "maternal surname",
+                    "Spanish second name",
+                    "second Spanish name"
+                ],
+                "object_label":"Bécquer",
+                "object_description":"family name",
+                "object_aliases":"No aliases available",
+                "g_id":0
+            },
+            {
+                "claim_id":"Q65068358$078d2a36-afeb-42ce-8fce-a2630a771955",
+                "verbalised_claim":"Sgùrr a' Choire-bheithe is in the historic county of Inverness-shire.",
+                "subject_label":"Sgùrr a' Choire-bheithe",
+                "subject_description":"mountain in Highland, Scotland, UK",
+                "subject_aliases":"No aliases available",
+                "predicate_label":"historic county",
+                "predicate_description":"traditional, geographical division of Great Britain and Ireland",
+                "predicate_aliases":[
+                    "ancient or geographic county",
+                    "traditional county",
+                    "located in historic UK county",
+                    "located in historic county of Ireland"
+                ],
+                "object_label":"Inverness-shire",
+                "object_description":"historic county of Scotland",
+                "object_aliases":[
+                    "County of Inverness"
+                ],
+                "g_id":0
+            },
+            {
+                "claim_id":"Q1192962$9cfd114e-36c1-478d-abd0-0a98cdd7bab5",
+                "verbalised_claim":"Raleigh–Durham International Airport has 20489 followers on social media.",
+                "subject_label":"Raleigh–Durham International Airport",
+                "subject_description":"Airport near Raleigh and Durham, North Carolina, USA",
+                "subject_aliases":[
+                    "RDU",
+                    "KRDU"
+                ],
+                "predicate_label":"social media followers",
+                "predicate_description":"number of subscribers on a particular social media website (use as main statement only; see P3744 instead for qualifier). Qualify with \"point in time\" and property for account. For Twitter, use numeric id.",
+                "predicate_aliases":[
+                    "followers",
+                    "number of followers",
+                    "number of subscribers"
+                ],
+                "object_label":"20489",
+                "object_description":"No description available",
+                "object_aliases":"No aliases available",
+                "g_id":0
+            },
+            {
+                "claim_id":"Q19249955$47022AE9-8A24-44F9-94C1-9E7AE8027492",
+                "verbalised_claim":"Herfststraat started in 1971.",
+                "subject_label":"Herfststraat",
+                "subject_description":"street in Amsterdam-Zuidoost, the Netherlands",
+                "subject_aliases":"No aliases available",
+                "predicate_label":"start time",
+                "predicate_description":"time an item begins to exist or a statement starts being valid",
+                "predicate_aliases":[
+                    "from",
+                    "starting",
+                    "began",
+                    "from time",
+                    "since",
+                    "from date",
+                    "building date",
+                    "starttime",
+                    "introduced",
+                    "introduction",
+                    "started in",
+                    "beginning",
+                    "join date",
+                    "join time",
+                    "start date"
+                ],
+                "object_label":"1971",
+                "object_description":"No description available",
+                "object_aliases":"No aliases available",
+                "g_id":0
+            }
+            ]
+        let attention_questions = [{"question": "He advised me ___ the doctor.", "options": ["that I see", "to see", "seeing", "see"], "answer": 1}, {"question": "Jane's ___ nice and polite.", "options": ["a", "from", "very", "at"], "answer": 2}, {"question": "You ___ to come if you don't want to.", "options": ["don't need", "needn't", "needn't have", "didn't need"], "answer": 0}, {"question": "By the time you arrive ___", "options": ["he'll leave", "he'll have left", "he leaves", "he left"], "answer": 1}]; 
+
+        let total = verbalisations.length;
+
+        var outputs = [];
+        // DEFAULT OUTPUTS IN JSON FORMAT, EX:  { similarity: -1, confidence: -1, reason: "" }
+        // REPLACES THE GD FIELD WITH THE PROPER SET
+        for (i = 0; i < total; i++) {
+            outputs[i] = {adequacy: -1, reason_no: -1, reason_not_sure: -1, reason_no_other: "", reason_not_sure_other: ""};
+            /*if (verbalisations[i]['g_id'] != 0){
+                verbalisations[i]['g_id'] = verbalisations[i]['g_id']['adequacy'];
+            }*/
+        }
+
+        var events = [];
+
+        function log_event(event_type, event_attr) {
+            event_obj = {
+                timestamp: new Date(),
+                type: event_type
+            };
+            if (event_attr != null) {
+                event_obj.attr = event_attr;
+            }
+            events.push(event_obj);
+        }
+
+        log_event("page_displayed", null);
+
+        var times = Array(total).fill(0.0);
+        var lastChange = null;
+
+        taskFailCount = 0;
+        attentionFailCount = 0;
+   
+
+        for (i = 0; i < attention_questions.length; i++) {
+            $('#attention_test').append(`<p class="mb-0">${attention_questions[i]['question']}</p>`)
+            $('#attention_test').append(`<div id="att_quest_${i}" class="btn-group btn-group-toggle mb-3" data-toggle="buttons">`)
+            for (j = 0; j < attention_questions[i]['options'].length; j++)
+                $(`#att_quest_${i}`).append(`<label class="btn btn-primary"><input type="radio" autocomplete="off" value=${j} name='att_quest_${i}'>${attention_questions[i]['options'][j]}<br/></label>`)
+        }
+
+        $("#n-pages").text(total);
+
+        
+        // FUNCTIONS
+        // ---------------------------------------------------------------- //
+
+        function showContent(currentPage) {
+            if (lastChange) {
+                times[parseInt($("#current-page").text()) - 1] +=
+                    Date.now() - lastChange;
+            }
+            $("#current-page").text(currentPage);
+            if (currentPage == 1) {
+                $("#previous-page").hide();
+                $("#next-page").show();
+                $("#presubmit").hide();
+            } else if (currentPage == total) {
+                $("#previous-page").show();
+                $("#next-page").hide();
+                $("#presubmit").show();
+            } else {
+                $("#previous-page").show();
+                $("#next-page").show();
+                $("#presubmit").hide();
+            }
+            pageIndex = currentPage - 1;
+            output = outputs[pageIndex];
+
+            if (output["adequacy"] == -1) {
+                $("#adequacy_yes").removeClass('active');                
+                $("#adequacy_no").removeClass('active');             
+                $("#adequacy_not_sure").removeClass('active');
+                $('#reasons-no-panel').addClass('d-none')
+                $('#reasons-not-sure-panel').addClass('d-none')
+            } else if (output["adequacy"] == 0) {
+                $("#adequacy_yes").addClass('active');                
+                $("#adequacy_no").removeClass('active');             
+                $("#adequacy_not_sure").removeClass('active');
+                $('#reasons-no-panel').addClass('d-none')
+                $('#reasons-not-sure-panel').addClass('d-none')
+            } else if (output["adequacy"] == 1) {
+                $("#adequacy_yes").removeClass('active');                
+                $("#adequacy_no").addClass('active');             
+                $("#adequacy_not_sure").removeClass('active');
+                $('#reasons-no-panel').removeClass('d-none')
+                $('#reasons-not-sure-panel').addClass('d-none')
+            } else if (output["adequacy"] == 2) {
+                $("#adequacy_yes").removeClass('active');                
+                $("#adequacy_no").removeClass('active');             
+                $("#adequacy_not_sure").addClass('active');
+                $('#reasons-no-panel').addClass('d-none')
+                $('#reasons-not-sure-panel').removeClass('d-none')
+            }
+
+            for (i = 0; i < $('#reason_no_buttons').children().length; i++) {
+                if (output['reason_no'] == i){
+                    $(`#reason_no_${i}`).addClass("active");
+                    $(`#reason_no_${i}`).children('input').prop('checked',true)
+                } else {
+                    $(`#reason_no_${i}`).removeClass("active");
+                    $(`#reason_no_${i}`).children('input').prop('checked',false)
+                }
+            }
+
+            for (i = 0; i < $('#reason_not_sure_buttons').children().length; i++) {
+                if (output['reason_not_sure'] == i){
+                    $(`#reason_not_sure_${i}`).addClass("active");
+                    $(`#reason_not_sure_${i}`).children('input').prop('checked',true)
+                } else {
+                    $(`#reason_not_sure_${i}`).removeClass("active");
+                    $(`#reason_not_sure_${i}`).children('input').prop('checked',false)
+                }
+            }
+
+            if (output["reason_no_other"].replace(/\s+/g, "") != ""){
+                $('#reason_no_other').val(output["reason_no_other"]);
+            } else {
+                $('#reason_no_other').val("");
+            }
+
+            if (output["reason_not_sure_other"].replace(/\s+/g, "") != ""){
+                $('#reason_not_sure_other').val(output["reason_not_sure_other"]);
+            } else {
+                $('#reason_not_sure_other').val("");
+            }
+
+            $("#verbalised_claim").text(verbalisations[pageIndex]["verbalised_claim"]);
+
+            $("#claim_subject_label").text(verbalisations[pageIndex]["subject_label"]);
+            $("#claim_predicate_label").text(verbalisations[pageIndex]["predicate_label"]);
+            $("#claim_object_label").text(verbalisations[pageIndex]["object_label"]);            
+
+            $("#claim_subject_description").text(verbalisations[pageIndex]["subject_description"]);
+            $("#claim_predicate_description").text(verbalisations[pageIndex]["predicate_description"]);
+            $("#claim_object_description").text(verbalisations[pageIndex]["object_description"]);
+
+            $("#claim_subject_aliases").empty();
+            if (verbalisations[pageIndex]["subject_aliases"] == "No aliases available"){
+                $("#claim_subject_aliases").append(
+                            "<span>No aliases available</span>"
+                );
+            }
+            else{
+                $("#claim_subject_aliases").append(
+                        `<ul id="claim_subject_aliases_list"></ul>`
+                );
+                for (alias in verbalisations[pageIndex]["subject_aliases"]) {
+                    $("#claim_subject_aliases_list").append(
+                            `<li><i>${verbalisations[pageIndex]["subject_aliases"][alias]}</i></li>`
+                    );
+                }
+            }
+
+            $("#claim_predicate_aliases").empty();
+            if (verbalisations[pageIndex]["predicate_aliases"] == "No aliases available"){
+                $("#claim_predicate_aliases").append(
+                            "<span>No aliases available</span>"
+                );
+            }
+            else{
+                $("#claim_predicate_aliases").append(
+                        `<ul id="claim_predicate_aliases_list"></ul>`
+                );
+                for (alias in verbalisations[pageIndex]["predicate_aliases"]) {
+                    $("#claim_predicate_aliases_list").append(
+                            `<li><i>${verbalisations[pageIndex]["predicate_aliases"][alias]}</i></li>`
+                    );
+                }
+            }
+
+            $("#claim_object_aliases").empty();
+            if (verbalisations[pageIndex]["object_aliases"] == "No aliases available"){
+                $("#claim_object_aliases").append(
+                            "<span>No aliases available</span>"
+                );
+            }
+            else{
+                $("#claim_object_aliases").append(
+                        `<ul id="claim_object_aliases_list"></ul>`
+                );
+                for (alias in verbalisations[pageIndex]["object_aliases"]) {
+                    $("#claim_object_aliases_list").append(
+                            `<li><i>${verbalisations[pageIndex]["object_aliases"][alias]}</i></li>`
+                    );
+                }
+            }
+            
+
+            lastChange = Date.now();
+        }
+
+        function validateRegex(str) {
+            var reU = /^(null|(?!0*[.]0*$|[.]0*$|0*$)\d+[.]?\d{0,}$)/;
+            return reU.test(str);
+        }
+
+        function verifyAttentionAnswers() {
+            allOK = 4;
+            for (i=0; i<attention_questions.length; i++){
+                let chosen = parseInt($(`input[name="att_quest_${i}"]:checked`).val());
+                if (chosen != attention_questions[i]['answer']){
+                    allOK = allOK - 1
+                }
+            }
+            return (allOK == 4)
+        }
+
+        function verifyAnswers() {
+            times[times.length - 1] += Date.now() - lastChange;
+            lastChange = Date.now();
+
+            var allControlsUsedCheck = true;
+            const outputs_flat = [].concat(...outputs)
+            for (s of outputs_flat) {
+                if (
+                    (s["adequacy"] == -1) ||
+                    (s["adequacy"] == 1 && s["reason_no"] == -1) ||
+                    (s["adequacy"] == 2 && s["reason_not_sure"] == -1) ||
+                    (s["reason_no"] == 5 && s["reason_no_other"].replace(/\s+/g, "") == "") ||
+                    (s["reason_not_sure"] == 5 && s["reason_not_sure_other"].replace(/\s/g, "") == "")
+                ) {
+                    allControlsUsedCheck = false;
+                }
+            }
+            if (!allControlsUsedCheck) {
+                log_event("verification_check_failed", {
+                    check_failed: "outputs_moved_check",
+                    outputs: JSON.parse(JSON.stringify(outputs))
+                });
+            }
+
+            var allTimesCheck = true;
+            for (t of times) {
+                if (t < 5000) {
+                    allTimesCheck = false;
+                }
+            }
+            if (!allTimesCheck) {
+                log_event("verification_check_failed", {
+                    check_failed: "minimum_time_check",
+                    times: JSON.parse(JSON.stringify(times))
+                });
+            }
+
+            var allGoldenCheck = true;
+            for (i = 0; i < total; i++) {
+                if (verbalisations[i]['g_id'] != 0){
+                    if (verbalisations[i]['g_id']['adequacy'] != -1){
+                        if (verbalisations[i]['g_id']['adequacy'].indexOf(outputs[i]['adequacy']) == -1){
+                            allGoldenCheck = false
+                        }
+                    }
+                }
+            }
+            
+            if (!allGoldenCheck) {
+                log_event("verification_check_failed", {
+                    check_failed: "golden_standard_check",
+                    outputs: JSON.parse(JSON.stringify(outputs))
+                });
+            }
+
+            return {'controls':allControlsUsedCheck, 'times':allTimesCheck, 'golden':allGoldenCheck};
+        }
+        
+        // DYNAMIC LOGIC
+        // ---------------------------------------------------------------- //
+
+        $(function () {
+            $("#previous-page").click(function () {
+                var page = parseInt($("#current-page").text());
+                newPage = page - 1;
+                showContent(newPage);
+                log_event("moved_backward", {
+                    new_page_index: newPage,
+                    outputs: JSON.parse(JSON.stringify(outputs))
+                });
+            });
+            $("#next-page").click(function () {
+                var page = parseInt($("#current-page").text());
+                newPage = page + 1;
+                showContent(newPage);
+                log_event("moved_forward", {
+                    new_page_index: newPage,
+                    outputs: JSON.parse(JSON.stringify(outputs))
+                });
+            });
+            $("#ready-button").click(function () {
+                if (verifyAttentionAnswers()){
+                    $("#instructions-0").addClass("d-none");
+                    $("#instructions-1").removeClass("d-none");
+                    $("#instructions-2").removeClass("d-none");
+                    $("#instructions-3").removeClass("d-none");
+                    $("#instructions-4").addClass("d-none");
+                    $("#instructions-btns").addClass("d-none");
+                    $(this).addClass("d-none");
+                    $("#instructions-toggle").removeClass("d-none");
+                    $("#instructions-panel").addClass("collapse");
+                    $("#task-panel").removeClass("d-none");
+                    showContent(1);
+                    log_event("task_started", null);
+                } else {
+                    attentionFailCount = attentionFailCount + 1;
+                    if (attentionFailCount >= 3) {
+                        $("#att_warning_text").html(
+                            "You didn't pass the attention test.<br><br><strong>Unfortunately, you've reached the maximum amount of trials.<br><br>This window will be erased. Thank you very much for your work and please press return above so other worker may take this task.</strong>"
+                        );
+                        $("#attErrorModal").modal("toggle");
+                        $("#attErrorModal").on("hidden.bs.modal", function () {
+                            $("*").empty();
+                        });
+                    } else {
+                        $("#attErrorModal").modal("toggle");
+                    }
+                }
+            });
+            $("#instructions-toggle").click(function () {
+                is_shown = $("#instructions-panel").hasClass("show");
+                if (is_shown) {
+                    $("#instructions-toggle-text").text("Show Instructions");
+                    log_event("closed_instructions", null);
+                } else {
+                    $("#instructions-toggle-text").text("Hide Instructions");
+                    log_event("opened_instructions", null);
+                }
+            });
+            $('.adequacy-button').click(function() {
+                page = parseInt($("#current-page").text());
+                pageIndex = page - 1;
+                adequacy_text = this.id.split('adequacy_')[1]
+                if (adequacy_text == 'yes'){
+                    outputs[pageIndex]['adequacy'] = 0;
+                    $('#reasons-no-panel').addClass('d-none')
+                    $('#reasons-not-sure-panel').addClass('d-none')
+                } else if (adequacy_text == 'no'){
+                    outputs[pageIndex]['adequacy'] = 1;
+                    $('#reasons-no-panel').removeClass('d-none')
+                    $('#reasons-not-sure-panel').addClass('d-none')
+                } else if (adequacy_text == 'not_sure'){
+                    outputs[pageIndex]['adequacy'] = 2;
+                    $('#reasons-no-panel').addClass('d-none')
+                    $('#reasons-not-sure-panel').removeClass('d-none')
+                }
+            });
+            $('.reason_no_button').click(function() {
+                page = parseInt($("#current-page").text());
+                pageIndex = page - 1;
+                outputs[pageIndex]['reason_no'] = parseInt(this.id.split('reason_no_')[1]);
+            });
+            $('#reason_no_other').change(function() {
+                page = parseInt($("#current-page").text());
+                pageIndex = page - 1;
+                outputs[pageIndex]['reason_no_other'] = $('#reason_no_other').val();
+            });
+            $('.reason_not_sure_button').click(function() {
+                page = parseInt($("#current-page").text());
+                pageIndex = page - 1;
+                outputs[pageIndex]['reason_not_sure'] = parseInt(this.id.split('reason_not_sure_')[1]);
+            });
+            $('#reason_not_sure_other').change(function() {
+                page = parseInt($("#current-page").text());
+                pageIndex = page - 1;
+                outputs[pageIndex]['reason_not_sure_other'] = $('#reason_not_sure_other').val();
+            });
+            $('#intro-next').click(function (){
+                let current_instructions_active = $('div.instructions.active')[0];
+                let current_instructions_id = parseInt(current_instructions_active.id.split('instructions-')[1]);
+                $(`#instructions-${current_instructions_id}`).addClass('d-none').removeClass('active');
+                $(`#instructions-${current_instructions_id+1}`).removeClass('d-none').addClass('active');
+                if (current_instructions_id == 0){
+                    $('#intro-previous').removeClass('d-none');
+                } else if (current_instructions_id == 3){
+                    $('#intro-next').addClass('d-none');
+                    $('#ready-button').removeClass('d-none');
+                }
+            });
+            $('#intro-previous').click(function (){
+                let current_instructions_active = $('div.instructions.active')[0];
+                let current_instructions_id = parseInt(current_instructions_active.id.split('instructions-')[1]);
+                $(`#instructions-${current_instructions_id}`).addClass('d-none').removeClass('active');
+                $(`#instructions-${current_instructions_id-1}`).removeClass('d-none').addClass('active');
+                if (current_instructions_id == 4){
+                    $('#ready-button').addClass('d-none');
+                    $('#intro-next').removeClass('d-none');
+                } else if (current_instructions_id == 1){
+                    $('#intro-previous').addClass('d-none');
+                }
+            });
+            $("#submit").click(function () {
+                let verification = verifyAnswers();
+                if (verification['controls'] && verification['times'] && verification['golden']){
+                    $("#successModal").modal("toggle");
+                    $("#successModal").on("hidden.bs.modal", function () {
+                        log_event("task_finished", null);
+                        $("#feedback").val($("#feedback_text").val());
+                        $("#outputs").val(JSON.stringify(outputs));
+                        $("#times").val(JSON.stringify(times));
+                        $("#events").val(JSON.stringify(events));
+                        $("#submitButton").trigger("click");
+                    });
+                } else {
+                    taskFailCount = taskFailCount + 1;
+                    $("#warning-hints").empty();
+                    let warningString = "<ul>"
+                    if (!verification['controls']){
+                        warningString += "<li>You did not provide all required answers. Please provide answers to every question required. Maybe you skipped the last one. If you provided answers to a non-required question, that is ok. If you marked 'Other' as a reason, you need to specify what in the accompanying text box.</li>"
+                    }
+                    if (!verification['times']){
+                        warningString += "<li>You seem to have filled some questions too quickly and we suspected bot activity. Spend a couple of seconds more in each item, maybe review your answers.</li>"
+                    }
+                    if (!verification['golden']){
+                        warningString += "<li>We know the answers for a small number of control questions, and you seem to disagree with us. Please review your answers, but if you feel you are right even so, please contact the Requester.</li>"
+                    }
+                    warningString += "</ul>"
+                    $("#warning-hints").html(warningString);
+                    if (taskFailCount >= 3) {
+                        $("#warning-text").html(
+                            "Your answer didn't pass our quality check.<br><br><strong>Unfortunately, you've reached the maximum amount of trials.<br><br>This window will be erased. Thank you very much for your work and please press return above so other worker may take this task.</strong>"
+                        );
+                        $("#errorModal").modal("toggle");
+                        $("#errorModal").on("hidden.bs.modal", function () {
+                            $("*").empty();
+                        });
+                    } else {
+                        $("#errorModal").modal("toggle");
+                    }
+                }
+            });
+        });
+
+        // OBLIGATORY CALL TO SET TURK ASSIGNMENT
+        turkSetAssignmentID();
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Verbalized Claim Fluency</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://s3.amazonaws.com/mturk-public/externalHIT_v1.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous" />
+    <style>
+        input[type="range"].unmoved::-webkit-slider-thumb {
+            border: 1px solid #dddddd;
+            background: #dddddd;
+        }
+
+        input[type="range"].unmoved::-moz-range-thumb {
+            border: 1px solid #dddddd;
+            background-color: #dddddd;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container p-5">
+        
+        <!-- INSTRUCTION PANELS  -->
+        <!-- ------------------------------------------------- -->
+        <!-- THE TOGGLE BUTTON, THE NAVIGATION BUTTONS, THEN THE TEXT.-->
+        <div id='instructions'>
+            <div class="row justify-content-center">
+                <button type="button" class="btn btn-primary col-sm-12 d-none" data-toggle="collapse"
+                    data-target="#instructions-panel" id="instructions-toggle">
+                    <span id="instructions-toggle-text">Show Instructions</span>
+                </button>
+            </div>
+            <div id="instructions-btns" class="row">
+                <button type="button" class="btn btn-primary mr-auto col-sm-2 mb-3 d-none" id="intro-previous">
+                    Previous
+                </button>
+                <button type="button" class="btn btn-primary ml-auto col-sm-2 mb-3" id="intro-next">
+                    Next
+                </button>
+                <button type="button" class="btn btn-success ml-auto col-sm-2 mb-3 d-none" id="ready-button">
+                    Proceed
+                </button>
+            </div>
+            <div id="instructions-panel" class="row">
+                <div class="col-sm-12 mx-auto border rounded shadow-sm text-center" style="background-color: #f5f5f5;">
+                    <h4 class="text-left mt-3"><strong>Task instructions</strong></h4>
+                    <div class="text-left">
+                        <div id="instructions-0" class="instructions active">
+                            <h5><b>Project</b></h5>
+                            <div id="instructions-project-text">
+                                <p>We are researchers at King's College London (United Kingdom), currently conducting research
+                                to verify certain quality aspects of <a href='https://wikidata.org' target='_blank'>Wikidata</a>,
+                                an open knowledge base which gathers claims and references to support these claims. This study is funded by
+                                the European Union's Horizon 2020 research and innovation programme under grant agreement No 780247.
+                                No personal information will be collected during this experiment and all data will be completely anonymous.
+                                There are no potential risks from participating, be them pyshical, psychological, legal, or any other type, and no way of identifying your personal details.</p>
+                                <p>After you've submitted your responses, you can withdraw them by contacting the researchers (see next paragraph). The data collected in this
+                                study will consist only of your inputs, the time you spent on the task and which buttons you clicked.
+                                It will be stored in a password protected computer and analysed for research purposes and its results published
+                                on academic journals.</p>
+                                <p>This experiment has received ethical clearance on the 30th of July of 2021 by KCL, with
+                                registration number MRA-20/21-25957. The data controller for this project will be King's College London (KCL).
+                                Research is a task that the University carries out in the public interest. Your data will be processed in accordance
+                                with the standards set by the General Data Protection Regulation 2016 (GDPR). If you have any questions or need further
+                                assistance, please contact the researcher responsible for this study at
+                                <a href='mailto:k2031554@kcl.ac.uk'>k2031554@kcl.ac.uk</a>.</p>
+                                <p>By continuing with the task, you <b>agree</b> to take part in this research project and consent for
+                                the data collected to be used for the purpose of this study. Participation is voluntary and you may cancel
+                                the task at anytime for any reason before submitting it.</p>
+                                <p><b>Please note</b> that, in order for you to
+                                proceed with the task, you'll need to have a good comprehension of the English language! <b>This will be
+                                measured by a very short and simple quiz</b>.</p>
+                            </div>
+                        </div>
+                        <div id="instructions-1" class="instructions d-none">
+                            <h5><b>Task Overview</b></h5>
+                            <div id="instructions-intro-text">
+                                <p>
+                                    In this task, we want your help verifying how fluently some information is written. You will be asked to take a look
+                                    at six sentences. For each sentence, we will show you a slider with 6 positions, going from "Least fluent" to "Most fluent".
+                                    Beneath the slider, you will see a description of the intermediate classifications. <b>Please use these descriptions to help you decide on a value.</b>
+                                </p>
+                                <p>
+                                    <b>Please note: </b>
+                                    <ul>
+                                        <li>
+                                            We are not asking if the sentence is true. Even if the information is potentially or provably false, or goes against some common sense, please judge only the fluency.
+                                        </li>
+                                        <li>
+                                            Some elements in the sentence might be written in a language other than English.
+                                            <!--This will only happen for entities, such as people, places, etc, where their names were originally given to us in their native language.-->
+                                            Please do not consider this as a defect to the fluency, unless it truly makes the sentence/information harder to understand.
+                                        </li>                          
+                                        <li>
+                                            Some characters in the sentence might be replaced by the special token <b>??</b> (two question marks). If that does not affect the fluency of the sentence, please do not take it into consideration.
+                                        </li>                                                                               
+                                        
+                                    </ul>
+                                </p>
+                            </div>
+                        </div>
+                        <div id="instructions-2" class="instructions d-none">
+                            <h5><b>Examples</b></h5>
+                            <p>Here are the six positions you will see in the fluency slider, starting from the righmost (Most fluent) and ending with the leftmost (Less fluent).</p>
+                            <p id="instructions-examples-text">
+                                <h6><b>6</b>: Comprehensible and gramatically correct text that feels natural</h6>
+                                <ul>
+                                    <li>
+                                        <i>Barack Obama was the president of Germany.</i> - It is common knowledge that this sentence is false,
+                                        but it is coherent and grammatically correct.
+                                    </li>
+                                    <li>
+                                        <i>Pablo <b>??</b>icasso was born on October 25, 1881.</i> - Although a character was replaced by <b>??</b>, this is still coherent and gramatically correct.
+                                    </li>
+                                </ul>
+
+                                <h6><b>5</b>: Comprehensible and gramatically correct text that still reads artificial</h6>
+                                <ul>
+                                    <li>
+                                        <i>Lionel Messi is a participant in Argentina's national football team.</i> - Coherent and grammatically correct, yet the choice of words seems artificial.
+                                    </li>
+                                    <li>
+                                        <i>Pablo Picasso was born on October 25; the year was 1881.</i> - This is grammatically correct and
+                                        makes sense, but a person would probably not write a date of birth like this.
+                                    </li>                                    
+                                </ul>
+                                
+                                <h6><b>4</b>: Comprehensible text with minor grammatical errors</h6>
+                                <ul>
+                                    <li>
+                                        <i>Barack Obama was the president of USA.</i> - A minor grammatical mistake, as USA needs the article "the". It does not affect comprehension.
+                                    </li>
+                                    <li>
+                                        <i>Pablo picasso was a painter.</i> - A surname should be capitalized, but this is a minor detail. It does not affect comprehension.
+                                    </li>                                    
+                                </ul>
+                                
+                                <h6><b>3</b>: Understandable text with moderate grammatical errors</h6>
+                                <ul>
+                                    <li>
+                                        <i>Brazil has capital being Brasilia.</i> - Bad grammar, but easily understandable.
+                                    </li>
+                                    <li>
+                                        <i>Pinocchio made of wood is.</i> - Bigger grammar mistakes that still leave the meaning clear.
+                                    </li>                                    
+                                </ul>
+
+                                <h6><b>2</b>: Barely understandable text with significant grammatical errors</h6>
+                                <ul>
+                                    <li>
+                                        <i>Obama does married person name Michelle surname Robinson</i> - Poor grammar and structure, but the information is
+                                        somehow still there: "Obama has married Michelle Robinson".
+                                    </li>
+                                    <li>
+                                        <i>UNESCO world heritage site Great barrier reef heritage designation </i> - With considerable effort, we gather this means something about the
+                                        Great Barrier Reef being an UNESCO World Heritage Site.
+                                    </li>                                    
+                                </ul>
+
+                                <h6><b>1</b>: Incomprehensible text</h6>
+                                <ul>
+                                    <li>
+                                        <i>Wife fathered acapulco this yellow</i> - Regardless of the severity of grammar errors, this sentence does not convey any meaning.
+                                    </li>
+                                    <li>
+                                        <i>The highest strawberry to cross rubber duck is John</i> - Even if no grammar errors are seen, unintelligible sentences should be classified here.
+                                    </li>  
+                                    <li>
+                                        <i>gasp Page good birth no swim 552</i> - Extreme lack of grammatical structure and sense.
+                                    </li>                                   
+                                </ul>
+                            </p>
+                        </div>
+                        <div id="instructions-3" class="instructions d-none">
+                            <h5><b>Task rules</b></h5>
+                            <p id="instructions-rules-text">
+                                <ul>
+                                    <li>
+                                        You can navigate freely through the sentences using the buttons at the bottom of the page.
+                                    </li>
+                                    <li>
+                                        You must fill all the information requested. The sliders only have information if they're blue. If they're already at the level you desire, just click them to make them blue.
+                                    </li>
+                                    <li>
+                                        At the end of the task, we check some indicators of the quality of your work, to make sure you are not a spammer. If you don't pass the test, you can try two more times, for a total of three trials. If you fail three times, the task ends and the work is not accepted.
+                                    </li>
+                                    <li>
+                                        This task will need you to have a good comprehension of English. Please answer the following short English language test and click on the green button to proceed. You can try the language test three times.
+                                    </li>
+                                    <li>
+                                        You can open these instructions again anytime you wish.
+                                    </li>
+                                    <li>
+                                        Make sure you are using either Chrome, Firefox or Edge. <b>Do not use Internet Explorer.</b>
+                                    </li>
+                                </ul>
+                            </p>
+                        </div>
+                        <div id="instructions-4" class="instructions d-none">
+                            <div id="attention_test" class="text-left">
+                                <p><b>Attention Test:</b> Short English Quiz</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br />
+
+        <!-- TASK PANELS  -->
+        <!-- ------------------------------------------------- -->
+        <!-- THE TASK ITSELF. FILL AS NEEDED PER THE TASK.-->
+        <div id="task-panel" class="row d-none">
+            <div class="col-sm-12 mx-auto border rounded shadow-sm" style="background-color: #f5f5f5;">
+                <h4 class="text-left mt-3">
+                    Sentence <strong><span id="current-page"></span></strong> of
+                    <strong><span id="n-pages"></span></strong>:
+                </h4>
+                <br/>   
+                <!---->
+                <div class="row d-flex justify-content-center">
+                    <div class="col-sm-11 pr-0 pl-0">
+                        <h5>Read the following sentence:</h5>
+                    </div>
+                </div>
+                <div class="row d-flex justify-content-center">
+                    <div class="col-sm-11 bg-light border rounded p-2" style="width: 100%;">
+                        <p><span id="verbalised_claim"></span></p>
+                    </div>
+                </div>
+                <br/>
+                <div id="fluency-slider-panel" class=''>
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-sm-11 pr-0 pl-0">
+                            <h5>Please rate in the following scale how fluently this sentence is written. Use the legend below the scale and in the next panel to help you choose.</h5>
+                        </div>
+                    </div>
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-sm-11 mx-auto bg-light border rounded p-2">
+                            <input type="range" class="mx-auto custom-range pl-4 pr-4" id="fluency-slider" min="0"
+                                max="5"/>
+                            <div class="row">
+                                <div class="text-center col-sm-2">Least fluent</div>
+                                <div id="fluency-label" class="text-center col-sm-8"></div>
+                                <div class="text-center col-sm-2">Most fluent</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br />
+                <div class="row d-flex justify-content-center">
+                    <div class="col-sm-11 pr-0 pl-0">
+                        <h5>Legend for fluency levels in the scale:</h5>
+                    </div>
+                </div>
+                <div class="row d-flex justify-content-center">
+                    <div class="col-sm-11 bg-light border rounded p-2" style="width: 100%;">
+                        <ol>
+                            <li><span id="fluency_legend_0">Incomprehensible text (Less fluent)</span></li>
+                            <li><span id="fluency_legend_1">Barely understandable text with significant grammatical errors</span></li>
+                            <li><span id="fluency_legend_2">Understandable text with moderate grammatical errors</span></li>
+                            <li><span id="fluency_legend_3">Comprehensible text with minor grammatical errors</span></li>
+                            <li><span id="fluency_legend_4">Comprehensible and gramatically correct text that still reads artificial</span></li>
+                            <li><span id="fluency_legend_5">Comprehensible and gramatically correct text that feels natural (Most fluent)</span></li>
+                        </ol>
+                    </div>
+                </div>
+                <!---->
+                <div class="row p-3">
+                    <button type="button" class="btn btn-primary col-sm-2 mr-auto" id="previous-page">
+                        Previous
+                    </button>
+                    <button type="button" class="btn btn-success col-sm-2 ml-auto" id="presubmit" data-toggle="modal"
+                        data-target="#submitModal">
+                        Submit
+                    </button>
+                    <button type="button" class="btn btn-primary col-sm-2 ml-auto" id="next-page">
+                        Next
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODALS -->
+    <!-- ------------------------------------------------- -->
+    <!-- SUBMIT MODAL-->
+    <div class="modal" id="submitModal">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title mx-auto">Submit your work?</h4>
+                </div>
+                <!-- Modal body -->
+                <div class="modal-body">
+                    Please make sure every question has been properly answered before
+                    submitting your work. Incomplete work will not be rewarded!
+                </div>
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <input type="button" class="btn btn-danger ml-auto" data-dismiss="modal" value="Cancel" />
+                    <input type="button" class="btn btn-success mr-auto" data-dismiss="modal" value="Submit"
+                        id="submit" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ATTENTION TASK FAILURE MODAL -->
+    <div class="modal" id="attErrorModal">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title mx-auto">Warning</h4>
+                </div>
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <span id="att_warning_text">You didn't pass the attention test. Please review your
+                        answers and try again!</span>
+                </div>
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <input type="button" class="btn btn-warning mx-auto" data-dismiss="modal" value="OK"
+                        id="att_close_error" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- QUALITY CHECK FAILURE MODAL -->
+    <div class="modal" id="errorModal">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title mx-auto">Warning</h4>
+                </div>
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <span id="warning-text">Your answer didn't pass our quality check. Please review your
+                        answers and try again!</span>
+                    <span id="warning-hints"></span>
+                </div>
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <input type="button" class="btn btn-warning mx-auto" data-dismiss="modal" value="OK"
+                        id="close_error" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- SUCCESS MODAL -->
+    <div class="modal" id="successModal">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title mx-auto">Success!</h4>
+                </div>
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <span id="success-text">Your answer passed our quality check! Press finish to submit
+                        them. We appreciate any feedback you may have on the task.</span>
+                </div>
+                <textarea class="form-control" rows="5" id="feedback_text"
+                    placeholder="Type your feeback here ..."></textarea>
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <input type="button" class="btn btn-success mx-auto" data-dismiss="modal" value="Finish"
+                        id="close_success" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- RETURNED VARIABLES AND SUBMIT BUTTON.-->
+    <form name="mturk_form" method="post" id="mturk_form" action="https://www.mturk.com/mturk/externalSubmit">
+        <input type="hidden" name="assignmentId"    value="" id="assignmentId" />
+        <input type="hidden" name="outputs"         value="" id="outputs" />
+        <input type="hidden" name="times"           value="" id="times" />
+        <input type="hidden" name="events"          value="" id="events" />
+        <input type="hidden" name="feedback"        value="" id="feedback" />
+
+        <input type="submit" id="submitButton" style="visibility: hidden;" />
+    </form>
+
+    <!-- TASK LOGIC -->
+    <script language="Javascript">
+        // INITIALIZATION LOGIC
+        // ---------------------------------------------------------------- //
+        let verbalisations = [
+            {
+                "claim_id":"Q38805976$0F2D5F18-CE76-4E81-8840-1AB4081857CC",
+                "verbalised_claim":"Optogenetic approaches to evaluate striatal function in animal models of Parkinson disease. The main subject is the basal ganglia.",
+                "subject_label":"Optogenetic approaches to evaluate striatal function in animal models of Parkinson disease.",
+                "subject_description":"scientific article published on March 2016",
+                "subject_aliases":"No aliases available",
+                "predicate_label":"main subject",
+                "predicate_description":"primary topic of a work (see also P180: depicts)",
+                "predicate_aliases":[
+                    "index term",
+                    "topic of work",
+                    "main topic",
+                    "about",
+                    "topic",
+                    "subject",
+                    "subject heading",
+                    "mainly about",
+                    "theme",
+                    "main issue",
+                    "main thing",
+                    "keyword",
+                    "is about",
+                    "primary topic",
+                    "primary subject",
+                    "describes",
+                    "artistic theme",
+                    "mentions",
+                    "refers to",
+                    "sitter",
+                    "regards",
+                    "regarding",
+                    "in regards to",
+                    "content is about",
+                    "content describes",
+                    "content deals with",
+                    "has a subject",
+                    "/common/topic/subject",
+                    "plot keyword"
+                ],
+                "object_label":"basal ganglia",
+                "object_description":"Subcortical nuclei, of varied origin, in the brains of vertebrates",
+                "object_aliases":"No aliases available",
+                "g_id":0
+            },
+            {
+                "claim_id":"Q17525890$ff9c9972-4614-4dbb-a31f-a6b4063829ed",
+                "verbalised_claim":"Alarm is described by source in the Catalog of the paintings on show at the Rijksmuseum in 1956.",
+                "subject_label":"Alarm",
+                "subject_description":"painting by Adriaen Pietersz. van de Venne",
+                "subject_aliases":"No aliases available",
+                "predicate_label":"described by source",
+                "predicate_description":"work where this item is described",
+                "predicate_aliases":[
+                    "described in source",
+                    "written about in",
+                    "entry",
+                    "subject of",
+                    "described by encyclopedia",
+                    "described by reference work",
+                    "described by biography",
+                    "reviewed in",
+                    "source of item",
+                    "described by obituary",
+                    "mentioned in news article"
+                ],
+                "object_label":"Catalog of the paintings on show at the Rijksmuseum in 1956",
+                "object_description":"paperback catalog of paintings sold separately, but published with album of 120 photos by the Rijksmuseum, 274 pages",
+                "object_aliases":[
+                    "Catalog of the paintings in the Rijksmuseum in 1956"
+                ],
+                "g_id":{
+                    "fluency":[
+                        2,
+                        3,
+                        4,
+                        5
+                    ],
+                    "adequacy":[
+                        0,
+                        2
+                    ]
+                }
+            },
+            {
+                "claim_id":"Q1035908$7B71884D-66FE-4970-A3AF-4856CA1385A8",
+                "verbalised_claim":"William Herschel was a discoverer or inventor of NGC 257.",
+                "subject_label":"NGC 257",
+                "subject_description":"galaxy",
+                "subject_aliases":"No aliases available",
+                "predicate_label":"discoverer or inventor",
+                "predicate_description":"subject  who discovered, first described, invented, or developed this discovery or invention",
+                "predicate_aliases":[
+                    "inventor",
+                    "discoverer",
+                    "inventor or discoverer",
+                    "developer",
+                    "coined",
+                    "first described",
+                    "invented by",
+                    "created by",
+                    "invented",
+                    "discovered by",
+                    "developed by",
+                    "introduced by",
+                    "devised by"
+                ],
+                "object_label":"William Herschel",
+                "object_description":"German-born British astronomer, technical expert, and composer",
+                "object_aliases":[
+                    "Frederick William Herschel",
+                    "Sir William Herschel"
+                ],
+                "g_id":{
+                    "fluency":[
+                        3,
+                        4,
+                        5
+                    ],
+                    "adequacy":[
+                        0,
+                        2
+                    ]
+                }
+            },
+            {
+                "claim_id":"Q56417521$4db2a9cf-424f-aecd-4527-792d1a81686e",
+                "verbalised_claim":"The operator of the courtyard fountain Munzinger schoolhouse / wrestlers is Bern.",
+                "subject_label":"courtyard fountain Munzinger schoolhouse / wrestlers",
+                "subject_description":"fountain with wall relief in the courtyard of the Munzinger school building in the city of Bern, Switzerland",
+                "subject_aliases":"No aliases available",
+                "predicate_label":"operator",
+                "predicate_description":"person, profession, or organization that operates the equipment, facility, or service",
+                "predicate_aliases":[
+                    "service operator",
+                    "facility operator",
+                    "operated by",
+                    "managed by",
+                    "administrator",
+                    "item operator",
+                    "user",
+                    "webmaster"
+                ],
+                "object_label":"Bern",
+                "object_description":"capital of Switzerland",
+                "object_aliases":[
+                    "Berne",
+                    "city of Bern",
+                    "Berna"
+                ],
+                "g_id":0
+            },
+            {
+                "claim_id":"Q28042651$23b15d6d-4650-9f35-17b4-4cdb6f8d519e",
+                "verbalised_claim":"Nippo-Vini Fantini won the 2017 Volta Limburg Classic.",
+                "subject_label":"2017 Nippo-Vini Fantini",
+                "subject_description":"No description available",
+                "subject_aliases":[
+                    "NIP 2017"
+                ],
+                "predicate_label":"victory",
+                "predicate_description":"competition or event won by the subject",
+                "predicate_aliases":[
+                    "won event",
+                    "awarded",
+                    "winner of",
+                    "won"
+                ],
+                "object_label":"2017 Volta Limburg Classic",
+                "object_description":"cycling race",
+                "object_aliases":[
+                    "Volta Limburg Classic 2017"
+                ],
+                "g_id":0
+            },
+            {
+                "claim_id":"Q3453851$134C5764-F171-4112-B492-2CD2ED73EBC2",
+                "verbalised_claim":"Ryan Russell has a left-handed shot.",
+                "subject_label":"Ryan Russell",
+                "subject_description":"Canadian ice hockey player",
+                "subject_aliases":"No aliases available",
+                "predicate_label":"shooting handedness",
+                "predicate_description":"whether the hockey player passes or shoots left- or right-handed",
+                "predicate_aliases":[
+                    "dominant hand shooting"
+                ],
+                "object_label":"left-handed shot",
+                "object_description":"hockey player shooting with left hand: item for property:P423",
+                "object_aliases":"No aliases available",
+                "g_id":0
+            }
+            ]
+        let attention_questions = [{"question": "Jane's ___ nice and polite.", "options": ["a", "from", "very", "at"], "answer": 2}, {"question": "The student could not answer the question, so he ___", "options": ["gave off.", "gave into.", "gave up.", "gave away."], "answer": 2}, {"question": "What ___ since you arrived?", "options": ["are you doing", "will you do", "did you do", "have you been doing"], "answer": 3}, {"question": "___ is bad for you.", "options": ["Smoking", "The smoking", "To smoke", "Smoker"], "answer": 0}]; 
+
+        let fluency_labels=[
+            'Incomprehensible text',
+            'Barely understandable text with significant grammatical errors',
+            'Understandable text with moderate grammatical errors',
+            'Comprehensible text with minor grammatical errors',
+            'Comprehensible and gramatically correct text that still reads artificial',
+            'Comprehensible and gramatically correct text that feels natural'
+        ]
+        
+        let total = verbalisations.length;
+
+        var outputs = [];
+        // DEFAULT OUTPUTS IN JSON FORMAT, EX:  { similarity: -1, confidence: -1, reason: "" }
+        // REPLACES THE GD FIELD WITH THE PROPER SET
+        for (i = 0; i < total; i++) {
+            outputs[i] = {fluency: -1};
+            /*if (verbalisations[i]['g_id'] != 0){
+                verbalisations[i]['g_id'] = verbalisations[i]['g_id']['fluency'];
+            }*/
+        }
+
+        var events = [];
+
+        function log_event(event_type, event_attr) {
+            event_obj = {
+                timestamp: new Date(),
+                type: event_type
+            };
+            if (event_attr != null) {
+                event_obj.attr = event_attr;
+            }
+            events.push(event_obj);
+        }
+
+        log_event("page_displayed", null);
+
+        var times = Array(total).fill(0.0);
+        var lastChange = null;
+
+        taskFailCount = 0;
+        attentionFailCount = 0;
+   
+
+        for (i = 0; i < attention_questions.length; i++) {
+            $('#attention_test').append(`<p class="mb-0">${attention_questions[i]['question']}</p>`)
+            $('#attention_test').append(`<div id="att_quest_${i}" class="btn-group btn-group-toggle mb-3" data-toggle="buttons">`)
+            for (j = 0; j < attention_questions[i]['options'].length; j++)
+                $(`#att_quest_${i}`).append(`<label class="btn btn-primary"><input type="radio" autocomplete="off" value=${j} name='att_quest_${i}'>${attention_questions[i]['options'][j]}<br/></label>`)
+        }
+
+        $("#n-pages").text(total);
+
+        
+        // FUNCTIONS
+        // ---------------------------------------------------------------- //
+
+        function showContent(currentPage) {
+            if (lastChange) {
+                times[parseInt($("#current-page").text()) - 1] +=
+                    Date.now() - lastChange;
+            }
+            $("#current-page").text(currentPage);
+            if (currentPage == 1) {
+                $("#previous-page").hide();
+                $("#next-page").show();
+                $("#presubmit").hide();
+            } else if (currentPage == total) {
+                $("#previous-page").show();
+                $("#next-page").hide();
+                $("#presubmit").show();
+            } else {
+                $("#previous-page").show();
+                $("#next-page").show();
+                $("#presubmit").hide();
+            }
+            pageIndex = currentPage - 1;
+            output = outputs[pageIndex];
+
+            if (output["fluency"] == -1) {
+                $("#fluency-slider").val(0);
+                $("#fluency-slider").addClass("unmoved");
+                $('#fluency-label').text("Move the slider to see the legend");
+                $('#fluency-label').css("font-weight","");
+            } else {
+                $("#fluency-slider").val(output["fluency"]);
+                $("#fluency-slider").removeClass("unmoved");
+                $('#fluency-label').text(fluency_labels[output["fluency"]]);
+                $('#fluency-label').css("font-weight","bold");
+            }
+
+            for (i=0; i<6; i++){
+                if (output['fluency'] == i){
+                    $(`#fluency_legend_${i}`).css("font-weight","bold");
+                }
+                else {
+                    $(`#fluency_legend_${i}`).css("font-weight","");
+                }
+            }
+
+            $("#verbalised_claim").text(verbalisations[pageIndex]["verbalised_claim"]);            
+
+            lastChange = Date.now();
+        }
+
+        function validateRegex(str) {
+            var reU = /^(null|(?!0*[.]0*$|[.]0*$|0*$)\d+[.]?\d{0,}$)/;
+            return reU.test(str);
+        }
+
+        function verifyAttentionAnswers() {
+            allOK = 4;
+            for (i=0; i<attention_questions.length; i++){
+                let chosen = parseInt($(`input[name="att_quest_${i}"]:checked`).val());
+                if (chosen != attention_questions[i]['answer']){
+                    allOK = allOK - 1
+                }
+            }
+            return (allOK == 4)
+        }
+
+        function verifyAnswers() {
+            times[times.length - 1] += Date.now() - lastChange;
+            lastChange = Date.now();
+
+            var allControlsUsedCheck = true;
+            const outputs_flat = [].concat(...outputs)
+            for (s of outputs_flat) {
+                if (
+                    (s["fluency"] == -1)
+                ) {
+                    allControlsUsedCheck = false;
+                }
+            }
+            if (!allControlsUsedCheck) {
+                log_event("verification_check_failed", {
+                    check_failed: "outputs_moved_check",
+                    outputs: JSON.parse(JSON.stringify(outputs))
+                });
+            }
+
+            var allTimesCheck = true;
+            for (t of times) {
+                if (t < 2500) {
+                    allTimesCheck = false;
+                }
+            }
+            if (!allTimesCheck) {
+                log_event("verification_check_failed", {
+                    check_failed: "minimum_time_check",
+                    times: JSON.parse(JSON.stringify(times))
+                });
+            }
+
+            var allGoldenCheck = true;
+            for (i = 0; i < total; i++) {
+                if (verbalisations[i]['g_id'] != 0){
+                    if (verbalisations[i]['g_id']['fluency'] != -1){
+                        if (verbalisations[i]['g_id']['fluency'].indexOf(outputs[i]['fluency']) == -1){
+                            allGoldenCheck = false
+                        }
+                    }
+                }
+            }
+            
+            if (!allGoldenCheck) {
+                log_event("verification_check_failed", {
+                    check_failed: "golden_standard_check",
+                    outputs: JSON.parse(JSON.stringify(outputs))
+                });
+            }
+
+            return {'controls':allControlsUsedCheck, 'times':allTimesCheck, 'golden':allGoldenCheck};
+        }
+        
+        // DYNAMIC LOGIC
+        // ---------------------------------------------------------------- //
+
+        $(function () {
+            $("#previous-page").click(function () {
+                var page = parseInt($("#current-page").text());
+                newPage = page - 1;
+                showContent(newPage);
+                log_event("moved_backward", {
+                    new_page_index: newPage,
+                    outputs: JSON.parse(JSON.stringify(outputs))
+                });
+            });
+            $("#next-page").click(function () {
+                var page = parseInt($("#current-page").text());
+                newPage = page + 1;
+                showContent(newPage);
+                log_event("moved_forward", {
+                    new_page_index: newPage,
+                    outputs: JSON.parse(JSON.stringify(outputs))
+                });
+            });
+            $("#ready-button").click(function () {
+                if (verifyAttentionAnswers()){
+                    $("#instructions-0").addClass("d-none");
+                    $("#instructions-1").removeClass("d-none");
+                    $("#instructions-2").removeClass("d-none");
+                    $("#instructions-3").removeClass("d-none");
+                    $("#instructions-4").addClass("d-none");
+                    $("#instructions-btns").addClass("d-none");
+                    $(this).addClass("d-none");
+                    $("#instructions-toggle").removeClass("d-none");
+                    $("#instructions-panel").addClass("collapse");
+                    $("#task-panel").removeClass("d-none");
+                    showContent(1);
+                    log_event("task_started", null);
+                } else {
+                    attentionFailCount = attentionFailCount + 1;
+                    if (attentionFailCount >= 3) {
+                        $("#att_warning_text").html(
+                            "You didn't pass the attention test.<br><br><strong>Unfortunately, you've reached the maximum amount of trials.<br><br>This window will be erased. Thank you very much for your work and please press return above so other worker may take this task.</strong>"
+                        );
+                        $("#attErrorModal").modal("toggle");
+                        $("#attErrorModal").on("hidden.bs.modal", function () {
+                            $("*").empty();
+                        });
+                    } else {
+                        $("#attErrorModal").modal("toggle");
+                    }
+                }
+            });
+            $("#instructions-toggle").click(function () {
+                is_shown = $("#instructions-panel").hasClass("show");
+                if (is_shown) {
+                    $("#instructions-toggle-text").text("Show Instructions");
+                    log_event("closed_instructions", null);
+                } else {
+                    $("#instructions-toggle-text").text("Hide Instructions");
+                    log_event("opened_instructions", null);
+                }
+            });
+            $("#fluency-slider").mouseup(function () {
+                $(this).removeClass("unmoved");
+                page = parseInt($("#current-page").text());
+                pageIndex = page - 1;
+                outputs[pageIndex]['fluency'] = parseInt($(this).val());
+                $('#fluency-label').text(fluency_labels[parseInt($(this).val())]);                
+                $('#fluency-label').css("font-weight","bold");
+
+                for (i=0; i<6; i++){
+                    if (outputs[pageIndex]['fluency'] == i){
+                        $(`#fluency_legend_${i}`).css("font-weight","bold");
+                    }
+                    else {
+                        $(`#fluency_legend_${i}`).css("font-weight","");
+                    }
+                }
+            });
+            $('#intro-next').click(function (){
+                let current_instructions_active = $('div.instructions.active')[0];
+                let current_instructions_id = parseInt(current_instructions_active.id.split('instructions-')[1]);
+                $(`#instructions-${current_instructions_id}`).addClass('d-none').removeClass('active');
+                $(`#instructions-${current_instructions_id+1}`).removeClass('d-none').addClass('active');
+                if (current_instructions_id == 0){
+                    $('#intro-previous').removeClass('d-none');
+                } else if (current_instructions_id == 3){
+                    $('#intro-next').addClass('d-none');
+                    $('#ready-button').removeClass('d-none');
+                }
+            });
+            $('#intro-previous').click(function (){
+                let current_instructions_active = $('div.instructions.active')[0];
+                let current_instructions_id = parseInt(current_instructions_active.id.split('instructions-')[1]);
+                $(`#instructions-${current_instructions_id}`).addClass('d-none').removeClass('active');
+                $(`#instructions-${current_instructions_id-1}`).removeClass('d-none').addClass('active');
+                if (current_instructions_id == 4){
+                    $('#ready-button').addClass('d-none');
+                    $('#intro-next').removeClass('d-none');
+                } else if (current_instructions_id == 1){
+                    $('#intro-previous').addClass('d-none');
+                }
+            });
+            $("#submit").click(function () {
+                let verification = verifyAnswers();
+                if (verification['controls'] && verification['times'] && verification['golden']){
+                    $("#successModal").modal("toggle");
+                    $("#successModal").on("hidden.bs.modal", function () {
+                        log_event("task_finished", null);
+                        $("#feedback").val($("#feedback_text").val());
+                        $("#outputs").val(JSON.stringify(outputs));
+                        $("#times").val(JSON.stringify(times));
+                        $("#events").val(JSON.stringify(events));
+                        $("#submitButton").trigger("click");
+                    });
+                } else {
+                    taskFailCount = taskFailCount + 1;
+                    $("#warning-hints").empty();
+                    let warningString = "<ul>"
+                    if (!verification['controls']){
+                        warningString += "<li>You did not provide all required answers. Please provide answers to every question required. Maybe you skipped the last one. If you provided answers to a non-required question, that is ok. If any slider is in the position you want, but grey, click on it to turn it blue.</li>"
+                    }
+                    if (!verification['times']){
+                        warningString += "<li>You seem to have filled some questions too quickly and we suspected bot activity. Spend a couple of seconds more in each item, maybe review your answers.</li>"
+                    }
+                    if (!verification['golden']){
+                        warningString += "<li>We know the answers for a small number of control questions, and you seem to disagree with us. Please review your answers, but if you feel you are right even so, please contact the Requester.</li>"
+                    }
+                    warningString += "</ul>"
+                    $("#warning-hints").html(warningString);
+                    if (taskFailCount >= 3) {
+                        $("#warning-text").html(
+                            "Your answer didn't pass our quality check.<br><br><strong>Unfortunately, you've reached the maximum amount of trials.<br><br>This window will be erased. Thank you very much for your work and please press return above so other worker may take this task.</strong>"
+                        );
+                        $("#errorModal").modal("toggle");
+                        $("#errorModal").on("hidden.bs.modal", function () {
+                            $("*").empty();
+                        });
+                    } else {
+                        $("#errorModal").modal("toggle");
+                    }
+                }
+            });
+        });
+
+        // OBLIGATORY CALL TO SET TURK ASSIGNMENT
+        turkSetAssignmentID();
+    </script>
+</body>
+
+</html>

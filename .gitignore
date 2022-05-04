@@ -1,2 +1,6 @@
 # Big files
 *.tar.gz
+
+# Python files
+.ipynb_checkpoints
+__pycache__
