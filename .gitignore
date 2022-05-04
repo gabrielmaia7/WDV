@@ -2,11 +2,14 @@
 verb.tar.gz
 WDV.tar.gz
 
-## Big data files at WikidataClaims, all these can be reconstructed by running the scripts in the Repo
+## By-product data files from WikidataClaims, all these can be reconstructed by running the scripts in the Repo
 WikidataClaims/data/P31_df.csv
 WikidataClaims/data/final_entity_list.p
 WikidataClaims/data/theme_dfs
 WikidataClaims/data/sampled_dfs
+WikidataClaims/data/class_entity_count_95th.csv
+WikidataClaims/data/in_profession_entities.p
+WikidataClaims/data/WebNLG_to_Wikidata_Subclass_Tree_Thr=1000.json
 
 # Python files
 .ipynb_checkpoints
