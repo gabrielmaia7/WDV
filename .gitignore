@@ -1,6 +1,10 @@
 # Big files
 verb.tar.gz
 WDV.tar.gz
+best_model.ckpt.tar.gz
+val_avg_bleu=68.1000-step_count=5.ckpt
+pytorch_model.bin
+pytorch_model.bin.tar.gz
 
 ## By-product data files from WikidataClaims, all these can be reconstructed by running the scripts in the Repo
 WikidataClaims/data/P31_df.csv

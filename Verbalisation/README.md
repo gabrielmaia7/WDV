@@ -13,4 +13,8 @@ This folder contains the following files and sub-folders:
 - *T5-Verbalisation-For-Crowdsourcing.ipynb*: A notebook that applies the verbalisation model on the Wikidata claims. Here we also replace unknown tokens the model does not recognise, and split the generated verbalisations into different groups that will be annotated separately due to crowdsourcing budget constraints.
 - *verbalisation_module.py*: Encapsulates the verbalisations and unk-replacement functions from the *T5-Verbalisation-For-Crowdsourcing.ipynb* notebook into an importable Python module.
 - *\_\_init\_\_.py*: File to make the verbalisation module findable from outside.
-- *graph2text*: Folder with the implementation of the verbalisation model in PyTorch. Altered version from [Ribeiro et al.'s code](https://github.com/UKPLab/plms-graph2text). Check their documentation for more info (plus the code should be somewhat understandable if you have a grasp of PyTorch).
+- *graph2text*: Folder with the implementation of the verbalisation model in PyTorch. Altered version from [Ribeiro et al.'s code](https://github.com/UKPLab/plms-graph2text). Check their documentation for more info (plus the code should be somewhat understandable if you have a grasp of PyTorch). On *graph2text/outputs/test_model* are the outputs from the model testing right after training on WebNLG. On *graph2text/outputs/t5-base_13881* is where we have stored the best-trained model that we used for our verbalisations alongside its validation metrics, both in `model.bin` and `.ckpt` formats. 
+
+Two model files were compressed and split due to size:
+- *graph2text/outputs/t5-base_13881/val_avg_bleu=68.1000-step_count=5.ckpt* was compressed into *best_model.ckpt.tar.gz* and split into *best_model.ckpt.tar.gz.partXX* files using `split`.
+- *graph2text/outputs/t5-base_13881/best_tfmr/pytorch_model.bin* was compressed into *pytorch_model.bin.tar.gz* and split into *pytorch_model.bin.partXX* files using `split`.
