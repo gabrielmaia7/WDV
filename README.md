@@ -31,6 +31,7 @@ You can also find the data at figshare here: [link to data at Figshare](https://
 
 ## Citation
 
+The Dataset:
 ```
 @article{WDVAmaral2022,
     author = "Gabriel Amaral",
@@ -40,6 +41,21 @@ You can also find the data at figshare here: [link to data at Figshare](https://
     url = "https://figshare.com/articles/dataset/WDV/17159045",
     doi = "10.6084/m9.figshare.17159045.v1"
 } 
+```
+
+The Paper:
+```
+@misc{https://doi.org/10.48550/arxiv.2205.02627,
+  doi = {10.48550/ARXIV.2205.02627},  
+  url = {https://arxiv.org/abs/2205.02627},  
+  author = {Amaral, Gabriel and Rodrigues, Odinaldo and Simperl, Elena},  
+  keywords = {Computation and Language (cs.CL), FOS: Computer and information sciences, FOS: Computer and information sciences},  
+  title = {WDV: A Broad Data Verbalisation Dataset Built from Wikidata},  
+  publisher = {arXiv},  
+  year = {2022},  
+  copyright = {Creative Commons Zero v1.0 Universal}
+}
+
 ```
 
 ## Contact
