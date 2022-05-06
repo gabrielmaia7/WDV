@@ -17,4 +17,6 @@ This folder contains the following files and sub-folders:
 
 Two model files were compressed and split due to size:
 - *graph2text/outputs/t5-base_13881/val_avg_bleu=68.1000-step_count=5.ckpt* was compressed into *best_model.ckpt.tar.gz* and split into *best_model.ckpt.tar.gz.partXX* files using `split`.
-- *graph2text/outputs/t5-base_13881/best_tfmr/pytorch_model.bin* was compressed into *pytorch_model.bin.tar.gz* and split into *pytorch_model.bin.partXX* files using `split`.
+  - You can join them with `cat best_model.ckpt.tar.gz.parta* > best_model.ckpt.tar.gz` and unpack it with `tar -xzvf best_model.ckpt.tar.gz`
+- *graph2text/outputs/t5-base_13881/best_tfmr/pytorch_model.bin* was compressed into *pytorch_model.bin.tar.gz* and split into *pytorch_model.bin.tar.gz.partXX* files using `split`.
+  - You can join them with `cat pytorch_model.bin.tar.gz.parta* > pytorch_model.bin.tar.gz` and unpack it with `tar -xzvf pytorch_model.bin.tar.gz`
